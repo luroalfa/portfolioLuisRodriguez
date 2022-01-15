@@ -6,8 +6,8 @@ function Portfolio() {
   return (
     <>
 
-
         <Footer/>
+        <h1 style={{color:"white"}}>Hola </h1>
     </>
   )
 }
