@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --mainColor: #1c1f2a;
+  --secondaryColor: #ffbf00;
+  --complementaryColor: #2a271c;
+  --colorDark: #0a0e1d;
+  --colorLight: #242836;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--mainColor);
+  font-family: "Poppins", sans-serif;
+}
