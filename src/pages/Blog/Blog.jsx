@@ -14,8 +14,22 @@ import imgsc from '../../Assets/GalleryBlog/styledcomponents1.png'
 import imgEn from '../../Assets/GalleryBlog/English.jpg'
 
 function Blog() {
+//  const [cursos, setCursos] = React.useState([])
+
+
+// React.useEffect(() => {
+
+//   axios.get("https://lambda.com/cursos").then(response => {
+//     setCursos(response.data)
+//   })
+
+// }, [])
+
   return (
     <>
+    {/* {cursos.map(curso =>
+      
+      )} */}
     <BlogContent>
       <BlogTitle>MyBlog</BlogTitle>
       <BlogParagraphTitle>
