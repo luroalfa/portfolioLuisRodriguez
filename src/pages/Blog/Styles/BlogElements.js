@@ -79,7 +79,7 @@ export const BlogTag = styled.span`
   text-transform: uppercase;
   `;
 
-export const BlogTitleCard = styled.h4`
+export const BlogTitleCard = styled.h3`
   margin-top:10px;
   text-transform: uppercase;  
   `;
