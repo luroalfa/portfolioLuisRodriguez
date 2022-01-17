@@ -13,6 +13,9 @@ export const  FooterSocial = styled.div`
   display: flex;
   justify-content: center;
 `;
+export const FooterLiMenu = styled.li`
+  
+`;
   //Link of react-router-dom
   export const  FooterLink = styled(Link)`
     color: white;
@@ -26,6 +29,8 @@ export const  FooterSocial = styled.div`
 `;
 //Tag-->ul-html
 export const  FooterUl = styled.ul`
+  display: flex;
+  justify-content: center;
   margin-top: 0;
   padding: 0;
   text-align: center;
