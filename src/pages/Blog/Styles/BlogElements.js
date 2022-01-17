@@ -70,7 +70,7 @@ export const BlogCardBody = styled.div`
   `;
 
 export const BlogTag = styled.span`
-  background: gray;
+  background: var(--mainColor);
   border-radius: 50px;
   font-size: 12px;
   margin: 0;
