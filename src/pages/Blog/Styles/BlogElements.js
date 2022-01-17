@@ -20,15 +20,13 @@ export const BlogContent = styled.div`
   @media screen and (max-width: 960px){
     width: 100%;
   }
-  `;
-
+`;
 export const BlogTitle = styled.h2`
   margin-top: 10px;
   text-align: center;
   font-size:2em;
   color: white;
-  `;
-
+`;
 export const BlogParagraphTitle = styled.p`
   /* border: solid 1px yellow; */
   margin: 10px;
@@ -36,8 +34,7 @@ export const BlogParagraphTitle = styled.p`
   @media screen and (max-width: 960px){
     text-align: center;
   }
-  `;
-
+`;
 export const BlogCard = styled.div`
   margin: 10px;
   background-color: #fff;
@@ -47,18 +44,14 @@ export const BlogCard = styled.div`
   width: 330px;
   border: 2px solid white;
   
-  `;
-
+`;
 export const BlogCardHeader = styled.div`
-  
-  `;
-
+`;
 export const BlogImage = styled.img`
 width: 100%;
 height: 200px;
 object-fit: content;
 `;
-
 export const BlogCardBody = styled.div`
   display: flex;
   flex-direction: column;
@@ -68,7 +61,6 @@ export const BlogCardBody = styled.div`
   padding: 20px;
   min-height: 50px;
   `;
-
 export const BlogTag = styled.span`
   background: var(--mainColor);
   border-radius: 50px;
@@ -78,7 +70,6 @@ export const BlogTag = styled.span`
   padding: 2px 10px;
   text-transform: uppercase;
   `;
-
 export const BlogTitleCard = styled.h3`
   margin-top:10px;
   text-transform: uppercase;  
@@ -92,13 +83,9 @@ export const BlogParagraphPubli = styled.p`
   font-size: 14px;
   margin: 10px 0 30px 0px;
   `;
-
 export const BlogParagraphSpan = styled.span`
   font-weight: 600;
   `;
-
-
-
 export const BlogButtom = styled(Link)`
   text-transform: uppercase;  
   text-decoration: none;
