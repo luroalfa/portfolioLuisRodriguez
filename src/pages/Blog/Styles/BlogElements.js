@@ -29,6 +29,16 @@ export const BlogContentArticles = styled.div`
   justify-content: center;
   text-align: center;
 `;
+export const BlogInputSearch = styled.input`
+  margin-left: 20px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  text-align: center;
+  border: none;
+  padding: 5px;
+`;
 export const BlogTitle = styled.h2`
   margin-top: 10px;
   text-align: center;

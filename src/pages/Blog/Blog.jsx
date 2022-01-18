@@ -16,6 +16,7 @@ import {
   BlogParagraphSpan,
   BlogSearch,
   BlogContentArticles,
+  BlogInputSearch,
 } from "./Styles/BlogElements";
 import data from "../../Assets/GalleryBlog/galleryBlog.js";
 
@@ -45,7 +46,11 @@ function Blog() {
         </BlogParagraphTitle>
         <BlogSearch>
           <span>Search:</span>
-          <input type="text" value={filter} onChange={onChange.bind(this)} />
+          <BlogInputSearch
+            type="text"
+            value={filter}
+            onChange={onChange.bind(this)}
+          />
         </BlogSearch>
 
         <BlogContentArticles>
