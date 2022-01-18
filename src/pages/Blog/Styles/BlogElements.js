@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 
 
 export const BlogContent = styled.div`
-  
   padding-top: 60px;
   padding-left: 20px;
   padding-right: 20px;
@@ -21,14 +20,25 @@ export const BlogContent = styled.div`
     width: 100%;
   }
 `;
+export const BlogContentArticles = styled.div`
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+`;
 export const BlogTitle = styled.h2`
   margin-top: 10px;
   text-align: center;
   font-size:2em;
   color: white;
 `;
+export const BlogSearch = styled.div`
+  color: white;
+`;
 export const BlogParagraphTitle = styled.p`
-  /* border: solid 1px yellow; */
   margin: 10px;
   color: white;
   @media screen and (max-width: 960px){
