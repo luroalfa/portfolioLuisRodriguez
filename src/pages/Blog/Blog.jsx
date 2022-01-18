@@ -15,17 +15,7 @@ import {
   BlogParagraphPubli,
   BlogParagraphSpan,
 } from "./Styles/BlogElements";
-import imgJs from "../../Assets/GalleryBlog/javascript.jpg";
-import imghtml from "../../Assets/GalleryBlog/html.jpg";
-import imgCss from "../../Assets/GalleryBlog/css.jpg";
-import imgPhot from "../../Assets/GalleryBlog/photpshop.jpg";
-import imgAi from "../../Assets/GalleryBlog/ai.png";
-import imgFig from "../../Assets/GalleryBlog/figma.png";
-import imgmysql from "../../Assets/GalleryBlog/mysql.png";
-import imgmbd from "../../Assets/GalleryBlog/mongodb.png";
-import imggithub from "../../Assets/GalleryBlog/github.jpg";
-import imgsc from "../../Assets/GalleryBlog/styledcomponents1.png";
-import imgEn from "../../Assets/GalleryBlog/English.jpg";
+import imgs from "../../Assets/GalleryBlog/galleryBlog.js";
 
 function Blog() {
   //  const [cursos, setCursos] = React.useState([])
@@ -53,7 +43,7 @@ function Blog() {
 
         <BlogCard>
           <BlogCardHeader>
-            <BlogImage src={imghtml} alt="image html" />
+            <BlogImage src={imgs.html} alt="image html" />
           </BlogCardHeader>
           <BlogCardBody>
             <BlogTag>Html</BlogTag>
@@ -77,7 +67,7 @@ function Blog() {
 
         <BlogCard>
           <BlogCardHeader>
-            <BlogImage src={imgCss} alt="image css" />
+            <BlogImage src={imgs.css} alt="image css" />
           </BlogCardHeader>
           <BlogCardBody>
             <BlogTag>Css</BlogTag>
@@ -101,7 +91,7 @@ function Blog() {
 
         <BlogCard>
           <BlogCardHeader>
-            <BlogImage src={imgJs} alt="image js" />
+            <BlogImage src={imgs.js} alt="image js" />
           </BlogCardHeader>
           <BlogCardBody>
             <BlogTag>JavaScript</BlogTag>
@@ -125,7 +115,7 @@ function Blog() {
 
         <BlogCard>
           <BlogCardHeader>
-            <BlogImage src={imgPhot} alt="image photoshop" />
+            <BlogImage src={imgs.photoshop} alt="image photoshop" />
           </BlogCardHeader>
           <BlogCardBody>
             <BlogTag>Photoshop</BlogTag>
@@ -149,7 +139,7 @@ function Blog() {
 
         <BlogCard>
           <BlogCardHeader>
-            <BlogImage src={imgAi} alt="image illustrator" />
+            <BlogImage src={imgs.illustrator} alt="image illustrator" />
           </BlogCardHeader>
           <BlogCardBody>
             <BlogTag>Illustrator</BlogTag>
@@ -173,7 +163,7 @@ function Blog() {
 
         <BlogCard>
           <BlogCardHeader>
-            <BlogImage src={imgFig} alt="image figma" />
+            <BlogImage src={imgs.figma} alt="image figma" />
           </BlogCardHeader>
           <BlogCardBody>
             <BlogTag>Figma</BlogTag>
@@ -197,7 +187,7 @@ function Blog() {
 
         <BlogCard>
           <BlogCardHeader>
-            <BlogImage src={imgmysql} alt="image mysql" />
+            <BlogImage src={imgs.mysql} alt="image mysql" />
           </BlogCardHeader>
           <BlogCardBody>
             <BlogTag>MySQL</BlogTag>
@@ -221,7 +211,7 @@ function Blog() {
 
         <BlogCard>
           <BlogCardHeader>
-            <BlogImage src={imgmbd} alt="image mongoDB" />
+            <BlogImage src={imgs.mogodb} alt="image mongoDB" />
           </BlogCardHeader>
           <BlogCardBody>
             <BlogTag>MOBGODB</BlogTag>
@@ -246,7 +236,7 @@ function Blog() {
 
         <BlogCard>
           <BlogCardHeader>
-            <BlogImage src={imggithub} alt="image github" />
+            <BlogImage src={imgs.github} alt="image github" />
           </BlogCardHeader>
           <BlogCardBody>
             <BlogTag>GITHUB</BlogTag>
@@ -271,7 +261,10 @@ function Blog() {
 
         <BlogCard>
           <BlogCardHeader>
-            <BlogImage src={imgsc} alt="image styled components" />
+            <BlogImage
+              src={imgs.styledcomponents}
+              alt="image styled components"
+            />
           </BlogCardHeader>
           <BlogCardBody>
             <BlogTag>Styled Components</BlogTag>
@@ -293,7 +286,7 @@ function Blog() {
 
         <BlogCard>
           <BlogCardHeader>
-            <BlogImage src={imgEn} alt="image English" />
+            <BlogImage src={imgs.english} alt="image English" />
           </BlogCardHeader>
           <BlogCardBody>
             <BlogTag>English</BlogTag>

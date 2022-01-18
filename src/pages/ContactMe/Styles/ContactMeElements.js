@@ -11,6 +11,7 @@ background: linear-gradient(0deg, rgba(28,31,42,1) 0%, rgba(42,39,28,1) 100%);
 color: white;
 @media screen and (min-width: 960px){
   width: 80%;
+  
 }
 `;
 
