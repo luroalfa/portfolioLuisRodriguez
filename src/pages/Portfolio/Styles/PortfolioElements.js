@@ -8,11 +8,35 @@ export const PortfolioHeroImage = styled.div`
   `;
 
 
+export const PortfolioSection = styled.section`
+  /* margin: 50px 80px; */
+  /* border: solid yellow 1px; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  margin-top: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+  justify-items: center;
+  @media screen and (max-width: 690px){
+    margin-top: 50px;    
+    grid-template-columns: repeat(1, 1fr);    
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    grid-gap: 0px;
+  }
+  `;
+
+
 export const PortfolioCard = styled.div`
   /* border: 1px solid white; */
+  margin-top: 50px;
+  margin-bottom: 50px;
   cursor: pointer;
   position: relative;
   width: 12.5rem;
+  width: 80%;
   color: white;
   /* Hover of background */
   &:hover > section{
@@ -90,14 +114,19 @@ export const PortfolioBack = styled.article`
 
 export const PortfolioFront = styled.article`
   transition: 205ms;
-  
+  background: var(--colorLight);
+  padding: 10px;
+  border-radius: .5em;
+  box-shadow: 0 2px 20px rgba(255, 255, 255, 0.5);
+  text-align: center;
 `;
 
 
 export const PortfolioImage = styled.img`
   max-width: 100%;
+  max-height: 200px;  
   border-radius: .5em;
-
+  
 `;
 
 export const PortfolioCardTitle = styled.h2`
@@ -189,22 +218,4 @@ export const PortfolioBackground = styled.section`
 
 
 
-export const PortfolioSection = styled.section`
-  margin: 50px 80px;
-  /* border: solid yellow 1px; */
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
-  @media screen and (max-width: 400px){
-    margin: 3vw 0;    
-    grid-template-columns: 1fr;
-  }
 
-  /* &> div{
-    margin: 10px;
-    width: 100%;
-    height: 100%;
-    background-color: blue;
-    text-align: center;
-  } */
-  `;
