@@ -30,8 +30,6 @@ function Portfolio() {
 
       <PortfolioSection>
         <PortfolioCard>
-          {/* <PortfolioRank>3</PortfolioRank> */}
-
           <PortfolioFront>
             <PortfolioImage src="./img/space.jpg" />
             <PortfolioCardTitle>Website</PortfolioCardTitle>
@@ -47,12 +45,212 @@ function Portfolio() {
 
           <PortfolioBack>
             <PortfolioStreamingInfo>
-              {/* <PortfolioParagraph>
-                <AiFillLike /> <span>Like</span>
-              </PortfolioParagraph>
               <PortfolioParagraph>
-                <AiFillDislike /> <span>Unlike</span>
-              </PortfolioParagraph> */}
+                Este es un proyecto hecho con css, html y javascript.
+              </PortfolioParagraph>
+            </PortfolioStreamingInfo>
+            <PortfolioCardButton>See website</PortfolioCardButton>
+            <PortfolioContainerTecnologies>
+              <PortfolioImageTecnologies src={css} />
+              <PortfolioImageTecnologies src={html} />
+              <PortfolioImageTecnologies src={js} />
+            </PortfolioContainerTecnologies>
+          </PortfolioBack>
+          <PortfolioBackground />
+        </PortfolioCard>
+
+        <PortfolioCard>
+          <PortfolioFront>
+            <PortfolioImage src="./img/SkillsBrain.png" />
+            <PortfolioCardTitle>Website</PortfolioCardTitle>
+            <PortfolioContainerDescription>
+              <PortfolioDescription>Tecnologies:</PortfolioDescription>
+              <PortfolioContainerTecnologies>
+                <PortfolioImageTecnologies src={css} />
+                <PortfolioImageTecnologies src={html} />
+                <PortfolioImageTecnologies src={js} />
+              </PortfolioContainerTecnologies>
+            </PortfolioContainerDescription>
+          </PortfolioFront>
+
+          <PortfolioBack>
+            <PortfolioStreamingInfo>
+              <PortfolioParagraph>
+                Este es un proyecto hecho con css, html y javascript.
+              </PortfolioParagraph>
+            </PortfolioStreamingInfo>
+            <PortfolioCardButton>See website</PortfolioCardButton>
+            <PortfolioContainerTecnologies>
+              <PortfolioImageTecnologies src={css} />
+              <PortfolioImageTecnologies src={html} />
+              <PortfolioImageTecnologies src={js} />
+            </PortfolioContainerTecnologies>
+          </PortfolioBack>
+          <PortfolioBackground />
+        </PortfolioCard>
+
+        <PortfolioCard>
+          <PortfolioFront>
+            <PortfolioImage src="./img/space.jpg" />
+            <PortfolioCardTitle>Website</PortfolioCardTitle>
+            <PortfolioContainerDescription>
+              <PortfolioDescription>Tecnologies:</PortfolioDescription>
+              <PortfolioContainerTecnologies>
+                <PortfolioImageTecnologies src={css} />
+                <PortfolioImageTecnologies src={html} />
+                <PortfolioImageTecnologies src={js} />
+              </PortfolioContainerTecnologies>
+            </PortfolioContainerDescription>
+          </PortfolioFront>
+
+          <PortfolioBack>
+            <PortfolioStreamingInfo>
+              <PortfolioParagraph>
+                Este es un proyecto hecho con css, html y javascript.
+              </PortfolioParagraph>
+            </PortfolioStreamingInfo>
+            <PortfolioCardButton>See website</PortfolioCardButton>
+            <PortfolioContainerTecnologies>
+              <PortfolioImageTecnologies src={css} />
+              <PortfolioImageTecnologies src={html} />
+              <PortfolioImageTecnologies src={js} />
+            </PortfolioContainerTecnologies>
+          </PortfolioBack>
+          <PortfolioBackground />
+        </PortfolioCard>
+
+        <PortfolioCard>
+          <PortfolioFront>
+            <PortfolioImage src="./img/space.jpg" />
+            <PortfolioCardTitle>Website</PortfolioCardTitle>
+            <PortfolioContainerDescription>
+              <PortfolioDescription>Tecnologies:</PortfolioDescription>
+              <PortfolioContainerTecnologies>
+                <PortfolioImageTecnologies src={css} />
+                <PortfolioImageTecnologies src={html} />
+                <PortfolioImageTecnologies src={js} />
+              </PortfolioContainerTecnologies>
+            </PortfolioContainerDescription>
+          </PortfolioFront>
+
+          <PortfolioBack>
+            <PortfolioStreamingInfo>
+              <PortfolioParagraph>
+                Este es un proyecto hecho con css, html y javascript.
+              </PortfolioParagraph>
+            </PortfolioStreamingInfo>
+            <PortfolioCardButton>See website</PortfolioCardButton>
+            <PortfolioContainerTecnologies>
+              <PortfolioImageTecnologies src={css} />
+              <PortfolioImageTecnologies src={html} />
+              <PortfolioImageTecnologies src={js} />
+            </PortfolioContainerTecnologies>
+          </PortfolioBack>
+          <PortfolioBackground />
+        </PortfolioCard>
+        <PortfolioCard>
+          <PortfolioFront>
+            <PortfolioImage src="./img/space.jpg" />
+            <PortfolioCardTitle>Website</PortfolioCardTitle>
+            <PortfolioContainerDescription>
+              <PortfolioDescription>Tecnologies:</PortfolioDescription>
+              <PortfolioContainerTecnologies>
+                <PortfolioImageTecnologies src={css} />
+                <PortfolioImageTecnologies src={html} />
+                <PortfolioImageTecnologies src={js} />
+              </PortfolioContainerTecnologies>
+            </PortfolioContainerDescription>
+          </PortfolioFront>
+
+          <PortfolioBack>
+            <PortfolioStreamingInfo>
+              <PortfolioParagraph>
+                Este es un proyecto hecho con css, html y javascript.
+              </PortfolioParagraph>
+            </PortfolioStreamingInfo>
+            <PortfolioCardButton>See website</PortfolioCardButton>
+            <PortfolioContainerTecnologies>
+              <PortfolioImageTecnologies src={css} />
+              <PortfolioImageTecnologies src={html} />
+              <PortfolioImageTecnologies src={js} />
+            </PortfolioContainerTecnologies>
+          </PortfolioBack>
+          <PortfolioBackground />
+        </PortfolioCard>
+        <PortfolioCard>
+          <PortfolioFront>
+            <PortfolioImage src="./img/space.jpg" />
+            <PortfolioCardTitle>Website</PortfolioCardTitle>
+            <PortfolioContainerDescription>
+              <PortfolioDescription>Tecnologies:</PortfolioDescription>
+              <PortfolioContainerTecnologies>
+                <PortfolioImageTecnologies src={css} />
+                <PortfolioImageTecnologies src={html} />
+                <PortfolioImageTecnologies src={js} />
+              </PortfolioContainerTecnologies>
+            </PortfolioContainerDescription>
+          </PortfolioFront>
+
+          <PortfolioBack>
+            <PortfolioStreamingInfo>
+              <PortfolioParagraph>
+                Este es un proyecto hecho con css, html y javascript.
+              </PortfolioParagraph>
+            </PortfolioStreamingInfo>
+            <PortfolioCardButton>See website</PortfolioCardButton>
+            <PortfolioContainerTecnologies>
+              <PortfolioImageTecnologies src={css} />
+              <PortfolioImageTecnologies src={html} />
+              <PortfolioImageTecnologies src={js} />
+            </PortfolioContainerTecnologies>
+          </PortfolioBack>
+          <PortfolioBackground />
+        </PortfolioCard>
+        <PortfolioCard>
+          <PortfolioFront>
+            <PortfolioImage src="./img/space.jpg" />
+            <PortfolioCardTitle>Website</PortfolioCardTitle>
+            <PortfolioContainerDescription>
+              <PortfolioDescription>Tecnologies:</PortfolioDescription>
+              <PortfolioContainerTecnologies>
+                <PortfolioImageTecnologies src={css} />
+                <PortfolioImageTecnologies src={html} />
+                <PortfolioImageTecnologies src={js} />
+              </PortfolioContainerTecnologies>
+            </PortfolioContainerDescription>
+          </PortfolioFront>
+
+          <PortfolioBack>
+            <PortfolioStreamingInfo>
+              <PortfolioParagraph>
+                Este es un proyecto hecho con css, html y javascript.
+              </PortfolioParagraph>
+            </PortfolioStreamingInfo>
+            <PortfolioCardButton>See website</PortfolioCardButton>
+            <PortfolioContainerTecnologies>
+              <PortfolioImageTecnologies src={css} />
+              <PortfolioImageTecnologies src={html} />
+              <PortfolioImageTecnologies src={js} />
+            </PortfolioContainerTecnologies>
+          </PortfolioBack>
+          <PortfolioBackground />
+        </PortfolioCard>
+        <PortfolioCard>
+          <PortfolioFront>
+            <PortfolioImage src="./img/space.jpg" />
+            <PortfolioCardTitle>Website</PortfolioCardTitle>
+            <PortfolioContainerDescription>
+              <PortfolioDescription>Tecnologies:</PortfolioDescription>
+              <PortfolioContainerTecnologies>
+                <PortfolioImageTecnologies src={css} />
+                <PortfolioImageTecnologies src={html} />
+                <PortfolioImageTecnologies src={js} />
+              </PortfolioContainerTecnologies>
+            </PortfolioContainerDescription>
+          </PortfolioFront>
+
+          <PortfolioBack>
+            <PortfolioStreamingInfo>
               <PortfolioParagraph>
                 Este es un proyecto hecho con css, html y javascript.
               </PortfolioParagraph>
