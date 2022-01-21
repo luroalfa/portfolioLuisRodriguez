@@ -49,9 +49,6 @@ export const PortfolioCard = styled.div`
     /* front */
     &:nth-of-type(1){
       transform: translateY(-30%) scale(.8);
-      & > h2{
-        animation: cardTitle 250ms forwards;
-      }
       & > div{
       opacity: 0;
       }
@@ -80,27 +77,6 @@ export const PortfolioCard = styled.div`
     }
   }
 
-
-  @keyframes cardTitle {
-    0%{
-      text-align: left;
-      opacity: 0;
-    }
-    20%{
-      text-align: left;
-      opacity: 1;
-    }
-    50%{
-      text-align: center;
-      opacity: 0;
-      transform: scale(1.2);
-    }
-    100%{
-      text-align: center;
-      opacity: 1;
-      transform: scale(1.2);
-    }
-  }
 `;
 
 export const PortfolioBack = styled.article`
@@ -145,22 +121,28 @@ export const PortfolioDescription = styled.p`
 export const PortfolioContainerTecnologies = styled.div`
   display: flex;
   justify-content: center;
-  & > img{
-    border: 2px solid var(--colorDark);
-    &:nth-of-type(1){
-      transform: translateX(50%);
-      z-index: 1;
-    }
-    &:nth-of-type(2){
-      transform: translateX(25%);
-    }
-  }
 `;
-export const PortfolioImageTecnologies = styled.img`
+export const PortfolioImageTecnologies3 = styled.img`
   max-width: 100%;
   width: 2em;
   height: 2em;
   border-radius: 50%;
+
+  border: 2px solid var(--colorDark);
+  &:nth-of-type(1){
+    transform: translateX(50%);
+    z-index: 1;
+  }
+  &:nth-of-type(2){
+    transform: translateX(25%);
+  }
+  `;
+export const PortfolioImageTechnology = styled.img`
+  max-width: 100%;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  border: 2px solid var(--colorDark);
 `;
 
 
@@ -174,18 +156,11 @@ export const PortfolioStreamingInfo = styled.div`
   cursor: pointer;
   font-size: .9em;
   justify-content: space-between;
-  /* padding: 20px; */
-  border: 1px solid yellow;
   margin-bottom: 10px;
 `;
 
 export const PortfolioParagraph = styled.p`
   margin: 0;
-  
-
-  & > span{
-
-  }
 `;
 
 
