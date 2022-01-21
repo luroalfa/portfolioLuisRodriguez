@@ -9,8 +9,7 @@ import {
   PortfolioFront,
   PortfolioHeroImage,
   PortfolioImage,
-  PortfolioImageTecnologies,
-  // PortfolioRank,
+  PortfolioImageTecnologies3,
   PortfolioSection,
   PortfolioCard,
   PortfolioBack,
@@ -18,10 +17,10 @@ import {
   PortfolioParagraph,
   PortfolioCardButton,
   PortfolioBackground,
+  PortfolioImageTechnology,
 } from "./Styles/PortfolioElements";
-import js from "../../Assets/Tecnologies/js.png";
-import css from "../../Assets/Tecnologies/css.png";
-import html from "../../Assets/Tecnologies/html.png";
+import imgTechnologies from "../../Assets/Technologies/technologies.js";
+import imgPortfolioProjects from "../../Assets/GalleryPortfolio/galleryPortfolioProjects.js";
 
 function Portfolio() {
   return (
@@ -31,14 +30,14 @@ function Portfolio() {
       <PortfolioSection>
         <PortfolioCard>
           <PortfolioFront>
-            <PortfolioImage src="./img/space.jpg" />
+            <PortfolioImage src={imgPortfolioProjects.improex} />
             <PortfolioCardTitle>Website</PortfolioCardTitle>
             <PortfolioContainerDescription>
-              <PortfolioDescription>Tecnologies:</PortfolioDescription>
+              <PortfolioDescription>Technologies:</PortfolioDescription>
               <PortfolioContainerTecnologies>
-                <PortfolioImageTecnologies src={css} />
-                <PortfolioImageTecnologies src={html} />
-                <PortfolioImageTecnologies src={js} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.css} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.html} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.js} />
               </PortfolioContainerTecnologies>
             </PortfolioContainerDescription>
           </PortfolioFront>
@@ -51,9 +50,9 @@ function Portfolio() {
             </PortfolioStreamingInfo>
             <PortfolioCardButton>See website</PortfolioCardButton>
             <PortfolioContainerTecnologies>
-              <PortfolioImageTecnologies src={css} />
-              <PortfolioImageTecnologies src={html} />
-              <PortfolioImageTecnologies src={js} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.css} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.html} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.js} />
             </PortfolioContainerTecnologies>
           </PortfolioBack>
           <PortfolioBackground />
@@ -61,14 +60,14 @@ function Portfolio() {
 
         <PortfolioCard>
           <PortfolioFront>
-            <PortfolioImage src="./img/SkillsBrain.png" />
+            <PortfolioImage src={imgPortfolioProjects.lactgourmet} />
             <PortfolioCardTitle>Website</PortfolioCardTitle>
             <PortfolioContainerDescription>
-              <PortfolioDescription>Tecnologies:</PortfolioDescription>
+              <PortfolioDescription>Technologies:</PortfolioDescription>
               <PortfolioContainerTecnologies>
-                <PortfolioImageTecnologies src={css} />
-                <PortfolioImageTecnologies src={html} />
-                <PortfolioImageTecnologies src={js} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.css} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.html} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.js} />
               </PortfolioContainerTecnologies>
             </PortfolioContainerDescription>
           </PortfolioFront>
@@ -81,9 +80,9 @@ function Portfolio() {
             </PortfolioStreamingInfo>
             <PortfolioCardButton>See website</PortfolioCardButton>
             <PortfolioContainerTecnologies>
-              <PortfolioImageTecnologies src={css} />
-              <PortfolioImageTecnologies src={html} />
-              <PortfolioImageTecnologies src={js} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.css} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.html} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.js} />
             </PortfolioContainerTecnologies>
           </PortfolioBack>
           <PortfolioBackground />
@@ -91,14 +90,12 @@ function Portfolio() {
 
         <PortfolioCard>
           <PortfolioFront>
-            <PortfolioImage src="./img/space.jpg" />
-            <PortfolioCardTitle>Website</PortfolioCardTitle>
+            <PortfolioImage src={imgPortfolioProjects.art1} />
+            <PortfolioCardTitle>Vectorization</PortfolioCardTitle>
             <PortfolioContainerDescription>
-              <PortfolioDescription>Tecnologies:</PortfolioDescription>
+              <PortfolioDescription>Technologies:</PortfolioDescription>
               <PortfolioContainerTecnologies>
-                <PortfolioImageTecnologies src={css} />
-                <PortfolioImageTecnologies src={html} />
-                <PortfolioImageTecnologies src={js} />
+                <PortfolioImageTechnology src={imgTechnologies.css} />
               </PortfolioContainerTecnologies>
             </PortfolioContainerDescription>
           </PortfolioFront>
@@ -111,9 +108,7 @@ function Portfolio() {
             </PortfolioStreamingInfo>
             <PortfolioCardButton>See website</PortfolioCardButton>
             <PortfolioContainerTecnologies>
-              <PortfolioImageTecnologies src={css} />
-              <PortfolioImageTecnologies src={html} />
-              <PortfolioImageTecnologies src={js} />
+              <PortfolioImageTechnology src={imgTechnologies.css} />
             </PortfolioContainerTecnologies>
           </PortfolioBack>
           <PortfolioBackground />
@@ -121,14 +116,14 @@ function Portfolio() {
 
         <PortfolioCard>
           <PortfolioFront>
-            <PortfolioImage src="./img/space.jpg" />
-            <PortfolioCardTitle>Website</PortfolioCardTitle>
+            <PortfolioImage src={imgPortfolioProjects.art2} />
+            <PortfolioCardTitle>Vectorization</PortfolioCardTitle>
             <PortfolioContainerDescription>
-              <PortfolioDescription>Tecnologies:</PortfolioDescription>
+              <PortfolioDescription>Technologies:</PortfolioDescription>
               <PortfolioContainerTecnologies>
-                <PortfolioImageTecnologies src={css} />
-                <PortfolioImageTecnologies src={html} />
-                <PortfolioImageTecnologies src={js} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.css} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.html} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.js} />
               </PortfolioContainerTecnologies>
             </PortfolioContainerDescription>
           </PortfolioFront>
@@ -141,23 +136,23 @@ function Portfolio() {
             </PortfolioStreamingInfo>
             <PortfolioCardButton>See website</PortfolioCardButton>
             <PortfolioContainerTecnologies>
-              <PortfolioImageTecnologies src={css} />
-              <PortfolioImageTecnologies src={html} />
-              <PortfolioImageTecnologies src={js} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.css} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.html} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.js} />
             </PortfolioContainerTecnologies>
           </PortfolioBack>
           <PortfolioBackground />
         </PortfolioCard>
         <PortfolioCard>
           <PortfolioFront>
-            <PortfolioImage src="./img/space.jpg" />
-            <PortfolioCardTitle>Website</PortfolioCardTitle>
+            <PortfolioImage src={imgPortfolioProjects.yoVector} />
+            <PortfolioCardTitle>Vectorization</PortfolioCardTitle>
             <PortfolioContainerDescription>
-              <PortfolioDescription>Tecnologies:</PortfolioDescription>
+              <PortfolioDescription>Technologies:</PortfolioDescription>
               <PortfolioContainerTecnologies>
-                <PortfolioImageTecnologies src={css} />
-                <PortfolioImageTecnologies src={html} />
-                <PortfolioImageTecnologies src={js} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.css} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.html} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.js} />
               </PortfolioContainerTecnologies>
             </PortfolioContainerDescription>
           </PortfolioFront>
@@ -170,23 +165,23 @@ function Portfolio() {
             </PortfolioStreamingInfo>
             <PortfolioCardButton>See website</PortfolioCardButton>
             <PortfolioContainerTecnologies>
-              <PortfolioImageTecnologies src={css} />
-              <PortfolioImageTecnologies src={html} />
-              <PortfolioImageTecnologies src={js} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.css} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.html} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.js} />
             </PortfolioContainerTecnologies>
           </PortfolioBack>
           <PortfolioBackground />
         </PortfolioCard>
         <PortfolioCard>
           <PortfolioFront>
-            <PortfolioImage src="./img/space.jpg" />
+            <PortfolioImage src={imgPortfolioProjects.improex} />
             <PortfolioCardTitle>Website</PortfolioCardTitle>
             <PortfolioContainerDescription>
-              <PortfolioDescription>Tecnologies:</PortfolioDescription>
+              <PortfolioDescription>Technologies:</PortfolioDescription>
               <PortfolioContainerTecnologies>
-                <PortfolioImageTecnologies src={css} />
-                <PortfolioImageTecnologies src={html} />
-                <PortfolioImageTecnologies src={js} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.css} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.html} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.js} />
               </PortfolioContainerTecnologies>
             </PortfolioContainerDescription>
           </PortfolioFront>
@@ -199,23 +194,23 @@ function Portfolio() {
             </PortfolioStreamingInfo>
             <PortfolioCardButton>See website</PortfolioCardButton>
             <PortfolioContainerTecnologies>
-              <PortfolioImageTecnologies src={css} />
-              <PortfolioImageTecnologies src={html} />
-              <PortfolioImageTecnologies src={js} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.css} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.html} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.js} />
             </PortfolioContainerTecnologies>
           </PortfolioBack>
           <PortfolioBackground />
         </PortfolioCard>
         <PortfolioCard>
           <PortfolioFront>
-            <PortfolioImage src="./img/space.jpg" />
+            <PortfolioImage src={imgPortfolioProjects.improex} />
             <PortfolioCardTitle>Website</PortfolioCardTitle>
             <PortfolioContainerDescription>
-              <PortfolioDescription>Tecnologies:</PortfolioDescription>
+              <PortfolioDescription>Technologies:</PortfolioDescription>
               <PortfolioContainerTecnologies>
-                <PortfolioImageTecnologies src={css} />
-                <PortfolioImageTecnologies src={html} />
-                <PortfolioImageTecnologies src={js} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.css} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.html} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.js} />
               </PortfolioContainerTecnologies>
             </PortfolioContainerDescription>
           </PortfolioFront>
@@ -228,23 +223,23 @@ function Portfolio() {
             </PortfolioStreamingInfo>
             <PortfolioCardButton>See website</PortfolioCardButton>
             <PortfolioContainerTecnologies>
-              <PortfolioImageTecnologies src={css} />
-              <PortfolioImageTecnologies src={html} />
-              <PortfolioImageTecnologies src={js} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.css} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.html} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.js} />
             </PortfolioContainerTecnologies>
           </PortfolioBack>
           <PortfolioBackground />
         </PortfolioCard>
         <PortfolioCard>
           <PortfolioFront>
-            <PortfolioImage src="./img/space.jpg" />
+            <PortfolioImage src={imgPortfolioProjects.improex} />
             <PortfolioCardTitle>Website</PortfolioCardTitle>
             <PortfolioContainerDescription>
-              <PortfolioDescription>Tecnologies:</PortfolioDescription>
+              <PortfolioDescription>Technologies:</PortfolioDescription>
               <PortfolioContainerTecnologies>
-                <PortfolioImageTecnologies src={css} />
-                <PortfolioImageTecnologies src={html} />
-                <PortfolioImageTecnologies src={js} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.css} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.html} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.js} />
               </PortfolioContainerTecnologies>
             </PortfolioContainerDescription>
           </PortfolioFront>
@@ -257,9 +252,9 @@ function Portfolio() {
             </PortfolioStreamingInfo>
             <PortfolioCardButton>See website</PortfolioCardButton>
             <PortfolioContainerTecnologies>
-              <PortfolioImageTecnologies src={css} />
-              <PortfolioImageTecnologies src={html} />
-              <PortfolioImageTecnologies src={js} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.css} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.html} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.js} />
             </PortfolioContainerTecnologies>
           </PortfolioBack>
           <PortfolioBackground />
