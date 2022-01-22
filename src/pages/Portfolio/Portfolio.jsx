@@ -1,6 +1,5 @@
 import React from "react";
 import Footer from "../../components/Footer/Footer";
-import { AiFillLike, AiFillDislike } from "react-icons/ai";
 import {
   PortfolioCardTitle,
   PortfolioContainerDescription,
@@ -21,12 +20,15 @@ import {
 } from "./Styles/PortfolioElements";
 import imgTechnologies from "../../Assets/Technologies/technologies.js";
 import imgPortfolioProjects from "../../Assets/GalleryPortfolio/galleryPortfolioProjects.js";
+import BoostrapCarousel from "../../components/Carousel/BoostrapCarousel";
 
 function Portfolio() {
   return (
     <>
-      <PortfolioHeroImage></PortfolioHeroImage>
-
+      <PortfolioHeroImage>
+        <BoostrapCarousel />
+      </PortfolioHeroImage>
+      >
       <PortfolioSection>
         <PortfolioCard>
           <PortfolioFront>
@@ -260,7 +262,6 @@ function Portfolio() {
           <PortfolioBackground />
         </PortfolioCard>
       </PortfolioSection>
-
       <Footer />
     </>
   );

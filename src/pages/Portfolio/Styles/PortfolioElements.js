@@ -1,20 +1,19 @@
 import styled from 'styled-components'
 
 
+
 export const PortfolioHeroImage = styled.div`
   padding-top: 70px;
-  height: 50vh;
-  border: solid 1px yellow;
+  height: 100vh;
   `;
 
 
+
 export const PortfolioSection = styled.section`
-  /* margin: 50px 80px; */
-  /* border: solid yellow 1px; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 40px;
-  margin-top: 50px;
+  margin-top: 10px;
   padding-left: 60px;
   padding-right: 60px;
   justify-items: center;
