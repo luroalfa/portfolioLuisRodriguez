@@ -8,7 +8,7 @@ export default function BoostrapCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="../img/HeroImage2.png"
+            src="../img/HeroImage3.jpg"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -19,7 +19,7 @@ export default function BoostrapCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="../img/HeroImage2.png"
+            src="../img/HeroImage1.png"
             alt="Second slide"
           />
 
@@ -31,7 +31,7 @@ export default function BoostrapCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="../img/HeroImage2.png"
+            src="../img/HeroImage4.jpg"
             alt="Third slide"
           />
 
