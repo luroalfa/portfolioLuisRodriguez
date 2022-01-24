@@ -3,7 +3,7 @@ export const AboutHeader = styled.section`
   width: 100%;
   height: 100vh;
   background: rgb(28,31,42);
-  background: linear-gradient(0deg, rgba(28,31,42,1) 10%, rgba(28,31,42,0.8071603641456583) 30%); 
+  background: linear-gradient(0deg, rgba(28,31,42,1) 10%, rgba(28,31,42,0.8071603641456583) 80%); 
 `;
 
 export const AboutHeaderbackgroudVideo = styled.video`
@@ -15,7 +15,6 @@ export const AboutHeaderbackgroudVideo = styled.video`
   `;
   
 export const AboutHeaderContainer = styled.section`
-  padding:60px;
   color: white;
   display: grid;
   grid-wrap: wrap;
@@ -31,14 +30,13 @@ export const AboutHeaderContainer = styled.section`
 export const Foto = styled.img`
   width: 100%;
   height: 100%;
+  padding: 50px;
   object-fit: cover;
 `;
 export const Info = styled.section`
-  text-align: left;
+  text-align: center;
   align-self: center;
-  padding-left:100px;
   @media screen and (max-width: 960px){
-    text-align: center;
     padding-left:0px;
     order:1;
   }
