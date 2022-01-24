@@ -54,7 +54,7 @@ function About() {
             <Paragraph>
               I have programming knowledge in javascript and java, in javascript
               with the react framework, I love to use GitHub for my projects and
-              keep version control in each one project.
+              keep version control in each one project. Utilizacion de apisRest.
             </Paragraph>
             <Paragraph>
               These are somethings the technologies I like to use in my
