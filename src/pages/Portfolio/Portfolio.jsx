@@ -32,6 +32,36 @@ function Portfolio() {
       <PortfolioSection>
         <PortfolioCard>
           <PortfolioFront>
+            <PortfolioImage src={imgPortfolioProjects.neuraKids} />
+            <PortfolioCardTitle>Website</PortfolioCardTitle>
+            <PortfolioContainerDescription>
+              <PortfolioDescription>Technologies:</PortfolioDescription>
+              <PortfolioContainerTecnologies>
+                <PortfolioImageTecnologies3 src={imgTechnologies.css} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.html} />
+                <PortfolioImageTecnologies3 src={imgTechnologies.js} />
+              </PortfolioContainerTecnologies>
+            </PortfolioContainerDescription>
+          </PortfolioFront>
+
+          <PortfolioBack>
+            <PortfolioStreamingInfo>
+              <PortfolioParagraph>
+                Este es un proyecto hecho con css, html y javascript.
+              </PortfolioParagraph>
+            </PortfolioStreamingInfo>
+            <PortfolioCardButton>See website</PortfolioCardButton>
+            <PortfolioContainerTecnologies>
+              <PortfolioImageTecnologies3 src={imgTechnologies.css} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.html} />
+              <PortfolioImageTecnologies3 src={imgTechnologies.js} />
+            </PortfolioContainerTecnologies>
+          </PortfolioBack>
+          <PortfolioBackground />
+        </PortfolioCard>
+
+        <PortfolioCard>
+          <PortfolioFront>
             <PortfolioImage src={imgPortfolioProjects.improex} />
             <PortfolioCardTitle>Website</PortfolioCardTitle>
             <PortfolioContainerDescription>
@@ -145,6 +175,7 @@ function Portfolio() {
           </PortfolioBack>
           <PortfolioBackground />
         </PortfolioCard>
+
         <PortfolioCard>
           <PortfolioFront>
             <PortfolioImage src={imgPortfolioProjects.yoVector} />
@@ -174,6 +205,7 @@ function Portfolio() {
           </PortfolioBack>
           <PortfolioBackground />
         </PortfolioCard>
+
         <PortfolioCard>
           <PortfolioFront>
             <PortfolioImage src={imgPortfolioProjects.improex} />
@@ -203,6 +235,7 @@ function Portfolio() {
           </PortfolioBack>
           <PortfolioBackground />
         </PortfolioCard>
+
         <PortfolioCard>
           <PortfolioFront>
             <PortfolioImage src={imgPortfolioProjects.improex} />
@@ -232,6 +265,7 @@ function Portfolio() {
           </PortfolioBack>
           <PortfolioBackground />
         </PortfolioCard>
+
         <PortfolioCard>
           <PortfolioFront>
             <PortfolioImage src={imgPortfolioProjects.improex} />
