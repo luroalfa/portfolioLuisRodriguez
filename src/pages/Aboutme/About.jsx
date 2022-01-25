@@ -31,7 +31,14 @@ function About() {
         <AboutTitle>About me</AboutTitle>
         <AboutMainSection>
           {/* <YoutubeEmbed embedId="58479"/> */}
-          <FotoSkills src="../img/SoftSkills.png"></FotoSkills>
+          <FotoSkills
+            className="wow zoomIn"
+            data-wow-offset="3"
+            data-wow-iteration="3"
+            data-wow-duration="2s"
+            data-wow-delay="1.5s"
+            src="../img/SoftSkills.png"
+          ></FotoSkills>
           <AboutContainer>
             <AboutSubTitle>Who i am?</AboutSubTitle>
             <br />
@@ -171,7 +178,12 @@ function About() {
         </AboutSkillSection>
 
         <AboutSkillSection>
-          <FotoSkills src="../img/SkillsBrain.png"></FotoSkills>
+          <FotoSkills
+            className="wow zoomIn"
+            data-wow-duration="2s"
+            data-wow-delay="1s"
+            src="../img/SkillsBrain.png"
+          ></FotoSkills>
 
           <AboutSkillsContainer>
             <NavParagraph>
