@@ -10,7 +10,9 @@ export const Container = styled.div`
   z-index: 1000;
 `;
 
-
+export const NavText = styled.p`
+  margin-bottom: 0;
+`;
 export const Wrapper = styled.div`
   width: 100%;
   max-width: 1300px;
