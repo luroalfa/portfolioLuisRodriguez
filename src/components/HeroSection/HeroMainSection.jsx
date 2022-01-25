@@ -58,11 +58,7 @@ function HeroSection() {
             <HeroButton>See Portfolio</HeroButton>
           </div>
         </Info>
-        <Animated
-          animationIn="bounceInLeft"
-          animationOut="fadeOut"
-          isVisible={true}
-        >
+        <Animated animationIn="bounceInLeft" isVisible={true}>
           <Foto src="../img/LUIS-CIRCLE.png" />
         </Animated>
       </AboutHeaderContainer>

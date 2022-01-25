@@ -181,8 +181,8 @@ function About() {
           <FotoSkills
             className="wow zoomIn"
             data-wow-duration="2s"
-            data-wow-delay="1s"
-            src="../img/SkillsBrain.png"
+            data-wow-delay="1.5s"
+            src="../img/HandDigital.png"
           ></FotoSkills>
 
           <AboutSkillsContainer>
