@@ -13,7 +13,7 @@ import {
   AboutSkillSection,
   ContainerStikers,
   AboutSubTitle,
-  Paragraph,
+  NavParagraph,
   WrapStickers,
   AboutLink,
 } from "./Styles/AboutmeElements";
@@ -32,17 +32,17 @@ function About() {
           <AboutContainer>
             <AboutSubTitle>Who i am?</AboutSubTitle>
             <br />
-            <Paragraph>
+            <NavParagraph>
               I'm a web developer from Costa Rica who is mainly interested in
               web technologies, especially in frontend development.
-            </Paragraph>
-            <Paragraph>
+            </NavParagraph>
+            <NavParagraph>
               I have a passion for web development, I leverage my knowledge to
               create things interesting.
-            </Paragraph>
-            <Paragraph>
+            </NavParagraph>
+            <NavParagraph>
               I enjoy sharing my knowledge and helping others when possible.
-            </Paragraph>
+            </NavParagraph>
           </AboutContainer>
         </AboutMainSection>
 
@@ -51,16 +51,21 @@ function About() {
           <AboutSkillsContainer>
             <AboutSubTitle>What I know.</AboutSubTitle>
             <br />
-            <Paragraph>In programming language and remote jobs:</Paragraph>
-            <Paragraph>
+            <NavParagraph>
+              In programming language and remote jobs:
+            </NavParagraph>
+            <NavParagraph>
               I have programming knowledge in javascript and java, in javascript
               with the react framework, I love to use GitHub for my projects and
-              keep version control in each one project. Utilizacion de apisRest.
-            </Paragraph>
-            <Paragraph>
+              keep version control in each one project.
+            </NavParagraph>
+            <NavParagraph>
+              And also I have knowledge in the use of APIs
+            </NavParagraph>
+            <NavParagraph>
               These are somethings the technologies I like to use in my
               projects:
-            </Paragraph>
+            </NavParagraph>
             <ContainerStikers>
               <WrapStickers>
                 <FotoStikers src="../stikers/html5.png" />
@@ -153,13 +158,22 @@ function About() {
                 </AboutLink>
               </WrapStickers>
             </ContainerStikers>
-            <br />
-            <Paragraph>In graphics, videos, sound and web software:</Paragraph>
-            <Paragraph>
+          </AboutSkillsContainer>
+          <FotoSkills src="../img/SkillsBrain.png"></FotoSkills>
+        </AboutSkillSection>
+
+        <AboutSkillSection>
+          <FotoSkills src="../img/SkillsBrain.png"></FotoSkills>
+
+          <AboutSkillsContainer>
+            <NavParagraph>
+              In graphics, videos, sound and web software:
+            </NavParagraph>
+            <NavParagraph>
               I have been studying web design for a year, where I have acquired
               knowledge in applications as photoshop, illustrator, Adobe XD and
               Figma.
-            </Paragraph>
+            </NavParagraph>
             <ContainerStikers>
               <WrapStickers>
                 <FotoStikers src="../stikers/ai.png" />
@@ -211,7 +225,6 @@ function About() {
               </WrapStickers>
             </ContainerStikers>
           </AboutSkillsContainer>
-          <FotoSkills src="../img/SkillsBrain.png"></FotoSkills>
         </AboutSkillSection>
       </AboutMain>
       <Footer />

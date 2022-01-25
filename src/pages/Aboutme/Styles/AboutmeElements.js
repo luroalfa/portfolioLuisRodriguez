@@ -195,7 +195,7 @@ export const AboutSubTitle = styled.h4`
   }
 `;
 
-export const Paragraph = styled.p`
+export const NavParagraph = styled.p`
   text-align: left;
   line-height: 1.5;
   font-size: 16px;
