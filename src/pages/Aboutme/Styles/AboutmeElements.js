@@ -26,7 +26,7 @@ export const AboutTitle = styled.h2`
     transform: translateX(-50%);
   }
   &:after{
-    content:'Who i am';
+    content:'Soft Skills';
     position: absolute;
     bottom: 5px;
     left: 50%;
@@ -127,11 +127,11 @@ export const AboutSkillSection = styled.section`
 `;
 
 export const FotoSkills = styled.img`
-width: 100%;
-height: 100%;
-justify-self: center;
-align-self: center;
-object-fit: fill;
+  width: 100%;
+  height: 100%;
+  justify-self: center;
+  align-self: center;
+  object-fit: contain;
 `;
 
 export const AboutContainer = styled.div`

@@ -28,6 +28,7 @@ function About() {
         <AboutTitle>About me</AboutTitle>
         <AboutMainSection>
           {/* <YoutubeEmbed embedId="58479"/> */}
+          <FotoSkills src="../img/SoftSkills.png"></FotoSkills>
           <AboutContainer>
             <AboutSubTitle>Who i am?</AboutSubTitle>
             <br />
@@ -45,7 +46,7 @@ function About() {
           </AboutContainer>
         </AboutMainSection>
 
-        <SkillsTitle>Skills</SkillsTitle>
+        <SkillsTitle>Hard Skills</SkillsTitle>
         <AboutSkillSection>
           <AboutSkillsContainer>
             <AboutSubTitle>What I know.</AboutSubTitle>
