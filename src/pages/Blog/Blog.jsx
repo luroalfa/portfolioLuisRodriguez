@@ -45,11 +45,11 @@ function Blog() {
           JavaScript, Photoshop, Illustrator, Figma and other topics.
         </BlogParagraphTitle>
         <BlogSearch>
-          <span>Search:</span>
           <BlogInputSearch
             type="text"
             value={filter}
             onChange={onChange.bind(this)}
+            placeholder="Search"
           />
         </BlogSearch>
 

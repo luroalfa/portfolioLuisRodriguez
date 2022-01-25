@@ -40,7 +40,7 @@ function About() {
             src="../img/SoftSkills.png"
           ></FotoSkills>
           <AboutContainer>
-            <AboutSubTitle>Who i am?</AboutSubTitle>
+            <AboutSubTitle>Who I am?</AboutSubTitle>
             <br />
             <NavParagraph>
               I'm a web developer from Costa Rica who is mainly interested in
