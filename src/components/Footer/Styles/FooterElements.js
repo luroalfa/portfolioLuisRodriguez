@@ -14,7 +14,7 @@ export const  FooterSocial = styled.div`
   justify-content: center;
 `;
 export const FooterLiMenu = styled.li`
-  
+  list-style: none;
 `;
   //Link of react-router-dom
   export const  FooterLink = styled(Link)`
@@ -79,7 +79,7 @@ export const  FooterA = styled.a`
   right: 10px;
   bottom: 10px;
   text-align: center;
-  line-height: 38px;
+  line-height: 30px;
   color: white;
   background: var(--mainColor);
   border-radius: 50%;
@@ -121,6 +121,7 @@ export const  FooterText = styled.p`
   text-align: center;
   font-size: 13px;
   color: white;
+  margin-bottom: 0px;
 `;
 //Illumination of the copyright -->p-html
 export const  FooterSubText = styled.p`
