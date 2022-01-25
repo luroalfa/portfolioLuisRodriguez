@@ -19,6 +19,9 @@ import {
 } from "./Styles/AboutmeElements";
 import YoutubeEmbed from "../../components/YoutubeEmbed/YoutubeEmbed";
 import { Animated } from "react-animated-css";
+import WOW from "wowjs";
+
+new WOW.WOW().init();
 
 function About() {
   return (
@@ -159,7 +162,12 @@ function About() {
               </WrapStickers>
             </ContainerStikers>
           </AboutSkillsContainer>
-          <FotoSkills src="../img/SkillsBrain.png"></FotoSkills>
+          <FotoSkills
+            className="wow zoomIn"
+            data-wow-duration="2s"
+            data-wow-delay="1s"
+            src="../img/SkillsBrain.png"
+          ></FotoSkills>
         </AboutSkillSection>
 
         <AboutSkillSection>
