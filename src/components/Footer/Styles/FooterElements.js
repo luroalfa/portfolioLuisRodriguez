@@ -41,6 +41,7 @@ export const  FooterUl = styled.ul`
 //Tag -->li-html
 export const FooterLi = styled.li`
   position: relative;
+  cursor: pointer;
   list-style: none;
   width: 50px;
   height: 50px;
