@@ -30,6 +30,7 @@ function Portfolio() {
       </PortfolioHeroImage>
       >
       <PortfolioSection>
+        
         <PortfolioCard>
           <PortfolioFront>
             <PortfolioImage src={imgPortfolioProjects.neuraKids} />
@@ -295,6 +296,7 @@ function Portfolio() {
           </PortfolioBack>
           <PortfolioBackground />
         </PortfolioCard>
+
       </PortfolioSection>
       <Footer />
     </>
