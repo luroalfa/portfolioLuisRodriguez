@@ -1,29 +1,15 @@
 import Html from './html.jpg'
 import Css from './css.jpg'
 import Javascript from './javascript.jpg'
-import Illustrator from './ai.png'
+import Illustrator from './ai.jpg'
 import Photoshop from './photoshop.jpg'
-import Figma from './figma.png'
+import Figma from './figma.jpg'
 import Github from './github.jpg'
 import Mongodb from './mongodb.png'
 import Mysql from './mysql.png'
 import StyledComponents from './styledcomponents1.png'
 import English from './English.jpg'
 
-
-// export default{
-//   "illustrator": Illustrator,
-//   "css": Css,
-//   "english": English,
-//   "figma": Figma,
-//   "github": Github,
-//   "html": Html,
-//   "js": Javascript,
-//   "mogodb": Mongodb,
-//   "mysql": Mysql,
-//   "photoshop": Photoshop,
-//   "styledcomponents": StyledComponents,
-// }
 
 const data = {
   cardData:[
