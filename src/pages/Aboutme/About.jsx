@@ -17,8 +17,8 @@ import {
   WrapStickers,
   AboutLink,
 } from "./Styles/AboutmeElements";
-import YoutubeEmbed from "../../components/YoutubeEmbed/YoutubeEmbed";
-import { Animated } from "react-animated-css";
+// import YoutubeEmbed from "../../components/YoutubeEmbed/YoutubeEmbed";
+// import { Animated } from "react-animated-css";
 import WOW from "wowjs";
 
 new WOW.WOW().init();
