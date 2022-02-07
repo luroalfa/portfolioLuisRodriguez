@@ -22,6 +22,7 @@ import data from "../../Assets/GalleryBlog/galleryBlog.js";
 
 function Blog() {
   const [filter, setfilters] = React.useState("");
+  
   const onChange = (e) => {
     setfilters(e.target.value);
   };

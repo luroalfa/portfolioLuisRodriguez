@@ -1,195 +1,129 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 
 
-export const PortfolioHeroImage = styled.div`
-  padding-top: 70px;
-  height: 100vh;
-  `;
-
-
-
-export const PortfolioSection = styled.section`
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 40px;
-  margin-top: 10px;
-  padding-left: 60px;
-  padding-right: 60px;
-  justify-items: center;
-  @media screen and (max-width: 690px){
-    margin-top: 50px;    
-    grid-template-columns: repeat(1, 1fr);    
-    margin-top: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    grid-gap: 0px;
-  }
-  `;
-
-
-export const PortfolioCard = styled.div`
-  /* border: 1px solid white; */
-  margin-top: 50px;
-  margin-bottom: 50px;
-  cursor: pointer;
-  position: relative;
-  width: 12.5rem;
+export const PortfolioContent = styled.div`
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
   width: 80%;
-  color: white;
-  /* Hover of background */
-  &:hover > section{
-    transform: scale(1.4, 1.2);  
-    opacity: 1;
-    transition: transform 200ms cubic-bezier(.21, 1.00, .81, 1.00), opacity 100ms linear;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: rgb(28,31,42);
+  text-align: center;
+  @media screen and (max-width: 960px){
+    width: 100%;
   }
-  /* Hover of front and back, we made small with scale(.8)*/
-  &:hover > article{
-    /* front */
-    &:nth-of-type(1){
-      transform: translateY(-30%) scale(.8);
-      & > div{
-      opacity: 0;
-      }
-    }
-    /* back */
-    &:nth-of-type(2){
-      opacity: 1;
-      text-align: center;
-      & > div{
-        &:nth-of-type(2){
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          gap: 20px;
-          & > img{
-            border: 2px solid var(--colorDark);
-            &:nth-of-type(1){
-              transform: translateX(-50%);
-            }
-            &:nth-of-type(2){
-              transform: translateX(-25%);
-            }
-          }
-        }
-      }
-    }
-  }
-
 `;
-
-export const PortfolioBack = styled.article`
-  opacity: 0;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-`;
-
-
-export const PortfolioFront = styled.article`
-  transition: 205ms;
-  background: var(--colorLight);
-  padding: 10px;
-  border-radius: .5em;
-  box-shadow: 0 2px 20px rgba(255, 255, 255, 0.5);
+export const PortfolioContentArticles = styled.div`
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   text-align: center;
 `;
-
-
+export const PortfolioInputSearch = styled.input`
+  margin-left: 20px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  text-align: center;
+  border: none;
+  padding: 5px;
+`;
+export const PortfolioTitle = styled.h2`
+  margin-top: 10px;
+  text-align: center;
+  font-size:2em;
+  color: white;
+`;
+export const PortfolioSearch = styled.div`
+  color: white;
+`;
+export const PortfolioParagraphTitle = styled.p`
+  margin: 10px;
+  color: white;
+  @media screen and (max-width: 960px){
+    text-align: center;
+  }
+`;
+export const PortfolioCard = styled.div`
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  width: 330px;
+  border: 2px solid white;
+  
+`;
+export const PortfolioCardHeader = styled.div`
+`;
 export const PortfolioImage = styled.img`
-  max-width: 100%;
-  max-height: 200px;  
-  border-radius: .5em;
-  
+width: 100%;
+height: 100%;
+object-fit: content;
 `;
-
-export const PortfolioCardTitle = styled.h2`
-  margin: 0.75em 0;
-`;
-
-export const PortfolioContainerDescription = styled.div`
+export const PortfolioCardBody = styled.div`
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-`;
-export const PortfolioDescription = styled.p`
-  margin: 0;
-  
-  `;
-export const PortfolioContainerTecnologies = styled.div`
-  display: flex;
+  flex-direction: column;
   justify-content: center;
-`;
-export const PortfolioImageTecnologies3 = styled.img`
-  max-width: 100%;
-  width: 2em;
-  height: 2em;
-  border-radius: 50%;
-
-  border: 2px solid var(--colorDark);
-  &:nth-of-type(1){
-    transform: translateX(50%);
-    z-index: 1;
-  }
-  &:nth-of-type(2){
-    transform: translateX(25%);
+  text-align: left;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 50px;
+  `;
+export const PortfolioTag = styled.span`
+  background: var(--mainColor);
+  border-radius: 50px;
+  font-size: 12px;
+  margin: 0;
+  color: white;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  `;
+export const PortfolioTitleCard = styled.h3`
+  margin-top:10px;
+  text-transform: uppercase;  
+  `;
+export const PortfolioParagraph = styled.p`
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: left;
+  `;
+export const PortfolioParagraphPubli = styled.p`
+  font-size: 14px;
+  margin: 10px 0 30px 0px;
+  `;
+export const PortfolioParagraphSpan = styled.span`
+  font-weight: 600;
+  `;
+export const PortfolioButtom = styled(Link)`
+  text-transform: uppercase;  
+  text-decoration: none;
+  background: var(--secondaryColor);
+  border: 1px solid black;
+  Padding: 10px;
+  border-radius: 50px;
+  align-self: center;
+  width: 100%;
+  text-align: center;
+  color: var(--mainColor);
+  &:hover{
+    color: white;
+    background: var(--mainColor);
   }
   `;
-export const PortfolioImageTechnology = styled.img`
-  max-width: 100%;
-  width: 2em;
-  height: 2em;
-  border-radius: 50%;
-  border: 2px solid var(--colorDark);
-`;
 
-
-
-
-
-
-
-export const PortfolioStreamingInfo = styled.div`
-  display: flex;
-  cursor: pointer;
-  font-size: .9em;
-  justify-content: space-between;
-  margin-bottom: 10px;
-`;
-
-export const PortfolioParagraph = styled.p`
-  margin: 0;
-`;
-
-
-export const PortfolioCardButton = styled.button`
-  cursor: pointer;
-  border: 0;
-  background: var(--secondaryColor);
-  border-radius: 100vw;
-  color: black;
-  font-weight: bold;
-  padding: .5em 1.5em;
-  margin-bottom: 10px;
-`;
-
-export const PortfolioBackground = styled.section`
-  background: var(--colorDark);
-  position: absolute;
-  border-radius: .5em;
-  opacity: 0;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  transform: scale(.2, .9);
-  
-`;
-
-
-
-
-
-
+export const PortfolioContainerTag = styled.div`
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+  `;
