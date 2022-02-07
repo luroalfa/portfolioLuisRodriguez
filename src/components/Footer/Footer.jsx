@@ -13,9 +13,9 @@ import {
   FooterLi,
 } from "./Styles/FooterElements";
 import {
-  FaInstagram,
-  FaLinkedinIn,
-  FaYoutube,
+  // FaInstagram,
+  // FaLinkedinIn,
+  // FaYoutube,
   FaHeart,
   FaGithub,
 } from "react-icons/fa";

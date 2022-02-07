@@ -9,7 +9,7 @@ import {
   BlogCardHeader,
   BlogImage,
   BlogParagraph,
-  BlogTag,
+  // BlogTag,
   BlogTitle,
   BlogButtom,
   BlogParagraphPubli,

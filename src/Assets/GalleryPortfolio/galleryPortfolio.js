@@ -10,7 +10,7 @@ import RFL from './rodriguezfallasluis.png'
 import Blondies from './blondies.png'
 import MS from './MusicStore.png'
 import Grunge from './Grunge.png'
-import { Simulate } from 'react-dom/cjs/react-dom-test-utils.production.min'
+// import { Simulate } from 'react-dom/cjs/react-dom-test-utils.production.min'
 
 
 const data = {
