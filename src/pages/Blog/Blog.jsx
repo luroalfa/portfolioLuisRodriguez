@@ -63,7 +63,6 @@ function Blog() {
                 </BlogCardHeader>
 
                 <BlogCardBody>
-                  <BlogTag>{item.tag}</BlogTag>
                   <BlogTitleCard>{item.titleCard}</BlogTitleCard>
                   <BlogParagraph>{item.paragraph}</BlogParagraph>
                   <BlogParagraphPubli>

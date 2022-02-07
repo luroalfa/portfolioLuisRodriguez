@@ -77,7 +77,7 @@ function Portfolio() {
                     <PortfolioParagraphSpan>{item.published}</PortfolioParagraphSpan>
                   </PortfolioParagraphPubli>
                   <PortfolioButtom to="">
-                    <b>Go to this Website</b>
+                    <b>See More</b>
                   </PortfolioButtom>
                 </PortfolioCardBody>
               </PortfolioCard>
