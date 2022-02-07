@@ -9,6 +9,7 @@ import SMI from './SMI.png'
 import RFL from './rodriguezfallasluis.png'
 import Blondies from './blondies.png'
 import MS from './MusicStore.png'
+import Grunge from './Grunge.png'
 import { Simulate } from 'react-dom/cjs/react-dom-test-utils.production.min'
 
 
@@ -106,8 +107,17 @@ const data = {
       published: 'Friday, January, 14th, 2022.',
     },
     {
-      id: 3,
+      id: 11,
       img: MS,
+      altDescription: "Image html",
+      tag: 'Html',
+      titleCard: 'website',
+      paragraph: 'This article covers the most frequently asked HTML and HTML5 questions asked in interviews.',
+      published: 'Friday, January, 14th, 2022.',
+    },
+    {
+      id: 12,
+      img: Grunge,
       altDescription: "Image html",
       tag: 'Html',
       titleCard: 'website',
