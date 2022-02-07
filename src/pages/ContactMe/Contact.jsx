@@ -104,7 +104,7 @@ function Contact() {
                   setStatus("loading");
                   fetch(process.env.REACT_APP_URL_CONTACT_FORM, {
                     method: "POST", // *GET, POST, PUT, DELETE, etc.
-                    mode: "cors",
+                    // mode: "cors",
                     headers: {
                       "Content-Type": "application/json",
                     },
