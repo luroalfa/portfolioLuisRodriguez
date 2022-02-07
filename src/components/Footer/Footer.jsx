@@ -25,7 +25,7 @@ function Footer() {
     <FooterContainer>
       <FooterSocial>
         <IconContext.Provider value={{ style: { fontSize: "20px" } }}>
-          <FooterLi>
+          {/* <FooterLi>
             <FooterA
               href="https://www.instagram.com/rodriguezfallasluis?r=nametag"
               target="_blank"
@@ -43,14 +43,14 @@ function Footer() {
             </FooterA>
           </FooterLi>
 
-          <FooterLi>
+           <FooterLi>
             <FooterA
               href="https://www.youtube.com/channel/UCZsq3yi9VSWDufL7JiW9JQA/featured"
               target="_blank"
             >
               <FaYoutube />
             </FooterA>
-          </FooterLi>
+          </FooterLi> */}
 
           <FooterLi>
             <FooterA href="https://github.com/luroalfa" target="_blank">

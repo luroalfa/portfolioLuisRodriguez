@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 
 export const PortfolioContent = styled.div`
   padding-top: 60px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 80%;
   height: 100%;
   margin: auto;
@@ -60,9 +60,8 @@ export const PortfolioCard = styled.div`
   border-radius: 10px;
   box-shadow: 0 2px 20px rgba(255, 255, 255, 0.2);
   overflow: hidden;
-  width: 330px;
+  width: 250px;
   border: 2px solid white;
-  
 `;
 export const PortfolioCardHeader = styled.div`
 `;

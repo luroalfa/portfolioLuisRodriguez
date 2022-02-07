@@ -2,12 +2,12 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom'
 
 //Container of the footer
-export const  FooterContainer = styled.section`
+export const FooterContainer = styled.section`
   padding: 40px 0;
   background-image: linear-gradient(to bottom, #1c1f2a, #181b27, #141723, #101320, #0a0e1d);
 `;
 //Div-html--> Container of the social media
-export const  FooterSocial = styled.div`
+export const FooterSocial = styled.div`
   text-align: center;
   padding-bottom: 25px;
   display: flex;
@@ -16,8 +16,8 @@ export const  FooterSocial = styled.div`
 export const FooterLiMenu = styled.li`
   list-style: none;
 `;
-  //Link of react-router-dom
-  export const  FooterLink = styled(Link)`
+//Link of react-router-dom
+export const FooterLink = styled(Link)`
     color: white;
     display: inline-block;
     padding: 0 15px;
@@ -28,7 +28,7 @@ export const FooterLiMenu = styled.li`
     }
 `;
 //Tag-->ul-html
-export const  FooterUl = styled.ul`
+export const FooterUl = styled.ul`
   display: flex;
   justify-content: center;
   margin-top: 0;
@@ -73,7 +73,7 @@ export const FooterLi = styled.li`
   }
 `;
 //Tag -->a-html
-export const  FooterA = styled.a`
+export const FooterA = styled.a`
   position: absolute;
   top: 10px;
   left: 10px;
@@ -118,14 +118,14 @@ export const FooterSpan = styled.span`
   }
 `;
 //Tag-->p-html
-export const  FooterText = styled.p`
+export const FooterText = styled.p`
   text-align: center;
   font-size: 13px;
   color: white;
   margin-bottom: 0px;
 `;
 //Illumination of the copyright -->p-html
-export const  FooterSubText = styled.p`
+export const FooterSubText = styled.p`
   text-align: center;
   font-size: 10px;
   background: linear-gradient(90deg, var(--mainColor), var(--secondaryColor), var(--mainColor));
