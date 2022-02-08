@@ -60,8 +60,11 @@ export const PortfolioCard = styled.div`
   border-radius: 10px;
   box-shadow: 0 2px 20px rgba(255, 255, 255, 0.2);
   overflow: hidden;
-  width: 250px;
+  width: 300px;
   border: 2px solid white;
+  @media screen and (max-width: 960px){
+    width: 400px;
+  }
 `;
 export const PortfolioCardHeader = styled.div`
 `;
@@ -124,5 +127,6 @@ export const PortfolioButtom = styled(Link)`
 export const PortfolioContainerTag = styled.div`
     display: flex;
     gap: 5px;
+    flex-wrap: wrap;
     flex-direction: row;
   `;

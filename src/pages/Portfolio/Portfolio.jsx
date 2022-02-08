@@ -1,6 +1,3 @@
-
-// import imgTechnologies from "../../Assets/Technologies/technologies.js";
-// import imgPortfolioProjects from "../../Assets/GalleryPortfolio/galleryPortfolioProjects.js";
 //Libs
 import React from "react";
 //Utils
@@ -47,11 +44,17 @@ function Portfolio() {
   return (
     <>
       <PortfolioContent>
-        <PortfolioTitle>Projects</PortfolioTitle>
+        <PortfolioTitle>Personal Projects</PortfolioTitle>
         <PortfolioParagraphTitle>
-          In this Portfolio you will find topics, articles, guides, projects related
-          to programming and web design. We will be talking about Html, Css,
-          JavaScript, Photoshop, Illustrator, Figma and other topics.
+        <b>
+          <i>
+            "He who learns and learns and does not practice what he knows is like the one who plows and plows and does not sow."
+          </i>
+        </b>
+        <br />
+        -By Platón.
+        <br />
+        Here's a list of some of my personal projects.
         </PortfolioParagraphTitle>
         <PortfolioSearch>
           <PortfolioInputSearch
