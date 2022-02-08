@@ -1,7 +1,12 @@
 
 // import imgTechnologies from "../../Assets/Technologies/technologies.js";
 // import imgPortfolioProjects from "../../Assets/GalleryPortfolio/galleryPortfolioProjects.js";
+//Libs
 import React from "react";
+//Utils
+import data from "store/galleryPortfolio";
+import GlobalUtils from "utils/GlobalUtils";
+//Components
 import Footer from "../../components/Footer/Footer";
 import {
   PortfolioContent,
@@ -22,7 +27,6 @@ import {
   PortfolioInputSearch,
   PortfolioContainerTag,
 } from "./Styles/PortfolioElements";
-import data from "../../Assets/GalleryPortfolio/galleryPortfolio.js";
 
 function Portfolio() {
   const [filter, setfilters] = React.useState("");
@@ -59,7 +63,7 @@ function Portfolio() {
         </PortfolioSearch>
 
         <PortfolioContentArticles>
-          {dataSearch.map((item, index) => {
+          {GlobalUtils.checkArray(dataSearch).map((item, index) => {
             return (
               <PortfolioCard>
                 <PortfolioCardHeader>
@@ -68,7 +72,7 @@ function Portfolio() {
 
                 <PortfolioCardBody>
                   <PortfolioContainerTag>
-                    <PortfolioTag>{item.tag}</PortfolioTag>
+                  {GlobalUtils.checkArray(item.tags).map(tag => <PortfolioTag>{tag}</PortfolioTag> )}
                   </PortfolioContainerTag>
                   <PortfolioTitleCard>{item.titleCard}</PortfolioTitleCard>
                   <PortfolioParagraph>{item.paragraph}</PortfolioParagraph>

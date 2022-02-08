@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export const ContactContainer = styled.section`
 padding-top: 70px;
 width: 90%;
-height:100vh;
+height:100%;
 margin: auto;
 background: rgb(28,31,42);
 background: linear-gradient(0deg, rgba(28,31,42,1) 0%, rgba(42,39,28,1) 100%);
@@ -144,7 +144,7 @@ export const ContactInfoSubTitle = styled.h4`
   text-transform: uppercase;
   margin-bottom: 10px;
 `;
-  export const ContactInfoUl = styled.ul`
+export const ContactInfoUl = styled.ul`
     margin: 0 0 1rem 0;
     padding: 0;
     list-style: none;
@@ -153,7 +153,7 @@ export const ContactInfoSubTitle = styled.h4`
       text-align: left;
     }
     `;
-  export const ContactInfoLI = styled.li`
+export const ContactInfoLI = styled.li`
     padding: .3em;
     @media screen and (min-width: 960px){
       & span{
@@ -164,7 +164,7 @@ export const ContactInfoSubTitle = styled.h4`
   `;
 
 //Link of react-router-dom
-export const  ContactLink = styled(Link)`
+export const ContactLink = styled(Link)`
 margin-top: 10px;
 text-decoration: underline;
 color: white;
@@ -176,6 +176,5 @@ margin-bottom: 10px;
   color:var(--secondaryColor);
 }
 `;
-  
 
-  
+
