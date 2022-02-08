@@ -1,7 +1,7 @@
-class Carro {
+class GlobalUtils {
   static checkArray(array) {
     return Array.isArray(array) ? array : [];
   }
 }
 
-export default Carro
+export default GlobalUtils
