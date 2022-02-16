@@ -50,6 +50,7 @@ export const PortfolioSearch = styled.div`
 export const PortfolioParagraphTitle = styled.p`
   margin: 10px;
   color: white;
+  width: 100%;
   @media screen and (max-width: 960px){
     text-align: center;
   }

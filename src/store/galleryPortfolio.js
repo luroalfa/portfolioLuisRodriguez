@@ -10,7 +10,6 @@ import RFL from 'Assets/GalleryPortfolio/rodriguezfallasluis.png'
 import Blondies from 'Assets/GalleryPortfolio/blondies.png'
 import MS from 'Assets/GalleryPortfolio/MusicStore.png'
 import Grunge from 'Assets/GalleryPortfolio/Grunge.png'
-// import { Simulate } from 'react-dom/cjs/react-dom-test-utils.production.min'
 
 
 const data = {
@@ -63,85 +62,21 @@ const data = {
       altDescription: "Image html",
       tags: ['Illustrator'],
       titleCard: 'VECTORIZATION',
-      paragraph: 'This article covers the most frequently asked HTML and HTML5 questions asked in interviews.',
+      paragraph: 'As a freelance person I have work made in Illustrator, where I work with vector images. These are some of my projects, I hope you like it',
       published: 'Friday, January, 14th, 2022.',
     },
     {
       id: 5,
-      img: galloVector,
+      img: Metakrivia,
       altDescription: "Image html",
       tags: ['Illustrator'],
-      titleCard: 'VECTORIZATION',
-      paragraph: 'This article covers the most frequently asked HTML and HTML5 questions asked in interviews.',
-      published: 'Friday, January, 14th, 2022.',
-    },
-    {
-      id: 6,
-      img: EagleVector,
-      altDescription: "Image html",
-      tags: ['Illustrator'],
-      titleCard: 'VECTORIZATION',
+      titleCard: 'LOGOTYPES',
       paragraph: 'This article covers the most frequently asked HTML and HTML5 questions asked in interviews.',
       published: 'Friday, January, 14th, 2022.',
     },
     {
       id: 7,
-      img: Metakrivia,
-      altDescription: "Image html",
-      tags: ['Illustrator'],
-      titleCard: 'LOGOTYPE',
-      paragraph: 'This article covers the most frequently asked HTML and HTML5 questions asked in interviews.',
-      published: 'Friday, January, 14th, 2022.',
-    },
-    {
-      id: 8,
-      img: SMI,
-      altDescription: "Image html",
-      tags: ['Illustrator'],
-      titleCard: 'LOGOTYPE',
-      paragraph: 'This article covers the most frequently asked HTML and HTML5 questions asked in interviews.',
-      published: 'Friday, January, 14th, 2022.',
-    },
-    {
-      id: 9,
       img: improex,
-      altDescription: "Image html",
-      tags: [
-        'Html',
-        "Css",
-      ],
-      titleCard: 'layout design',
-      paragraph: 'This article covers the most frequently asked HTML and HTML5 questions asked in interviews.',
-      published: 'Friday, January, 14th, 2022.',
-    },
-    {
-      id: 10,
-      img: Blondies,
-      altDescription: "Image html",
-      tags: [
-        'Html',
-        "Css",
-        "bootstrap",
-      ],
-      titleCard: 'layout design',
-      paragraph: 'This article covers the most frequently asked HTML and HTML5 questions asked in interviews.',
-      published: 'Friday, January, 14th, 2022.',
-    },
-    {
-      id: 11,
-      img: MS,
-      altDescription: "Image html",
-      tags: [
-        'Html',
-        "Css",
-      ],
-      titleCard: 'layout design',
-      paragraph: 'This article covers the most frequently asked HTML and HTML5 questions asked in interviews.',
-      published: 'Friday, January, 14th, 2022.',
-    },
-    {
-      id: 12,
-      img: Grunge,
       altDescription: "Image html",
       tags: [
         'Html',
@@ -153,4 +88,6 @@ const data = {
     },
   ]
 }
+
+// Export data
 export default data;

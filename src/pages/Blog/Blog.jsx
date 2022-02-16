@@ -1,4 +1,6 @@
 import React from "react";
+
+import data from "store/galleryBlog.js";
 import Footer from "../../components/Footer/Footer";
 import {
   BlogContent,
@@ -18,11 +20,10 @@ import {
   BlogContentArticles,
   BlogInputSearch,
 } from "./Styles/BlogElements";
-import data from "../../Assets/GalleryBlog/galleryBlog.js";
 
 function Blog() {
   const [filter, setfilters] = React.useState("");
-  
+
   const onChange = (e) => {
     setfilters(e.target.value);
   };

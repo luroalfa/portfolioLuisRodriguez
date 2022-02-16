@@ -27,7 +27,7 @@ import {
 
 function Portfolio() {
   const [filter, setfilters] = React.useState("");
-  
+
   const onChange = (e) => {
     setfilters(e.target.value);
   };
@@ -46,15 +46,16 @@ function Portfolio() {
       <PortfolioContent>
         <PortfolioTitle>Personal Projects</PortfolioTitle>
         <PortfolioParagraphTitle>
-        <b>
-          <i>
-            "He who learns and learns and does not practice what he knows is like the one who plows and plows and does not sow."
-          </i>
-        </b>
-        <br />
-        -By Platón.
-        <br />
-        Here's a list of some of my personal projects.
+          <b>
+            <i>
+              "He who learns and learns and does not practice what he knows is
+              like the one who plows and plows and does not sow."
+            </i>
+          </b>
+          <br />
+          -By Platón.
+          <br />
+          Here's a list of some of my personal projects.
         </PortfolioParagraphTitle>
         <PortfolioSearch>
           <PortfolioInputSearch
@@ -75,13 +76,17 @@ function Portfolio() {
 
                 <PortfolioCardBody>
                   <PortfolioContainerTag>
-                  {GlobalUtils.checkArray(item.tags).map(tag => <PortfolioTag>{tag}</PortfolioTag> )}
+                    {GlobalUtils.checkArray(item.tags).map((tag) => (
+                      <PortfolioTag>{tag}</PortfolioTag>
+                    ))}
                   </PortfolioContainerTag>
                   <PortfolioTitleCard>{item.titleCard}</PortfolioTitleCard>
                   <PortfolioParagraph>{item.paragraph}</PortfolioParagraph>
                   <PortfolioParagraphPubli>
                     Published:{" "}
-                    <PortfolioParagraphSpan>{item.published}</PortfolioParagraphSpan>
+                    <PortfolioParagraphSpan>
+                      {item.published}
+                    </PortfolioParagraphSpan>
                   </PortfolioParagraphPubli>
                   <PortfolioButtom to="">
                     <b>See More</b>
