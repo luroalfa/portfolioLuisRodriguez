@@ -24,7 +24,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterSocial>
-        <IconContext.Provider value={{ style: { fontSize: "20px" } }}>
+        <IconContext.Provider value={{ style: { fontSize: "1.25em" } }}>
           {/* <FooterLi>
             <FooterA
               href="https://www.instagram.com/rodriguezfallasluis?r=nametag"

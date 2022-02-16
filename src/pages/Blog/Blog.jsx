@@ -43,8 +43,7 @@ function Blog() {
         <BlogTitle>MyBlog</BlogTitle>
         <BlogParagraphTitle>
           In this blog you will find topics, articles, guides, projects related
-          to programming and web design. We will be talking about Html, Css,
-          JavaScript, Photoshop, Illustrator, Figma and other topics.
+          to programming and web design.
         </BlogParagraphTitle>
         <BlogSearch>
           <BlogInputSearch

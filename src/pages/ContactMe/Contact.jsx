@@ -16,7 +16,7 @@ import {
   ContactInfoUl,
   ContactInfoLI,
   ContactSubTitleForm,
-  ContactLink,
+  // ContactLink,
   ContactInfoSubTitle,
 } from "./Styles/ContactMeElements.js";
 import { HiLocationMarker, HiOutlineMail, HiPhone } from "react-icons/hi";
@@ -168,7 +168,7 @@ function Contact() {
               you soon!
             </p>
             <p>Hey, feel free to contact me, don't be shy.</p>
-            <ContactLink to="/">Ver términos y condiciones.</ContactLink>
+            {/* <ContactLink to="/">Ver términos y condiciones.</ContactLink> */}
           </ContactInfo>
         </ContactGroup>
       </ContactContainer>
