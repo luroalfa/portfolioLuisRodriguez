@@ -51,6 +51,7 @@ export const BlogSearch = styled.div`
 export const BlogParagraphTitle = styled.p`
   margin: 10px;
   color: white;
+  width: 100%;
   @media screen and (max-width: 960px){
     text-align: center;
   }
