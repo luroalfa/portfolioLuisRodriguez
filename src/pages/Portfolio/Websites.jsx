@@ -1,0 +1,82 @@
+import React from "react";
+//Components
+import Footer from "../../components/Footer/Footer";
+import {
+  WebsiteTitle,
+  WebsiteContainer,
+  WebsiteSubContainer,
+  WebsiteImage,
+  WebsiteSubContainerHeader,
+  WebsiteSCProjectName,
+  WebsiteSCPublication,
+  WebsiteSCContain,
+  ButtomStyle,
+  WebsiteContainerButton,
+  WebsiteSpan,
+  WebsiteContainerTechnology,
+  WebsiteTag,
+  WebsiteSpanUppercase,
+} from "./Styles/WebsiteElements";
+import data from "../../store/websitesDB";
+
+export default function () {
+  return (
+    <>
+      <WebsiteTitle>
+        Web<WebsiteSpan>sites</WebsiteSpan>
+      </WebsiteTitle>
+
+      <WebsiteContainer>
+        {data.cardData.map((item, index) => {
+          return (
+            <>
+              <WebsiteSubContainer>
+                <WebsiteImage src={item.img} alt={item.altImg} />
+              </WebsiteSubContainer>
+
+              <WebsiteSubContainer>
+                <WebsiteSCContain>
+                  <WebsiteSpan>Project:</WebsiteSpan>{" "}
+                  <WebsiteSpanUppercase>{item.project}</WebsiteSpanUppercase>
+                  <br />
+                  <br />
+                  <WebsiteSpan>Objective:</WebsiteSpan>
+                  <br />
+                  {item.Objective}
+                  <br />
+                  <br />
+                  <WebsiteSpan>Challenge:</WebsiteSpan>
+                  <br />
+                  {item.Challenge}
+                  <br />
+                  <br />
+                  <WebsiteSpan>Technologies:</WebsiteSpan>
+                  <br />
+                  For this project, I used the following technologies to make
+                  the website.
+                  <WebsiteContainerTechnology>
+                    {item.Technologies.map((tag) => (
+                      <WebsiteTag>{tag}</WebsiteTag>
+                    ))}
+                  </WebsiteContainerTechnology>
+                  <br />
+                  <WebsiteSpan>Antecedente:</WebsiteSpan>
+                  <br />
+                  Neurakids. realizar la pagina web.
+                  <br />
+                  <br />
+                  <WebsiteContainerButton>
+                    <ButtomStyle href={item.link} target={"_blank"}>
+                      Visit website
+                    </ButtomStyle>
+                  </WebsiteContainerButton>
+                </WebsiteSCContain>
+              </WebsiteSubContainer>
+            </>
+          );
+        })}
+      </WebsiteContainer>
+      <Footer></Footer>
+    </>
+  );
+}

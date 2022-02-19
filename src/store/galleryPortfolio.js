@@ -2,6 +2,7 @@ import improex from 'Assets/GalleryPortfolio/improex.png'
 import lactgourmet from 'Assets/GalleryPortfolio/lactgourmet.png'
 import yoVector from 'Assets/GalleryPortfolio/Yo-vector.jpg'
 import RFL from 'Assets/GalleryPortfolio/rodriguezfallasluis.png'
+// import Neura from 'Assets/GalleryPortfolio/NEURABITS.jpg'
 // import EagleVector from 'Assets/GalleryPortfolio/EagleVector.jpg'
 // import galloVector from 'Assets/GalleryPortfolio/GalloVector.jpg'
 // import NeuraKids from 'Assets/GalleryPortfolio/NeuraKids.png'
@@ -28,6 +29,7 @@ const data = {
       titleCard: 'websites',
       paragraph: 'As a developer, I need an online presence. This is my website, is a personal portfolio, where I show my skills and knowledge as a web developer.',
       published: 'Friday, January, 14th, 2022.',
+      link: "/websites",
     },
     {
       id: 2,
@@ -40,6 +42,7 @@ const data = {
       titleCard: 'Design',
       paragraph: 'LactGourmet is an investigation about a dairy business. Here you find arts for social networks as facebook, youtube, Instagram and the logo, also you find the design website.',
       published: 'Sunday, February, 06th, 2022.',
+      link: "/websites",
     },
     // {
     //   id: 3,
@@ -64,6 +67,7 @@ const data = {
       titleCard: 'VECTORIZATION',
       paragraph: 'Here you can find, some skills that I made with illustrator, such as vector images, logotype design, web design, I hope you like it.',
       published: 'Friday, January, 14th, 2022.',
+      link: "/websites",
       //EagleVector - galloVector -SMI
     },
     {
@@ -77,6 +81,7 @@ const data = {
       titleCard: 'layout design',
       paragraph: 'In this article, you can find some projects about layout design, strictly custom-made as the design indicates.',
       published: 'Friday, January, 14th, 2022.',
+      link: "/websites",
       //MS -Blondies - Grunge
     },
     // {
