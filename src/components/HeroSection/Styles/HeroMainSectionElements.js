@@ -50,7 +50,7 @@ export const Info = styled.section`
   }
 `;
 
-  export const HeroSpan = styled.span`
+export const HeroSpan = styled.span`
   font-size: 3em;
   color: white;
   font-family:'Cinzel Decorative';
@@ -59,12 +59,12 @@ export const Info = styled.section`
   }
 `;
 
-  export const HeroSpanYellow = styled.span`
+export const HeroSpanYellow = styled.span`
   color: var(--secondaryColor);
   font-family:'Cinzel Decorative';
 `;
 
-  export const HeroParagraph = styled.p`
+export const HeroParagraph = styled.p`
   margin-top: 20px;
   color: white;
   font-size: 1.1em;

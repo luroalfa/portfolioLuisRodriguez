@@ -88,7 +88,7 @@ function Portfolio() {
                       {item.published}
                     </PortfolioParagraphSpan>
                   </PortfolioParagraphPubli>
-                  <PortfolioButtom to="">
+                  <PortfolioButtom to={item.link}>
                     <b>See More</b>
                   </PortfolioButtom>
                 </PortfolioCardBody>
