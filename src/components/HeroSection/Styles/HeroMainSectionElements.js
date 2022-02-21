@@ -69,21 +69,3 @@ export const HeroParagraph = styled.p`
   color: white;
   font-size: 1.1em;
 `;
-
-export const HeroButton = styled.button`
-    background-color: var(--secondaryColor);
-    border: none;
-    color: black;
-    font-weight: bold;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 12px;
-    text-transform: uppercase;
-  &:hover{
-    background: var(--mainColor);
-    color: white;    
-  }
-`;

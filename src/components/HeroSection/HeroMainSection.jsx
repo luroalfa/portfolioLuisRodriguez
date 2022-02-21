@@ -8,10 +8,10 @@ import {
   HeroSpan,
   HeroSpanYellow,
   HeroParagraph,
-  HeroButton,
 } from "./Styles/HeroMainSectionElements";
 import Typical from "react-typical";
 import { Animated } from "react-animated-css";
+import ButtonRouter from "components/Button/ButtonRouter";
 
 function HeroSection() {
   return (
@@ -55,7 +55,9 @@ function HeroSection() {
               </b>
             </HeroParagraph>
             <br />
-            <HeroButton>See Portfolio</HeroButton>
+            <ButtonRouter type="square" to="/portfolio">
+              See Portfolio
+            </ButtonRouter>
           </div>
         </Info>
         <Animated animationIn="bounceInLeft" isVisible={true}>
