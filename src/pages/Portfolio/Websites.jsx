@@ -6,11 +6,7 @@ import {
   WebsiteContainer,
   WebsiteSubContainer,
   WebsiteImage,
-  WebsiteSubContainerHeader,
-  WebsiteSCProjectName,
-  WebsiteSCPublication,
   WebsiteSCContain,
-  ButtomStyle,
   WebsiteContainerButton,
   WebsiteSpan,
   WebsiteContainerTechnology,
@@ -18,8 +14,9 @@ import {
   WebsiteSpanUppercase,
 } from "./Styles/WebsiteElements";
 import data from "../../store/websitesDB";
+import ButtonLink from "components/Button/ButtonLink";
 
-export default function () {
+export default function Websites() {
   return (
     <>
       <WebsiteTitle>
@@ -66,9 +63,11 @@ export default function () {
                   <br />
                   <br />
                   <WebsiteContainerButton>
-                    <ButtomStyle href={item.link} target={"_blank"}>
-                      Visit website
-                    </ButtomStyle>
+                    <ButtonLink href={item.link} target="_blank">
+                      Vsisit website
+                    </ButtonLink>
+                    <br />
+                    <br />
                   </WebsiteContainerButton>
                 </WebsiteSCContain>
               </WebsiteSubContainer>

@@ -55,24 +55,6 @@ export const WebsiteContainerButton = styled.div`
   }
 `;
 
-export const ButtomStyle = styled.a`
-  cursor: pointer;
-  text-transform: uppercase;
-  text-decoration: none;
-  background: var(--secondaryColor);
-  border: 1px solid black;
-  padding: 10px;
-  border-radius: 50px;
-  align-self: center;
-  width: 100%;
-  text-align: center;
-  color: var(--mainColor);
-  &:hover {
-    color: white;
-    background: var(--mainColor);
-  }
-`;
-
 export const WebsiteSpan = styled.span`
   font-size: 1.2em;
   font-weight: bold;
