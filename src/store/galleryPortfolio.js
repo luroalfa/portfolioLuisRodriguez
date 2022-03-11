@@ -1,23 +1,11 @@
-import improex from 'Assets/GalleryPortfolio/improex.png'
-import lactgourmet from 'Assets/GalleryPortfolio/lactgourmet.png'
-import yoVector from 'Assets/GalleryPortfolio/Yo-vector.jpg'
-import RFL from 'Assets/GalleryPortfolio/rodriguezfallasluis.png'
-// import Neura from 'Assets/GalleryPortfolio/NEURABITS.jpg'
-// import EagleVector from 'Assets/GalleryPortfolio/EagleVector.jpg'
-// import galloVector from 'Assets/GalleryPortfolio/GalloVector.jpg'
-// import NeuraKids from 'Assets/GalleryPortfolio/NeuraKids.png'
-// import Metakrivia from 'Assets/GalleryPortfolio/metakrivia.png'
-// import SMI from 'Assets/GalleryPortfolio/SMI.png'
-// import Blondies from 'Assets/GalleryPortfolio/blondies.png'
-// import MS from 'Assets/GalleryPortfolio/MusicStore.png'
-// import Grunge from 'Assets/GalleryPortfolio/Grunge.png'
-
-
+// Images
+import * as AllImages from './index'
+//Data
 const data = {
   cardData: [
     {
       id: 1,
-      img: RFL,
+      img: AllImages.GalleryPortfolioRFL,
       altDescription: "Image html",
       tags: [
         "HTML",
@@ -33,7 +21,7 @@ const data = {
     },
     {
       id: 2,
-      img: lactgourmet,
+      img: AllImages.GalleryPortfolioLactgourmet,
       altDescription: "Image html",
       tags: [
         'Illustrator',
@@ -61,7 +49,7 @@ const data = {
     // },
     {
       id: 4,
-      img: yoVector,
+      img: AllImages.GalleryPortfolioYoVector,
       altDescription: "Image html",
       tags: ['Illustrator'],
       titleCard: 'VECTORIZATION',
@@ -72,7 +60,7 @@ const data = {
     },
     {
       id: 7,
-      img: improex,
+      img: AllImages.GalleryPortfolioImproex,
       altDescription: "Image html",
       tags: [
         'Html',

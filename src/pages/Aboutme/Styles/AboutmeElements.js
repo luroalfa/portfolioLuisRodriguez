@@ -126,6 +126,9 @@ export const AboutSkillSection = styled.section`
   
 `;
 
+export const Source = styled.source`
+`;
+
 export const FotoSkills = styled.img`
   width: 100%;
   height: 100%;

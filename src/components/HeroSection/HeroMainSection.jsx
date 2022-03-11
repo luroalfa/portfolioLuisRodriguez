@@ -61,7 +61,7 @@ function HeroSection() {
           </div>
         </Info>
         <Animated animationIn="bounceInLeft" isVisible={true}>
-          <Foto src="../img/LUIS-CIRCLE.png" />
+          <Foto src="../img/LUIS-CIRCLE.webp" />
         </Animated>
       </AboutHeaderContainer>
     </AboutHeader>
