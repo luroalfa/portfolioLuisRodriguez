@@ -57,10 +57,6 @@ export default function Websites() {
                     ))}
                   </WebsiteContainerTechnology>
                   <br />
-                  <WebsiteSpan>Antecedente:</WebsiteSpan>
-                  <br />
-                  Neurakids. realizar la pagina web.
-                  <br />
                   <br />
                   <WebsiteContainerButton>
                     <ButtonLink href={item.link} target="_blank">

@@ -1,37 +1,39 @@
 // Images
-import * as AllImages from './index'
+import { GalleryPortfolioRFL } from './index'
 //Data
 const data = {
   cardData: [
     {
       id: 1,
-      img: AllImages.GalleryPortfolioRFL,
+      img: GalleryPortfolioRFL,
       altDescription: "Image html",
       tags: [
         "HTML",
         "CSS",
         "JS",
         "REACT",
-        "Styled-Components"
+        "Styled-Components",
+        "Boostrap",
+        "SASS"
       ],
       titleCard: 'websites',
-      paragraph: 'As a developer, I need an online presence. This is my website, is a personal portfolio, where I show my skills and knowledge as a web developer.',
+      paragraph: 'As a developer, I need to show my projects. On this site, you can find all my created websites, where I show my skills and knowledge as a web developer. These are some of my projects, I hope you like it.',
       published: 'Friday, January, 14th, 2022.',
       link: "/websites",
     },
-    {
-      id: 2,
-      img: AllImages.GalleryPortfolioLactgourmet,
-      altDescription: "Image html",
-      tags: [
-        'Illustrator',
-        "Photoshop",
-      ],
-      titleCard: 'Design',
-      paragraph: 'LactGourmet is an investigation about a dairy business. Here you find arts for social networks as facebook, youtube, Instagram and the logo, also you find the design website.',
-      published: 'Sunday, February, 06th, 2022.',
-      link: "/websites",
-    },
+    // {
+    //   id: 2,
+    //   img: AllImages.GalleryPortfolioLactgourmet,
+    //   altDescription: "Image html",
+    //   tags: [
+    //     'Illustrator',
+    //     "Photoshop",
+    //   ],
+    //   titleCard: 'Design',
+    //   paragraph: 'LactGourmet is an investigation about a dairy business. Here you find arts for social networks as facebook, youtube, Instagram and the logo, also you find the design website.',
+    //   published: 'Sunday, February, 06th, 2022.',
+    //   link: "/websites",
+    // },
     // {
     //   id: 3,
     //   img: NeuraKids,
@@ -47,31 +49,31 @@ const data = {
     //   published: 'Sunday, February, 06th, 2022.',
     //   address: 'https://neurakids.netlify.app/',
     // },
-    {
-      id: 4,
-      img: AllImages.GalleryPortfolioYoVector,
-      altDescription: "Image html",
-      tags: ['Illustrator'],
-      titleCard: 'VECTORIZATION',
-      paragraph: 'Here you can find, some skills that I made with illustrator, such as vector images, logotype design, web design, I hope you like it.',
-      published: 'Friday, January, 14th, 2022.',
-      link: "/websites",
-      //EagleVector - galloVector -SMI
-    },
-    {
-      id: 7,
-      img: AllImages.GalleryPortfolioImproex,
-      altDescription: "Image html",
-      tags: [
-        'Html',
-        "Css",
-      ],
-      titleCard: 'layout design',
-      paragraph: 'In this article, you can find some projects about layout design, strictly custom-made as the design indicates.',
-      published: 'Friday, January, 14th, 2022.',
-      link: "/websites",
-      //MS -Blondies - Grunge
-    },
+    // {
+    //   id: 4,
+    //   img: AllImages.GalleryPortfolioYoVector,
+    //   altDescription: "Image html",
+    //   tags: ['Illustrator'],
+    //   titleCard: 'VECTORIZATION',
+    //   paragraph: 'Here you can find, some skills that I made with illustrator, such as vector images, logotype design, web design, I hope you like it.',
+    //   published: 'Friday, January, 14th, 2022.',
+    //   link: "/websites",
+    //   //EagleVector - galloVector -SMI
+    // },
+    // {
+    //   id: 7,
+    //   img: AllImages.GalleryPortfolioImproex,
+    //   altDescription: "Image html",
+    //   tags: [
+    //     'Html',
+    //     "Css",
+    //   ],
+    //   titleCard: 'layout design',
+    //   paragraph: 'In this article, you can find some projects about layout design, strictly custom-made as the design indicates.',
+    //   published: 'Friday, January, 14th, 2022.',
+    //   link: "/websites",
+    //   //MS -Blondies - Grunge
+    // },
     // {
     //   id: 7,
     //   img: improex,
@@ -91,6 +93,3 @@ const data = {
 // Export data
 export default data;
 
-
-
-// paragraph: 'As a freelance person I have work made in Illustrator, where I work with vector images. These are some of my projects, I hope you like it',

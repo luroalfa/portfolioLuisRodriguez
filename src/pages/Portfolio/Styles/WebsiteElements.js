@@ -16,14 +16,14 @@ export const WebsiteContainer = styled.main`
 
 export const WebsiteTitle = styled.h1`
   padding: 70px 0 20px 0;
-  font-size: 3em;
+  font-size: 2.5em;
   text-align: center;
   color: white;
   span {
     color: var(--secondaryColor);
   }
   @media screen and (max-width: 960px) {
-    font-size: 2em;
+    font-size: 2.5em;
   }
 `;
 

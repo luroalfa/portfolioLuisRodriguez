@@ -44,7 +44,9 @@ function Portfolio() {
   return (
     <>
       <PortfolioContent>
-        <PortfolioTitle>Personal Projects</PortfolioTitle>
+        <PortfolioTitle>
+          Personal <span>Projects</span>
+        </PortfolioTitle>
         <PortfolioParagraphTitle>
           <b>
             <i>

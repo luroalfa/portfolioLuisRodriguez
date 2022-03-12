@@ -40,7 +40,9 @@ function Blog() {
   return (
     <>
       <BlogContent>
-        <BlogTitle>MyBlog</BlogTitle>
+        <BlogTitle>
+          My <span>Blog</span>
+        </BlogTitle>
         <BlogParagraphTitle>
           In this blog you will find topics, articles, guides, projects related
           to programming and web design.
