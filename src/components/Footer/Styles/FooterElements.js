@@ -81,7 +81,7 @@ export const FooterA = styled.a`
   right: 10px;
   bottom: 10px;
   text-align: center;
-  line-height: 30px;
+  line-height: 39px;
   color: white;
   background: var(--mainColor);
   border-radius: 50%;

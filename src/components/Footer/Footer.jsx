@@ -25,33 +25,6 @@ function Footer() {
     <FooterContainer>
       <FooterSocial>
         <IconContext.Provider value={{ style: { fontSize: "1.25em" } }}>
-          {/* <FooterLi>
-            <FooterA
-              href="https://www.instagram.com/rodriguezfallasluis?r=nametag"
-              target="_blank"
-            >
-              <FaInstagram />
-            </FooterA>
-          </FooterLi>
-
-          <FooterLi>
-            <FooterA
-              href="https://www.linkedin.com/in/rodriguezfallasluis/"
-              target="_blank"
-            >
-              <FaLinkedinIn />
-            </FooterA>
-          </FooterLi>
-
-           <FooterLi>
-            <FooterA
-              href="https://www.youtube.com/channel/UCZsq3yi9VSWDufL7JiW9JQA/featured"
-              target="_blank"
-            >
-              <FaYoutube />
-            </FooterA>
-          </FooterLi> */}
-
           <FooterLi>
             <FooterA href="https://github.com/luroalfa" target="_blank">
               <FaGithub />
