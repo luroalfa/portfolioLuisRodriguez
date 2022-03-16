@@ -1,5 +1,5 @@
 import NeuraKids from 'Assets/GalleryPortfolio/websites/NeuraKids.png'
-import NeuraBits from 'Assets/GalleryPortfolio/websites/NEURABITS.jpg'
+import NeuraBits from 'Assets/GalleryPortfolio/websites/NEURABITS.webp'
 import RFL from 'Assets/GalleryPortfolio/rodriguezfallasluis.png'
 import blondies from 'Assets/GalleryPortfolio/websites/Blondies.webp'
 
@@ -9,38 +9,6 @@ const data = {
   cardData: [
     {
       id: 1,
-      img: NeuraKids,
-      altImg: "Imagen de Neurakids",
-      project: "Neurakids.",
-      Objective: "NeuraKids was an initiative with my brother, with the purpose of to teach childrens about programming in Scratch and Mblock.",
-      Challenge: "The challenge we had was in the organization of the children, to classify them according to age.",
-      Technologies: [
-        "HTML",
-        "CSS",
-        "JS",
-        "REACT",
-        "Styled-Components"
-      ],
-      experience: "Neurakids. realizar la pagina web.",
-      link: "https://neurakids.netlify.app/",
-    },
-    {
-      id: 2,
-      img: NeuraBits,
-      altImg: "Imagen de Neurabits",
-      project: "NueraBits.",
-      Objective: "NeuraBits was an initiative with my brother, with the purpose of to teach childrens about programming in Scratch and Mblock.",
-      Challenge: "El reto que tuvimos fue planear los cursos reunirnos con los niños poder explicar para que ellos entendieran.",
-      Technologies: [
-        "HTML",
-        "CSS",
-        "JS",
-      ],
-      experience: "Neurakids. realizar la pagina web.",
-      link: "https://neurakids.netlify.app/",
-    },
-    {
-      id: 3,
       img: RFL,
       altImg: "Personal Website.",
       project: "Personal Website.",
@@ -57,6 +25,38 @@ const data = {
       ],
       experience: "Neurakids. realizar la pagina web.",
       link: "https://rodriguezfallasluis.com/",
+    },
+    {
+      id: 2,
+      img: NeuraBits,
+      altImg: "Imagen de Neurabits",
+      project: "NueraBits.",
+      Objective: "NeuraBits was an initiative with my brother, with the purpose of to teach childrens about programming in Scratch and Mblock.",
+      Challenge: "The challenge was learning about siblings in CSS and building a burger menu without using javascript.",
+      Technologies: [
+        "HTML",
+        "CSS",
+      ],
+      experience: "Neurakids. realizar la pagina web.",
+      link: "https://serene-heisenberg-53b8f2.netlify.app/",
+    },
+    {
+
+      id: 3,
+      img: NeuraKids,
+      altImg: "Imagen de Neurakids",
+      project: "Neurakids.",
+      Objective: "NeuraKids was an initiative with my brother, with the purpose of to teach childrens about programming in Scratch and Mblock.",
+      Challenge: "The challenge we had was in the organization of the children, to classify them according to age.",
+      Technologies: [
+        "HTML",
+        "CSS",
+        "JS",
+        "REACT",
+        "Styled-Components"
+      ],
+      experience: "Neurakids. realizar la pagina web.",
+      link: "https://neurakids.netlify.app/",
     },
     {
       id: 4,
