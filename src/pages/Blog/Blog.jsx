@@ -11,7 +11,6 @@ import {
   BlogCardHeader,
   BlogImage,
   BlogParagraph,
-  // BlogTag,
   BlogTitle,
   BlogButtom,
   BlogParagraphPubli,
@@ -71,7 +70,7 @@ function Blog() {
                     Published:{" "}
                     <BlogParagraphSpan>{item.published}</BlogParagraphSpan>
                   </BlogParagraphPubli>
-                  <BlogButtom to="">
+                  <BlogButtom to="/JavaScriptInterviewsQ">
                     <b>See More</b>
                   </BlogButtom>
                 </BlogCardBody>
