@@ -16,7 +16,8 @@ import {
   technologyDataAfterEffects,
   technologyDataAudacity,
   technologyDataFilmora,
-  technologyDataFigma
+  technologyDataFigma,
+  technologyDataSass
 } from './index'
 
 //Data
@@ -80,6 +81,12 @@ const data = {
       id: 10,
       name: "StoryBook",
       img: technologyDataSB,
+      url: "https://getbootstrap.com/"
+    },
+    {
+      id: 11,
+      name: "Sass",
+      img: technologyDataSass,
       url: "https://getbootstrap.com/"
     },
 

@@ -64,12 +64,12 @@ function About() {
               In programming language and remote jobs:
             </NavParagraph>
             <NavParagraph>
-              I have programming knowledge in javascript and java, in javascript
-              with the react framework, I love to use GitHub for my projects and
-              keep version control in each one project.
+              I have programming knowledge in javascript, in javascript with the
+              react framework, I love to use GitHub for my projects and keep
+              version control in each one project.
             </NavParagraph>
             <NavParagraph>
-              And also I have knowledge in the use of APIs
+              And also I have knowledge in the use of APIs.
             </NavParagraph>
             <NavParagraph>
               These are somethings the technologies I like to use in my

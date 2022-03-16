@@ -16,7 +16,7 @@ color: white;
 `;
 
 export const ContactTitleForm = styled.h2`
-  font-size: 3em;
+  font-size: 2.5em;
   text-align: center;
   margin-top:20px;
   span{

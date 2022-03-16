@@ -41,8 +41,11 @@ export const PortfolioInputSearch = styled.input`
 export const PortfolioTitle = styled.h2`
   margin-top: 10px;
   text-align: center;
-  font-size:2em;
+  font-size: 2.5em;
   color: white;
+  span{
+    color:var(--secondaryColor);
+  }
 `;
 export const PortfolioSearch = styled.div`
   color: white;
@@ -106,8 +109,9 @@ export const PortfolioParagraphPubli = styled.p`
   margin: 10px 0 30px 0px;
   `;
 export const PortfolioParagraphSpan = styled.span`
+  font-size: .8em;
   font-weight: 600;
-  `;
+`;
 export const PortfolioButtom = styled(Link)`
   text-transform: uppercase;  
   text-decoration: none;

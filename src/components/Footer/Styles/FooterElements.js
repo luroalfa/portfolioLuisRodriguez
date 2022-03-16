@@ -18,6 +18,7 @@ export const FooterLiMenu = styled.li`
 `;
 //Link of react-router-dom
 export const FooterLink = styled(Link)`
+  font-size: .9em;
     color: white;
     display: inline-block;
     padding: 0 15px;

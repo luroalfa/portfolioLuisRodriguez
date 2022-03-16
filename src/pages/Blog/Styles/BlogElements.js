@@ -42,8 +42,11 @@ export const BlogInputSearch = styled.input`
 export const BlogTitle = styled.h2`
   margin-top: 10px;
   text-align: center;
-  font-size:2em;
+  font-size: 2.5em;
   color: white;
+  span{
+    color:var(--secondaryColor);
+  }
 `;
 export const BlogSearch = styled.div`
   color: white;

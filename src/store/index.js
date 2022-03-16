@@ -1,4 +1,5 @@
 export { default as technologyDataHtml } from '../Assets/GalleryTechnology/programming/html5.webp';
+export { default as technologyDataSass } from '../Assets/GalleryTechnology/programming/sass.webp';
 export { default as technologyDataCss } from '../Assets/GalleryTechnology/programming/css3.webp';
 export { default as technologyDataJs } from '../Assets/GalleryTechnology/programming/js.webp';
 export { default as technologyDataGitHub } from '../Assets/GalleryTechnology/programming/git.webp';

@@ -18,23 +18,24 @@ export const BtnRouter = styled(Link)`
     background: var(--mainColor);
   }
   `;
-export const SquareBtnRouter = styled.button`
-background-color: var(--secondaryColor);
-text-transform: uppercase;  
-border: none;
-color: black;
-font-weight: bold;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-border-radius: 12px;
-text-transform: uppercase;
-&:hover{
-background: var(--mainColor);
-color: white;    
-}
+export const SquareBtnRouter = styled(Link)`
+  cursor= pointer;
+  background-color: var(--secondaryColor);
+  text-transform: uppercase;  
+  border: none;
+  color: black;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  &:hover{
+  background: var(--mainColor);
+  color: white;    
+  }
 `;
 
 export const BtnLink = styled.a`
