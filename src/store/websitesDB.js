@@ -32,7 +32,7 @@ const data = {
       altImg: "Imagen de Neurabits",
       project: "NueraBits.",
       Objective: "NeuraBits was an initiative with my brother, with the purpose of to teach childrens about programming in Scratch and Mblock.",
-      Challenge: "The challenge was learning about siblings in CSS and building a burger menu without using javascript.",
+      Challenge: "The challenge was learning about siblings in CSS and building a burger menu without using javascript. Also think about mobile firts.",
       Technologies: [
         "HTML",
         "CSS",
