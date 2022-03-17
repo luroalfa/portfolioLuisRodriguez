@@ -1,6 +1,6 @@
 import Javascript from '../Assets/GalleryBlog/javascript.jpg';
 // import Html from '../Assets/GalleryBlog/html.jpg';
-// import Css from '../Assets/GalleryBlog/css.jpg';
+import Css from '../Assets/GalleryBlog/css.jpg';
 // import Illustrator from '../Assets/GalleryBlog/ai.jpg';
 // import Photoshop from '../Assets/GalleryBlog/photoshop.jpg';
 // import Figma from '../Assets/GalleryBlog/figma.jpg';
@@ -19,19 +19,21 @@ const data = {
     //   paragraph: 'This article covers the most frequently asked HTML and HTML5 questions asked in interviews.',
     //   published: 'Friday, January, 14th, 2022.',
     // },
-    // {
-    //   id: 2,
-    //   img: Css,
-    //   titleCard: 'Interview questions',
-    //   paragraph: 'This article covers the most frequently asked HTML and HTML5 questions asked in interviews.',
-    //   published: 'Friday, January, 14th, 2022.',
-    // },
+    {
+      id: 2,
+      img: Css,
+      titleCard: 'Interview questions',
+      paragraph: 'This article covers the most frequently asked CSS questions asked in interviews.',
+      published: 'Thursday, March, 17th, 2022.',
+      link: "/CssInterviewsQ"
+    },
     {
       id: 3,
       img: Javascript,
       titleCard: 'Interview questions',
       paragraph: 'In this article, you can find the most frequently asked javascript questions asked in an interview.',
       published: 'Friday, January, 14th, 2022.',
+      link: "/JavaScriptInterviewsQ",
     },
     // {
     //   id: 4,

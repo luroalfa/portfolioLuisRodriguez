@@ -70,7 +70,7 @@ function Blog() {
                     Published:{" "}
                     <BlogParagraphSpan>{item.published}</BlogParagraphSpan>
                   </BlogParagraphPubli>
-                  <BlogButtom to="/JavaScriptInterviewsQ">
+                  <BlogButtom to={item.link}>
                     <b>See More</b>
                   </BlogButtom>
                 </BlogCardBody>

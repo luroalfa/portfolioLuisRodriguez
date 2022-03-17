@@ -14,7 +14,8 @@ const data = {
         "REACT",
         "Styled-Components",
         "Boostrap",
-        "SASS"
+        "SASS",
+        "MUI"
       ],
       titleCard: 'websites',
       paragraph: 'As a developer, I need to show my projects. On this site, you can find all my created websites, where I show my skills and knowledge as a web developer. These are some of my projects, I hope you like it.',

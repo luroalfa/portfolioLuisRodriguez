@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const JsIQTitle = styled.h1`
+export const CssIQTitle = styled.h1`
   padding: 70px 0 20px 0;
   font-size: 2.5em;
   text-align: center;
@@ -13,7 +13,7 @@ export const JsIQTitle = styled.h1`
   }
 `;
 
-export const JsIQParagraph = styled.p`
+export const CssIQParagraph = styled.p`
   text-align: left;
   line-height: 1.5;
   font-size: 16px;
@@ -23,7 +23,7 @@ export const JsIQParagraph = styled.p`
   }
   `;
 
-export const JsIQContainer = styled.div`
+export const CssIQContainer = styled.div`
  color: white;
   align-self: center;
   justify-content: center;
