@@ -10,7 +10,7 @@ const data = {
     {
       id: 2,
       question: `2) What are javascript data types?`,
-      answer: `There are two types of data: The primitive data type can only store a single data whereas the object can store colletion of data.`,
+      answer: `There are two types of data: --The primitive data type can only store a single data whereas the object can store colletion of data.`,
     },
     {
       id: 3,
@@ -20,7 +20,7 @@ const data = {
     {
       id: 4,
       question: `4) What is ECMAScript?`,
-      answer: `ECMA is an acronym for the European Computer Manufacturers Association, which develops standards for information technology. It is a general purpose programming language that is implemented in javascript.`,
+      answer: `ECMA is an acronym for the European Computer Manufacturers Association, which develops standards for information technology.--It is a general purpose programming language that is implemented in javascript.`,
     },
     {
       id: 5,
@@ -30,7 +30,7 @@ const data = {
     {
       id: 6,
       question: `6) What are non-primitive data types in Java?`,
-      answer: `The non-primitive are: Class, Object, Array.`,
+      answer: `The non-primitive are:--Class, Object, Array.`,
     },
     {
       id: 7,

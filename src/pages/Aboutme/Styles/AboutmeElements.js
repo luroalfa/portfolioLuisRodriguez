@@ -172,22 +172,15 @@ export const ContainerStikers = styled.section`
   justify-items: center;
   
   @media screen and (max-width: 960px){
-    padding: 0 0px;//Continue
+    padding: 0 0px;
   }
 `;
 
 export const FotoStikers = styled.img`
-width: 50px;
-height: 50px;
-padding: 10px;
-object-fit: fill;
-animation: spin 10s linear infinite;
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  object-fit: fill;
 `;
 
 export const AboutSubTitle = styled.h4`
