@@ -30,7 +30,7 @@ export const JsIQContainer = styled.div`
   text-align-last: start;
   padding: 0 50px;
   @media screen and (max-width: 960px){
-    text-align-last: center;    
+    text-align-last: start;    
     padding: 0 50px;
   }
 `;

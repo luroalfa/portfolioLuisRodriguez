@@ -21,7 +21,7 @@ const data = {
         "REACT",
         "Styled-Components",
         "WOW.JS",
-        "bootstrap"
+        "MUI"
       ],
       experience: "Neurakids. realizar la pagina web.",
       link: "https://rodriguezfallasluis.com/",
