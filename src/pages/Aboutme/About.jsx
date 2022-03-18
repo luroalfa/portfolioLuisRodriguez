@@ -54,7 +54,7 @@ function About() {
             <NavParagraph>
               I enjoy sharing my knowledge and helping others when possible.
             </NavParagraph>
-            <StyleLink href="./pdf" target="_blank">
+            <StyleLink href="/pdf">
               <BsArrowReturnRight /> Download CV
             </StyleLink>
           </AboutContainer>
