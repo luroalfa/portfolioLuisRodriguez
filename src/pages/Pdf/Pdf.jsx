@@ -18,11 +18,11 @@ class Pdf extends React.Component {
           width="100%"
           height="100%"
         >
-          <a
+          {/* <a
             href={require("../../Assets/Docs/CV.pdf")}
             id="linkPdf"
             download="CV-LuisRodriguezfallas.pdf"
-          ></a>
+          ></a> */}
         </object>
       </MainPdf>
     );
