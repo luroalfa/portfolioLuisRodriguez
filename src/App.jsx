@@ -31,7 +31,7 @@ function App() {
           <Route path="/websites" element={<Websites />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
-          <Route path="/pdf" element={<Pdf />} />
+          <Route exact path="/pdf" element={<Pdf />} />
         </Routes>
       </Router>
     </>
