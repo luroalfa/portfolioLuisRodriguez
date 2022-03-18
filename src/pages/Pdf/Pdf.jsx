@@ -14,7 +14,7 @@ class Pdf extends React.Component {
     return (
       <MainPdf>
         <object
-          // data={require("../../Assets/Docs/CV.pdf")}
+          // data={require('../../Assets/Docs/CV.pdf')}
           data={pdf}
           type="application/pdf"
           width="100%"
@@ -22,7 +22,7 @@ class Pdf extends React.Component {
         >
           <a
             href={pdf}
-            // href={require("../../Assets/Docs/CV.pdf")}
+            // href={require('../../Assets/Docs/CV.pdf')}
             id="linkPdf"
             download="CV-LuisRodriguezfallas.pdf"
           ></a>

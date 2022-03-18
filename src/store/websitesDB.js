@@ -12,7 +12,7 @@ const data = {
       altImg: "Personal Website.",
       project: "Personal Website.",
       Objective: "As a web developer,  I need an online presence, and also I often need to show my projects with the technologies I work with, this is my personal website where I can show everything I'm capable of doing.",
-      Challenge: "My challenge in this project was to make the connection between my form and AWS.",
+      Challenge: "My challenge in this project was to make the connection between my form and AWS SES.And also implement CSP on my website.",
       Technologies: [
         "HTML",
         "CSS",
