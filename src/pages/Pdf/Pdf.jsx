@@ -1,5 +1,6 @@
 import React from "react";
 import { MainPdf } from "./Styles/PdfElements";
+import pdf from "../../Assets/Docs/CV.pdf";
 
 class Pdf extends React.Component {
   componentDidMount() {
@@ -13,13 +14,15 @@ class Pdf extends React.Component {
     return (
       <MainPdf>
         <object
-          data={require("../../Assets/Docs/CV.pdf")}
+          // data={require("../../Assets/Docs/CV.pdf")}
+          data={pdf}
           type="application/pdf"
           width="100%"
           height="100%"
         >
           <a
-            href={require("../../Assets/Docs/CV.pdf")}
+            href={pdf}
+            // href={require("../../Assets/Docs/CV.pdf")}
             id="linkPdf"
             download="CV-LuisRodriguezfallas.pdf"
           ></a>
