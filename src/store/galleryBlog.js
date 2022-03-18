@@ -1,5 +1,5 @@
 import Javascript from '../Assets/GalleryBlog/javascript.jpg';
-// import Html from '../Assets/GalleryBlog/html.jpg';
+import Html from '../Assets/GalleryBlog/html.jpg';
 import Css from '../Assets/GalleryBlog/css.jpg';
 // import Illustrator from '../Assets/GalleryBlog/ai.jpg';
 // import Photoshop from '../Assets/GalleryBlog/photoshop.jpg';
@@ -12,19 +12,20 @@ import Css from '../Assets/GalleryBlog/css.jpg';
 
 const data = {
   cardData: [
-    // {
-    //   id: 1,
-    //   img: Html,
-    //   titleCard: 'Interview questions',
-    //   paragraph: 'This article covers the most frequently asked HTML and HTML5 questions asked in interviews.',
-    //   published: 'Friday, January, 14th, 2022.',
-    // },
+    {
+      id: 1,
+      img: Html,
+      titleCard: 'Interview questions',
+      paragraph: 'This article covers the most frequently asked HTML questions asked in interviews.',
+      published: 'Thursday, March, 17th, 2022.',
+      link: "/HtmlInterviewsQ"
+    },
     {
       id: 2,
       img: Css,
       titleCard: 'Interview questions',
       paragraph: 'This article covers the most frequently asked CSS questions asked in interviews.',
-      published: 'Thursday, March, 17th, 2022.',
+      published: 'Monday, March, 16th, 2022.',
       link: "/CssInterviewsQ"
     },
     {

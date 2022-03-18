@@ -1,33 +1,25 @@
 import React from "react";
 import {
-  CssIQContainer,
-  CssIQParagraph,
-  CssIQTitle,
-} from "./Styles/CssInterviewsQElements";
+  IQContainer,
+  IQParagraph,
+  IQTitle,
+} from "./Styles/InterviewsQElements";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import Data from "../../store/CssIQData";
+import Data from "../../store/IQData";
 import Footer from "components/Footer/Footer";
-
-const elementsAnswer = (answer) => {
-  let arr = answer.split("-");
-  arr.forEach((item) => {
-    return <Typography color="secondary.main">{item}</Typography>;
-  });
-  // return <Typography color="secondary.main">{answer.split("-")}</Typography>;
-};
 
 const CssInterviewsQ = () => {
   return (
     <>
-      <CssIQTitle>
+      <IQTitle>
         Interview <span>Questions</span>
-      </CssIQTitle>
-      <CssIQContainer>
-        <CssIQParagraph>
+      </IQTitle>
+      <IQContainer>
+        <IQParagraph>
           When you go to a tech job interview as a developer web. So, I bet
           you're wondering what to say when you're sitting across from a real
           recruit. Tech job interviews are nothing to fear, especially when
@@ -35,7 +27,7 @@ const CssInterviewsQ = () => {
           practice our hard skills. In this way, you will be able to prepare
           better and get the best score for your evaluation. Ok so, we come to
           the point with Css interview questions.
-        </CssIQParagraph>
+        </IQParagraph>
         {Data.CssIQData.map((item, index) => {
           return (
             <>
@@ -71,7 +63,7 @@ const CssInterviewsQ = () => {
             </>
           );
         })}
-      </CssIQContainer>
+      </IQContainer>
       <Footer />
     </>
   );

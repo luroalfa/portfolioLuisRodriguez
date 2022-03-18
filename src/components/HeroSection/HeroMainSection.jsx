@@ -55,6 +55,9 @@ function HeroSection() {
               </b>
             </HeroParagraph>
             <br />
+            {/* <a href="/pdf" target="_blank">
+              <button>descarga</button>
+             </a> */}
             <ButtonRouter type="square" to="/portfolio">
               See Portfolio
             </ButtonRouter>
