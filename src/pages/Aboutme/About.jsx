@@ -21,6 +21,7 @@ import {
 // import { Animated } from "react-animated-css";
 import WOW from "wowjs";
 import data from "../../store/technologyData";
+import ButtonRouter from "components/Button/ButtonRouter";
 
 new WOW.WOW().init();
 
@@ -53,7 +54,9 @@ function About() {
               I enjoy sharing my knowledge and helping others when possible.
             </NavParagraph>
             <a href="/pdf" target="_blank">
-              <button>descarga</button>
+              <ButtonRouter type="square" to="/pdf">
+                See Portfolio
+              </ButtonRouter>
             </a>
           </AboutContainer>
         </AboutMainSection>
