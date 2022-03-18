@@ -1,9 +1,8 @@
 import NeuraKids from 'Assets/GalleryPortfolio/websites/NeuraKids.png'
 import NeuraBits from 'Assets/GalleryPortfolio/websites/NEURABITS.webp'
-import RFL from 'Assets/GalleryPortfolio/rodriguezfallasluis.png'
+import RFL from 'Assets/GalleryPortfolio/rodriguezfallasluis.webp'
 import blondies from 'Assets/GalleryPortfolio/websites/Blondies.webp'
-
-
+import improex from 'Assets/GalleryPortfolio/websites/improex.webp'
 
 const data = {
   cardData: [
@@ -71,6 +70,20 @@ const data = {
         "Sass",
         "JS",
         "bootstrap"
+      ],
+      experience: "Neurakids. realizar la pagina web.",
+      link: "https://bootstrapblondies.netlify.app/",
+    },
+    {
+      id: 5,
+      img: improex,
+      altImg: "Improex",
+      project: "Improex.",
+      Objective: "Improex was a layout project, they gave me the digital design in pdf and I had to create the website.",
+      Challenge: "My challenge in this project was to implement typescript.",
+      Technologies: [
+        "HTML",
+        "CSS",
       ],
       experience: "Neurakids. realizar la pagina web.",
       link: "https://bootstrapblondies.netlify.app/",

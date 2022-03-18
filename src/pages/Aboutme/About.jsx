@@ -52,6 +52,9 @@ function About() {
             <NavParagraph>
               I enjoy sharing my knowledge and helping others when possible.
             </NavParagraph>
+            <a href="/pdf" target="_blank">
+              <button>descarga</button>
+            </a>
           </AboutContainer>
         </AboutMainSection>
 
