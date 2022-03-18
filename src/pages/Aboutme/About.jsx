@@ -21,7 +21,8 @@ import {
 // import { Animated } from "react-animated-css";
 import WOW from "wowjs";
 import data from "../../store/technologyData";
-import ButtonRouter from "components/Button/ButtonRouter";
+import StyleLink from "components/Link/Link";
+import { BsArrowReturnRight } from "react-icons/bs";
 
 new WOW.WOW().init();
 
@@ -53,11 +54,12 @@ function About() {
             <NavParagraph>
               I enjoy sharing my knowledge and helping others when possible.
             </NavParagraph>
-            <a href="/pdf" target="_blank">
-              <ButtonRouter type="square" to="/pdf">
-                See Portfolio
-              </ButtonRouter>
-            </a>
+            <StyleLink
+              href="https://rodriguezfallasluis.com/static/media/CV.a73fe940141110087d6e.pdf"
+              target="_blank"
+            >
+              <BsArrowReturnRight /> Download CV
+            </StyleLink>
           </AboutContainer>
         </AboutMainSection>
 
