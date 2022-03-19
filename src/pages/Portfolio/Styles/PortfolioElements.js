@@ -64,10 +64,13 @@ export const PortfolioCard = styled.div`
   border-radius: 10px;
   box-shadow: 0 2px 20px rgba(255, 255, 255, 0.2);
   overflow: hidden;
+  height: 755px;
   width: 300px;
   border: 2px solid white;
+  position: relative;
   @media screen and (max-width: 960px){
     width: 400px;
+    height: auto;
   }
 `;
 export const PortfolioCardHeader = styled.div`
@@ -105,14 +108,22 @@ export const PortfolioParagraph = styled.p`
   text-align: left;
   `;
 export const PortfolioParagraphPubli = styled.p`
+  position: absolute;
+  bottom: 50px;
   font-size: 14px;
   margin: 10px 0 30px 0px;
-  `;
+@media screen and (max-width: 960px){
+  position: static;
+  bottom: none;
+}
+`;
 export const PortfolioParagraphSpan = styled.span`
   font-size: .8em;
   font-weight: 600;
 `;
 export const PortfolioButtom = styled(Link)`
+  position: absolute;
+  bottom: 20px;
   text-transform: uppercase;  
   text-decoration: none;
   background: var(--secondaryColor);
@@ -120,12 +131,16 @@ export const PortfolioButtom = styled(Link)`
   Padding: 10px;
   border-radius: 50px;
   align-self: center;
-  width: 100%;
+  width: 80%;
   text-align: center;
   color: var(--mainColor);
   &:hover{
     color: white;
     background: var(--mainColor);
+  }
+  @media screen and (max-width: 960px){
+    position: static;
+    bottom: none;
   }
   `;
 

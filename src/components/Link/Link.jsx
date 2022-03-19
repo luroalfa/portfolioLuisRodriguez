@@ -8,7 +8,3 @@ export default function Link(props) {
     </StyleLink>
   );
 }
-
-// export default function Link(props) {
-//   return <StyleLink to={props.to}>{props.children}</StyleLink>;
-// }

@@ -18,7 +18,7 @@ const data = {
       titleCard: 'Interview questions',
       paragraph: 'This article covers the most frequently asked HTML questions asked in interviews.',
       published: 'Thursday, March, 17th, 2022.',
-      link: "/HtmlInterviewsQ"
+      link: "/blog/HtmlInterviewsQ"
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ const data = {
       titleCard: 'Interview questions',
       paragraph: 'This article covers the most frequently asked CSS questions asked in interviews.',
       published: 'Monday, March, 16th, 2022.',
-      link: "/CssInterviewsQ"
+      link: "/blog/CssInterviewsQ"
     },
     {
       id: 3,
@@ -34,7 +34,7 @@ const data = {
       titleCard: 'Interview questions',
       paragraph: 'In this article, you can find the most frequently asked javascript questions asked in an interview.',
       published: 'Friday, January, 14th, 2022.',
-      link: "/JavaScriptInterviewsQ",
+      link: "/blog/JavaScriptInterviewsQ",
     },
     // {
     //   id: 4,

@@ -17,3 +17,12 @@ body {
   background-color: var(--mainColor);
   font-family: "Poppins", sans-serif;
 }
+
+@media (min-width: 700px) {
+  .wide {
+    grid-column: span 2;
+  }
+  .tall {
+    grid-row: span 2;
+  }
+}
