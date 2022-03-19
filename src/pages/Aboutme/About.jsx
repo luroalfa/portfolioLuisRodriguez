@@ -55,8 +55,7 @@ function About() {
               I enjoy sharing my knowledge and helping others when possible.
             </NavParagraph>
             <StyleLink
-              href="/pdf"
-              // href="https://rodriguezfallasluis.com/static/media/CV.a73fe940141110087d6e.pdf"
+              href="https://rodriguezfallasluis.com/static/media/CV.a73fe940141110087d6e.pdf"
               target="_blank"
             >
               <BsArrowReturnRight /> Download CV
