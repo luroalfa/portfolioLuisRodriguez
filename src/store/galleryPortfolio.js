@@ -1,5 +1,5 @@
 // Images
-import { GalleryPortfolioRFL } from './index'
+import { GalleryPortfolioRFL, GalleryPortfolioYoVector } from './index'
 //Data
 const data = {
   cardData: [
@@ -20,24 +20,24 @@ const data = {
       titleCard: 'websites',
       paragraph: 'As a developer, I need to show my projects. On this site, you can find all my created websites, where I show my skills and knowledge as a web developer. These are some of my projects, I hope you like it.',
       published: 'Friday, January, 14th, 2022.',
-      link: "/websites",
+      link: "/portfolio/websites",
     },
-    // {
-    //   id: 2,
-    //   img: AllImages.GalleryPortfolioLactgourmet,
-    //   altDescription: "Image html",
-    //   tags: [
-    //     'Illustrator',
-    //     "Photoshop",
-    //   ],
-    //   titleCard: 'Design',
-    //   paragraph: 'LactGourmet is an investigation about a dairy business. Here you find arts for social networks as facebook, youtube, Instagram and the logo, also you find the design website.',
-    //   published: 'Sunday, February, 06th, 2022.',
-    //   link: "/websites",
-    // },
+    {
+      id: 2,
+      img: GalleryPortfolioYoVector,
+      altDescription: "Image html",
+      tags: [
+        'Illustrator',
+      ],
+      titleCard: 'My Vectorizations',
+      paragraph: 'As a designer I have practiced with these vectorization exercises in Adobe illustrator.--Tracing logos and illustrations creating a very exact replica of the original. --These are some of my vectorizations, I hope you like it.',
+      published: 'Saturday, March, 19th, 2022.',
+      link: "/portfolio/vectorizations",
+    },
+    // paragraph: 'LactGourmet is an investigation about a dairy business. Here you find arts for social networks as facebook, youtube, Instagram and the logo, also you find the design website.',
     // {
     //   id: 3,
-    //   img: NeuraKids,
+    //   img: GalleryPortfolioImproex,
     //   altDescription: "Image html",
     //   tags: [
     //     "HTML",
@@ -48,7 +48,7 @@ const data = {
     //   titleCard: 'WEBSITE',
     //   paragraph: 'NeuraKids was an initiative with my brother, with the purpose of to teach childrens about programming in Scratch and Mblock.',
     //   published: 'Sunday, February, 06th, 2022.',
-    //   address: 'https://neurakids.netlify.app/',
+    //   link: "/websites",
     // },
     // {
     //   id: 4,

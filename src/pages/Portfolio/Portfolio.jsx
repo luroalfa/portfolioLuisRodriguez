@@ -83,7 +83,9 @@ function Portfolio() {
                     ))}
                   </PortfolioContainerTag>
                   <PortfolioTitleCard>{item.titleCard}</PortfolioTitleCard>
-                  <PortfolioParagraph>{item.paragraph}</PortfolioParagraph>
+                  {item.paragraph.split("--").map((item) => {
+                    return <PortfolioParagraph>{item}</PortfolioParagraph>;
+                  })}
                   <PortfolioParagraphPubli>
                     Published:{" "}
                     <PortfolioParagraphSpan>

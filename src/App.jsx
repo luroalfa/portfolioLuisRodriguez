@@ -9,6 +9,7 @@ import HtmlInterviewsQ from "./pages/Blog/HtmlInterviewsQ.jsx";
 import NotFound from "./pages/NotFoundPage.jsx";
 import Portfolio from "./pages/Portfolio/Portfolio.jsx";
 import Websites from "./pages/Portfolio/Websites.jsx";
+import Vectorizations from "./pages/Portfolio/Vectorizations";
 import Contact from "./pages/ContactMe/Contact.jsx";
 import Pdf from "./pages/Pdf/Pdf.jsx";
 
@@ -20,15 +21,19 @@ function App() {
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/HtmlInterviewsQ" element={<HtmlInterviewsQ />} />
-          <Route path="/CssInterviewsQ" element={<CssInterviewsQ />} />
+          <Route path="/blog/HtmlInterviewsQ" element={<HtmlInterviewsQ />} />
+          <Route path="/blog/CssInterviewsQ" element={<CssInterviewsQ />} />
           <Route
-            path="/JavaScriptInterviewsQ"
+            path="/blog/JavaScriptInterviewsQ"
             element={<JavaScriptInterviewsQ />}
           />
           <Route path="/blog" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/websites" element={<Websites />} />
+          <Route path="/portfolio/websites" element={<Websites />} />
+          <Route
+            path="/portfolio/vectorizations"
+            element={<Vectorizations />}
+          />
           <Route path="/contact" element={<Contact />} />
           <Route path="/pdf" element={<Pdf />} />
           <Route path="*" element={<NotFound />} />

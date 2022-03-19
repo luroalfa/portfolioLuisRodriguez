@@ -16,10 +16,29 @@ export { default as technologyDataFilmora } from '../Assets/GalleryTechnology/so
 export { default as technologyDataPhotoshop } from '../Assets/GalleryTechnology/software/ps.webp';
 export { default as technologyDataXd } from '../Assets/GalleryTechnology/software/xd.webp';
 export { default as technologyDataAfterEffects } from '../Assets/GalleryTechnology/software/ae.webp';
-export { default as GalleryPortfolioImproex } from 'Assets/GalleryPortfolio/improex.webp'
-export { default as GalleryPortfolioLactgourmet } from 'Assets/GalleryPortfolio/lactgourmet.webp'
-export { default as GalleryPortfolioYoVector } from 'Assets/GalleryPortfolio/Yo-vector.webp'
+export { default as GalleryPortfolioImproex } from 'Assets/GalleryPortfolio/vectorizations/improex.webp'
+export { default as GalleryPortfolioLactgourmet } from 'Assets/GalleryPortfolio/vectorizations/lactgourmet.webp'
+export { default as GalleryPortfolioYoVector } from 'Assets/GalleryPortfolio/vectorizations/Yo-vector.webp'
 export { default as GalleryPortfolioRFL } from 'Assets/GalleryPortfolio/rodriguezfallasluis.webp'
+export { default as GalleryPortfolioEagleVector } from 'Assets/GalleryPortfolio/vectorizations/EagleVector.jpg'
+export { default as GalleryPortfolioGalloVector } from 'Assets/GalleryPortfolio/vectorizations/GalloVector.jpg'
+export { default as GalleryPortfolioSMI } from 'Assets/GalleryPortfolio/vectorizations/SMI.png'
+export { default as GalleryPortfoliometakrivia } from 'Assets/GalleryPortfolio/vectorizations/metakrivia.png'
+export { default as GalleryPortfoliodog } from 'Assets/GalleryPortfolio/vectorizations/dog.jpg'
+export { default as GalleryPortfoliodogo } from 'Assets/GalleryPortfolio/vectorizations/dogo.jpg'
+export { default as GalleryPortfoliogato } from 'Assets/GalleryPortfolio/vectorizations/gato.png'
+export { default as GalleryPortfoliohockey } from 'Assets/GalleryPortfolio/vectorizations/hockey.jpg'
+export { default as GalleryPortfolioleon } from 'Assets/GalleryPortfolio/vectorizations/leon.jpg'
+export { default as GalleryPortfoliolion } from 'Assets/GalleryPortfolio/vectorizations/lion.jpg'
+export { default as GalleryPortfoliopets } from 'Assets/GalleryPortfolio/vectorizations/pets.jpg'
+export { default as GalleryPortfoliopollo } from 'Assets/GalleryPortfolio/vectorizations/pollo.jpg'
+export { default as GalleryPortfoliotom } from 'Assets/GalleryPortfolio/vectorizations/tom.jpg'
+export { default as GalleryPortfoliotroya } from 'Assets/GalleryPortfolio/vectorizations/troya.jpg'
+export { default as GalleryPortfolioBooklovers } from 'Assets/GalleryPortfolio/vectorizations/Booklovers.jpg'
+export { default as GalleryPortfolioburguerking } from 'Assets/GalleryPortfolio/vectorizations/burguerking.png'
+export { default as GalleryPortfolioKIA } from 'Assets/GalleryPortfolio/vectorizations/KIA.jpg'
+export { default as GalleryPortfolioTacoBell } from 'Assets/GalleryPortfolio/vectorizations/TacoBell.jpg'
+export { default as GalleryPortfoliotoyota } from 'Assets/GalleryPortfolio/vectorizations/toyota.jpg'
 
 
 
