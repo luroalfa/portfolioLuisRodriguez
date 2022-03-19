@@ -78,6 +78,22 @@ const data = {
       --For example, you wouldn't use a <section> tag to create a footer, but use the <footer> tag instead. 
       --But you would use the <section> tag to break up a one page website.`,
     },
+    {
+      id: 8,
+      question: `8) Do all HTML tags have an end tag?`,
+      answer: `There are some HTML tags that don't need a closing tag.`,
+    },
+    {
+      id: 9,
+      question: `9) Are the HTML tags and elements the same thing?`,
+      answer: `Are not the same thing. Because the element contain tags and content.--For example: <p>Parrafo</p>
+      --And the tags are only, the start tags <p> and the end tags </p>.`,
+    },
+    {
+      id: 10,
+      question: `10) What is the 'class' attribute in HTML?`,
+      answer: `The attribute class is placed inside the start tag and multiple tags can have the same class.`,
+    },
   ],
   JsIQData: [
     {

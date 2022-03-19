@@ -14,9 +14,6 @@ export const VectorizationsContainer = styled.main`
     background-repeat: no-repeat;
     background-position: center;
   }
-  p{
-    color: white;
-  }
 `;
 
 export const VectorizationsTitle = styled.h1`
