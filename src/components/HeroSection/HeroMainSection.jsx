@@ -36,7 +36,7 @@ function HeroSection() {
               </b>
             </p>
             <p>-By Nelson Mandela.</p>
-            <h2>I'm Frontend Developer</h2>
+            <h2>I'm Web Developer</h2>
             <HeroParagraph>
               I've experience in{" "}
               <b>
