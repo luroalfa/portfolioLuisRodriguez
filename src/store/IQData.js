@@ -103,18 +103,18 @@ const data = {
     },
     {
       id: 2,
-      question: `2) What are javascript data types?`,
+      question: `2) What are JavaScript data types?`,
       answer: `There are two types of data: --The primitive data type can only store a single data whereas the object can store colletion of data.`,
     },
     {
       id: 3,
-      question: `3) What is javascript standard?`,
-      answer: `The javascript standard is the ECMAScript`,
+      question: `3) What is JavaScript standard?`,
+      answer: `The JavaScript standard is the ECMAScript`,
     },
     {
       id: 4,
       question: `4) What is ECMAScript?`,
-      answer: `ECMA is an acronym for the European Computer Manufacturers Association, which develops standards for information technology.--It is a general purpose programming language that is implemented in javascript.`,
+      answer: `ECMA is an acronym for the European Computer Manufacturers Association, which develops standards for information technology.--It is a general purpose programming language that is implemented in JavaScript.`,
     },
     {
       id: 5,
@@ -123,12 +123,12 @@ const data = {
     },
     {
       id: 6,
-      question: `6) What are non-primitive data types in Java?`,
+      question: `6) What are non-primitive data types in JavaScript?`,
       answer: `The non-primitive are:--Class, Object, Array.`,
     },
     {
       id: 7,
-      question: `7) What is the use of the let keyword in javascript?`,
+      question: `7) What is the use of the let keyword in JavaScript?`,
       answer: `It is used to handle a data type in a specific scope, for example, in methods. `,
     },
     {
