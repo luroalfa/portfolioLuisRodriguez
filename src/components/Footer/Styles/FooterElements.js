@@ -39,17 +39,22 @@ export const FooterUl = styled.ul`
   line-height: 1.6;
   margin-bottom: 0;
 `;
-//Tag -->li-html
-export const FooterLi = styled.li`
+//Tag -->a-html
+export const FooterA = styled.a`
   position: relative;
   cursor: pointer;
-  list-style: none;
   width: 50px;
   height: 50px;
   margin: 0 10px;
-  border-radius: 50%;
-  box-sizing: border-box;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  text-align: center;
+  line-height: 60px;
+  color: white;
   background: var(--mainColor);
+  border-radius: 50%;
   &:before, :after {
     content: '';
     position: absolute;
@@ -61,7 +66,7 @@ export const FooterLi = styled.li`
     border-radius: 50%;
     filter: blur(5px);
     opacity: 0;
-    transition: 1s;
+    transition: .5s;
   }
   &:after{
     filter: blur(20px);
@@ -69,22 +74,9 @@ export const FooterLi = styled.li`
   
   &:hover{
     &:before, :after{
-      opacity: 1;
+      opacity: .3;
     }
   }
-`;
-//Tag -->a-html
-export const FooterA = styled.a`
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
-  text-align: center;
-  line-height: 39px;
-  color: white;
-  background: var(--mainColor);
-  border-radius: 50%;
 `;
 // Enlarge the heart in the tag -->span-html
 export const FooterSpan = styled.span`

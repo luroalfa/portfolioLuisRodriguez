@@ -54,11 +54,7 @@ function About() {
             <NavParagraph>
               I enjoy sharing my knowledge and helping others when possible.
             </NavParagraph>
-            <StyleLink
-              href="/pdf"
-              // href="https://rodriguezfallasluis.com/static/media/CV.a569977aded389f9795e.pdf"
-              target="_blank"
-            >
+            <StyleLink href="/pdf" target="_self">
               <BsArrowReturnRight /> Download CV
             </StyleLink>
           </AboutContainer>

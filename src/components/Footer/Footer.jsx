@@ -10,11 +10,10 @@ import {
   FooterText,
   FooterSubText,
   FooterSpan,
-  FooterLi,
 } from "./Styles/FooterElements";
 import {
   // FaInstagram,
-  // FaLinkedinIn,
+  FaLinkedinIn,
   // FaYoutube,
   FaHeart,
   FaGithub,
@@ -25,11 +24,15 @@ function Footer() {
     <FooterContainer>
       <FooterSocial>
         <IconContext.Provider value={{ style: { fontSize: "1.25em" } }}>
-          <FooterLi>
-            <FooterA href="https://github.com/luroalfa" target="_blank">
-              <FaGithub />
-            </FooterA>
-          </FooterLi>
+          <FooterA href="https://github.com/luroalfa" target="_blank">
+            <FaGithub />
+          </FooterA>
+          <FooterA
+            href="https://www.linkedin.com/in/rodriguezfallasluis/"
+            target="_blank"
+          >
+            <FaLinkedinIn />
+          </FooterA>
         </IconContext.Provider>
       </FooterSocial>
 
