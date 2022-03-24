@@ -19,6 +19,7 @@ import {
   BlogContentArticles,
   BlogInputSearch,
 } from "./Styles/BlogElements";
+import { Animated } from "react-animated-css";
 
 function Blog() {
   const [filter, setfilters] = React.useState("");
@@ -39,9 +40,15 @@ function Blog() {
   return (
     <>
       <BlogContent>
-        <BlogTitle>
-          My <span>Blog</span>
-        </BlogTitle>
+        <Animated
+          animationIn="headShake"
+          animationOut="fadeOut"
+          isVisible={true}
+        >
+          <BlogTitle>
+            My <span>Blog</span>
+          </BlogTitle>
+        </Animated>
         <BlogParagraphTitle>
           In this blog you will find topics, articles, guides, projects related
           to programming and web design.

@@ -146,31 +146,37 @@ const data = {
       question: `10) What is typeof operator for?`,
       answer: `Typeof operator in JavaScript is an operator used for type checking and returns the data type of the operand passed to it.`,
     },
-    // {
-    //   id: 11,
-    //   question: `¿Qué es concatenar?`,
-    //   answer: `Es agregar, vincular o enlazar contenido.`,
-    // },
-    // {
-    //   id: 12,
-    //   question: `¿Ejemplo de un dato booleano?`,
-    //   answer: `Var variable = false;`,
-    // },
-    // {
-    //   id: 13,
-    //   question: `¿Ejemplo de un operador relacional?`,
-    //   answer: `Nos ayuda a comparar expresiones devolviendo un resultado booleano.`,
-    // },
-    // {
-    //   id: 14,
-    //   question: `Cual es la diferencia entre = == y ===?`,
-    //   answer: ``,
-    // },
-    // {
-    //   id: 15,
-    //   question: `Los operadores relacionales devuelven siempre un valor?`,
-    //   answer: `Tipo booleano`,
-    // },
+    {
+      id: 11,
+      question: `11) What is concat?`,
+      answer: `Adding, linking or interlinking content.`,
+    },
+    {
+      id: 12,
+      question: `12) What is “This” Keyword in Javascript?`,
+      answer: `"This" keyword refers to an object that is executing the current piece.`,
+    },
+    {
+      id: 13,
+      question: `13) What are callbacks?`,
+      answer: `A callback is a function that will be executed after another function gets executed.`,
+    },
+    {
+      id: 14,
+      question: `14) What is NaN property in JavaScript?`,
+      answer: `NaN property represents “Not-a-Number” value.--For example:--isNaN("Hello")=>Returns true
+      --isNaN(345)=>Returns false--isNaN(undefined)=>Returns true`,
+    },
+    {
+      id: 15,
+      question: `15) What is an IIFE in JavaScript?`,
+      answer: `Is a function that runs as soon as it is defined.`,
+    },
+    {
+      id: 16,
+      question: `16) What is DOM?`,
+      answer: `DOM stands for Document Object Model.--When the browser tries to render an HTML document, it creates an object based on the HTML document called DOM.`,
+    },
     // {
     //   id: 16,
     //   question: `De dos ejemplos de operadores aritméticos.`,
@@ -240,11 +246,6 @@ const data = {
     //   id: 29,
     //   question: `Four types of functions?`,
     //   answer: ``,
-    // },
-    // {
-    //   id: 30,
-    //   question: `Que es el DOM?`,
-    //   answer: `DOM = Document Object Model o Modelo de documento objetos.`,
     // },
     // {
     //   id: 31,

@@ -24,6 +24,7 @@ import {
   PortfolioInputSearch,
   PortfolioContainerTag,
 } from "./Styles/PortfolioElements";
+import { Animated } from "react-animated-css";
 
 function Portfolio() {
   const [filter, setfilters] = React.useState("");
@@ -44,9 +45,16 @@ function Portfolio() {
   return (
     <>
       <PortfolioContent>
-        <PortfolioTitle>
-          Personal <span>Projects</span>
-        </PortfolioTitle>
+        <Animated
+          animationIn="headShake"
+          animationOut="fadeOut"
+          isVisible={true}
+        >
+          <PortfolioTitle>
+            Personal <span>Projects</span>
+          </PortfolioTitle>
+        </Animated>
+
         <PortfolioParagraphTitle>
           <b>
             <i>
