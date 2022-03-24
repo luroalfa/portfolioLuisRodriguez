@@ -1,4 +1,7 @@
-import React from "react";
+import * as React from "react";
+import DeleteIcon from "@mui/icons-material/Delete";
+import IconButton from "@mui/material/IconButton";
+import Tooltip from "@mui/material/Tooltip";
 import { IconContext } from "react-icons";
 import {
   FooterSocial,
@@ -24,15 +27,19 @@ function Footer() {
     <FooterContainer>
       <FooterSocial>
         <IconContext.Provider value={{ style: { fontSize: "1.25em" } }}>
-          <FooterA href="https://github.com/luroalfa" target="_blank">
-            <FaGithub />
-          </FooterA>
-          <FooterA
-            href="https://www.linkedin.com/in/rodriguezfallasluis/"
-            target="_blank"
-          >
-            <FaLinkedinIn />
-          </FooterA>
+          <Tooltip title="GitHub" placement="top-start">
+            <FooterA href="https://github.com/luroalfa" target="_blank">
+              <FaGithub />
+            </FooterA>
+          </Tooltip>
+          <Tooltip title="Linkedin" placement="top-start">
+            <FooterA
+              href="https://www.linkedin.com/in/rodriguezfallasluis/"
+              target="_blank"
+            >
+              <FaLinkedinIn />
+            </FooterA>
+          </Tooltip>
         </IconContext.Provider>
       </FooterSocial>
 
