@@ -23,7 +23,9 @@ const HtmlInterviewsQ = () => {
           Well, let's see, what is HTML? Questions in a job interview and let's
           find out all about the HTML language. Let's lose our fear in a job
           interview and we are quiet and confident because you will learn a lot
-          after reading this article.
+          after reading this article. These are just a few questions about Html
+          remember to always practice using most semantic tags, as a
+          recommendation.😉
         </IQParagraph>
         {Data.HtmlIQData.map((item, index) => {
           return (

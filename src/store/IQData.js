@@ -177,26 +177,34 @@ const data = {
       question: `16) What is DOM?`,
       answer: `DOM stands for Document Object Model.--When the browser tries to render an HTML document, it creates an object based on the HTML document called DOM.`,
     },
-    // {
-    //   id: 16,
-    //   question: `De dos ejemplos de operadores aritméticos.`,
-    //   answer: `Suma y resta`,
-    // },
-    // {
-    //   id: 17,
-    //   question: `Que es el operador ternario?`,
-    //   answer: `Es una condicion`,
-    // },
-    // {
-    //   id: 18,
-    //   question: `Como se llama este operador "!" ?`,
-    //   answer: ``,
-    // },
-    // {
-    //   id: 19,
-    //   question: `Diferencia entre el operador && y el ||?`,
-    //   answer: `Con el operador || debe de ejecutarse 1 de las 2 sentencias. Con el operador && debe de ejecutarse las 2 sentencias.`,
-    // },
+    {
+      id: 17,
+      question: `17) What is === operator?`,
+      answer: `=== is called a strict equality operator, which returns true when the two operands have the same value without conversion.`,
+    },
+    {
+      id: 18,
+      question: `18) What are all the looping structures in JavaScript?`,
+      answer: `Following are looping structures in Javascript:
+      --For
+      --While
+      --Do-while`,
+    },
+    {
+      id: 19,
+      question: `19) How can you convert the string of any base to an integer in JavaScript?`,
+      answer: `The parseInt() function is used to convert numbers between different bases. parseInt() takes the string to be converted as its first parameter. --The second parameter is the base of the given string.`,
+    },
+    {
+      id: 20,
+      question: `20) What is ! operator?`,
+      answer: `It is a logical NOT operator, its main function is to negate the value.`,
+    },
+    {
+      id: 21,
+      question: `21) What is the difference between the && operator and || operator?`,
+      answer: `The || operator must execute one of two statements, on the other hand, the && operator must execute the two statements.`,
+    },
     // {
     //   id: 20,
     //   question: `De un ejemplo de pre incremento?`,

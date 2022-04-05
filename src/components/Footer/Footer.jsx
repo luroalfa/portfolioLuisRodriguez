@@ -21,6 +21,7 @@ import {
   FaHeart,
   FaGithub,
 } from "react-icons/fa";
+import { AiFillBehanceCircle } from "react-icons/ai";
 
 function Footer() {
   return (
@@ -38,6 +39,14 @@ function Footer() {
               target="_blank"
             >
               <FaLinkedinIn />
+            </FooterA>
+          </Tooltip>
+          <Tooltip title="Behance" placement="top-start">
+            <FooterA
+              href="https://www.behance.net/luisalrodrgu4"
+              target="_blank"
+            >
+              <AiFillBehanceCircle />
             </FooterA>
           </Tooltip>
         </IconContext.Provider>
