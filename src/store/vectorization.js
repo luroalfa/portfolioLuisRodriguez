@@ -6,12 +6,12 @@ import {
   GalleryPortfolioImproex,
   GalleryPortfolioSMI,
   GalleryPortfoliometakrivia,
-  GalleryPortfoliodogo,
-  GalleryPortfoliogato,
-  GalleryPortfoliohockey,
+  // GalleryPortfoliodogo,
+  // GalleryPortfoliogato,
+  // GalleryPortfoliohockey,
   GalleryPortfolioleon,
   GalleryPortfoliolion,
-  GalleryPortfoliopets,
+  // GalleryPortfoliopets,
   GalleryPortfoliopollo,
   GalleryPortfoliotom,
   GalleryPortfoliotroya,
@@ -60,21 +60,6 @@ const data = {
       size: "",
     },
     {
-      id: 8,
-      img: GalleryPortfoliodogo,
-      size: "tall",
-    },
-    {
-      id: 9,
-      img: GalleryPortfoliogato,
-      size: "",
-    },
-    {
-      id: 10,
-      img: GalleryPortfoliohockey,
-      size: "tall",
-    },
-    {
       id: 11,
       img: GalleryPortfolioleon,
       size: "",
@@ -82,11 +67,6 @@ const data = {
     {
       id: 12,
       img: GalleryPortfoliolion,
-      size: "tall",
-    },
-    {
-      id: 13,
-      img: GalleryPortfoliopets,
       size: "tall",
     },
     {
