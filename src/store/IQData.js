@@ -210,66 +210,66 @@ const data = {
       question: `De un ejemplo de pre incremento?`,
       answer: ``,
     },
-    {
-      id: 21,
-      question: `Cual es la estructura de un operador ternario o condicional?`,
-      answer: ``,
-    },
-    {
-      id: 22,
-      question: `Cuales son los ciclos definidos?`,
-      answer: `for`,
-    },
-    {
-      id: 23,
-      question: `Cuales son los ciclos indefinidos?`,
-      answer: `While and do-while`,
-    },
-    {
-      id: 24,
-      question: `Cual es la diferencia entre while y do while?`,
-      answer: `Con do-while la sentencia que esta dentro del bloque se ejecutara una vez y luego dependera del while si se vuelve a ejecutar o no cuantas veces sea necesario. Con while la sentencia no se ejecutara si no cumple con lo requerido. `,
-    },
-    {
-      id: 25,
-      question: `Where start the index of the array?`,
-      answer: `Desde el cero, es el primer indice.`,
-    },
-    {
-      id: 26,
-      question: `What are arrays?`,
-      answer: `Es un tipo de dato objeto que almacena datos este teniendo un indice interno. `,
-    },
-    {
-      id: 27,
-      question: `Que son los métodos?`,
-      answer: ``,
-    },
-    {
-      id: 28,
-      question: `What are the control statements?`,
-      answer: ``,
-    },
-    {
-      id: 29,
-      question: `Four types of functions?`,
-      answer: ``,
-    },
-    {
-      id: 31,
-      question: `¿Para qué se utiliza el DOM?`,
-      answer: `El DOM, se crea con la finalidad de poder identificar y permitirnos trabajar (modificando estilos, el contenido, añadiendo nodos hijos, etc) sobre todos los elementos (conocidos como nodos en DOM) de nuestro documento HTML.`,
-    },
-    {
-      id: 32,
-      question: `Para que sirve this?`,
-      answer: `Sirve para tomar el nombre del objeto`,
-    },
-    {
-      id: 33,
-      question: `Que son los template String`,
-      answer: `Los template string es una manera de concatenar string incrrustar valores o resultados de operaciones tambien para caracteres multilinea.`,
-    },
+    // {
+    //   id: 21,
+    //   question: `Cual es la estructura de un operador ternario o condicional?`,
+    //   answer: ``,
+    // },
+    // {
+    //   id: 22,
+    //   question: `Cuales son los ciclos definidos?`,
+    //   answer: `for`,
+    // },
+    // {
+    //   id: 23,
+    //   question: `Cuales son los ciclos indefinidos?`,
+    //   answer: `While and do-while`,
+    // },
+    // {
+    //   id: 24,
+    //   question: `Cual es la diferencia entre while y do while?`,
+    //   answer: `Con do-while la sentencia que esta dentro del bloque se ejecutara una vez y luego dependera del while si se vuelve a ejecutar o no cuantas veces sea necesario. Con while la sentencia no se ejecutara si no cumple con lo requerido. `,
+    // },
+    // {
+    //   id: 25,
+    //   question: `Where start the index of the array?`,
+    //   answer: `Desde el cero, es el primer indice.`,
+    // },
+    // {
+    //   id: 26,
+    //   question: `What are arrays?`,
+    //   answer: `Es un tipo de dato objeto que almacena datos este teniendo un indice interno. `,
+    // },
+    // {
+    //   id: 27,
+    //   question: `Que son los métodos?`,
+    //   answer: ``,
+    // },
+    // {
+    //   id: 28,
+    //   question: `What are the control statements?`,
+    //   answer: ``,
+    // },
+    // {
+    //   id: 29,
+    //   question: `Four types of functions?`,
+    //   answer: ``,
+    // },
+    // {
+    //   id: 31,
+    //   question: `¿Para qué se utiliza el DOM?`,
+    //   answer: `El DOM, se crea con la finalidad de poder identificar y permitirnos trabajar (modificando estilos, el contenido, añadiendo nodos hijos, etc) sobre todos los elementos (conocidos como nodos en DOM) de nuestro documento HTML.`,
+    // },
+    // {
+    //   id: 32,
+    //   question: `Para que sirve this?`,
+    //   answer: `Sirve para tomar el nombre del objeto`,
+    // },
+    // {
+    //   id: 33,
+    //   question: `Que son los template String`,
+    //   answer: `Los template string es una manera de concatenar string incrrustar valores o resultados de operaciones tambien para caracteres multilinea.`,
+    // },
   ],
 };
 
