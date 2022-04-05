@@ -205,11 +205,11 @@ const data = {
       question: `21) What is the difference between the && operator and || operator?`,
       answer: `The || operator must execute one of two statements, on the other hand, the && operator must execute the two statements.`,
     },
-    {
-      id: 20,
-      question: `De un ejemplo de pre incremento?`,
-      answer: ``,
-    },
+    // {
+    //   id: 20,
+    //   question: `De un ejemplo de pre incremento?`,
+    //   answer: ``,
+    // },
     // {
     //   id: 21,
     //   question: `Cual es la estructura de un operador ternario o condicional?`,
