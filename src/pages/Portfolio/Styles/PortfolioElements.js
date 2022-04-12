@@ -64,7 +64,7 @@ export const PortfolioCard = styled.div`
   border-radius: 10px;
   box-shadow: 0 2px 20px rgba(255, 255, 255, 0.2);
   overflow: hidden;
-  height: 755px;
+  height: 710px;
   width: 300px;
   border: 2px solid white;
   position: relative;
