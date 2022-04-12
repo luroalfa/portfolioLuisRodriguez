@@ -17,6 +17,7 @@ export { default as technologyDataPhotoshop } from '../Assets/GalleryTechnology/
 export { default as technologyDataXd } from '../Assets/GalleryTechnology/software/xd.webp';
 export { default as technologyDataAfterEffects } from '../Assets/GalleryTechnology/software/ae.webp';
 export { default as GalleryPortfolioImproex } from 'Assets/GalleryPortfolio/vectorizations/improex.webp'
+export { default as GalleryPortfolioAnimation } from 'Assets/GalleryPortfolio/animation.gif'
 export { default as GalleryPortfolioLactgourmet } from 'Assets/GalleryPortfolio/vectorizations/lactgourmet.webp'
 export { default as GalleryPortfolioYoVector } from 'Assets/GalleryPortfolio/vectorizations/Yo-vector.webp'
 export { default as GalleryPortfolioRFL } from 'Assets/GalleryPortfolio/rodriguezfallasluis.webp'

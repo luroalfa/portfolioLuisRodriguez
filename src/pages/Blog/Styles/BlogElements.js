@@ -108,7 +108,8 @@ export const BlogParagraphPubli = styled.p`
   margin: 10px 0 30px 0px;
   `;
 export const BlogParagraphSpan = styled.span`
-  font-weight: 600;
+font-size: .8em;
+font-weight: 600;
   `;
 export const BlogButtom = styled(Link)`
   text-transform: uppercase;  

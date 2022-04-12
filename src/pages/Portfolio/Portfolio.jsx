@@ -14,7 +14,6 @@ import {
   PortfolioCardHeader,
   PortfolioImage,
   PortfolioParagraph,
-  PortfolioTag,
   PortfolioTitle,
   PortfolioButtom,
   PortfolioParagraphPubli,
@@ -22,7 +21,6 @@ import {
   PortfolioSearch,
   PortfolioContentArticles,
   PortfolioInputSearch,
-  PortfolioContainerTag,
 } from "./Styles/PortfolioElements";
 import { Animated } from "react-animated-css";
 
@@ -65,7 +63,7 @@ function Portfolio() {
           <br />
           -By Platón.
           <br />
-          Here's a list of some of my personal projects.
+          As you can see I share some of my personal projects.
         </PortfolioParagraphTitle>
         <PortfolioSearch>
           <PortfolioInputSearch
@@ -85,11 +83,6 @@ function Portfolio() {
                 </PortfolioCardHeader>
 
                 <PortfolioCardBody>
-                  <PortfolioContainerTag>
-                    {GlobalUtils.checkArray(item.tags).map((tag) => (
-                      <PortfolioTag>{tag}</PortfolioTag>
-                    ))}
-                  </PortfolioContainerTag>
                   <PortfolioTitleCard>{item.titleCard}</PortfolioTitleCard>
                   {item.paragraph.split("--").map((item) => {
                     return <PortfolioParagraph>{item}</PortfolioParagraph>;

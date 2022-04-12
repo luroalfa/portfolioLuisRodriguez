@@ -54,26 +54,26 @@ const data = {
       img: GalleryPortfoliometakrivia,
       size: "",
     },
-    {
-      id: 11,
-      img: GalleryPortfolioleon,
-      size: "",
-    },
-    {
-      id: 12,
-      img: GalleryPortfoliolion,
-      size: "tall",
-    },
-    {
-      id: 14,
-      img: GalleryPortfoliopollo,
-      size: "tall",
-    },
-    {
-      id: 16,
-      img: GalleryPortfoliotroya,
-      size: "",
-    },
+    // {
+    //   id: 11,
+    //   img: GalleryPortfolioleon,
+    //   size: "",
+    // },
+    // {
+    //   id: 12,
+    //   img: GalleryPortfoliolion,
+    //   size: "tall",
+    // },
+    // {
+    //   id: 14,
+    //   img: GalleryPortfoliopollo,
+    //   size: "tall",
+
+    // {
+    //   id: 16,
+    //   img: GalleryPortfoliotroya,
+    //   size: "",
+    // },
     {
       id: 17,
       img: GalleryPortfolioBooklovers,
@@ -84,11 +84,11 @@ const data = {
       img: GalleryPortfolioburguerking,
       size: "",
     },
-    {
-      id: 19,
-      img: GalleryPortfolioKIA,
-      size: "",
-    },
+    // {
+    //   id: 19,
+    //   img: GalleryPortfolioKIA,
+    //   size: "",
+    // },
     {
       id: 20,
       img: GalleryPortfolioTacoBell,

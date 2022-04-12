@@ -1,5 +1,5 @@
 // Images
-import { GalleryPortfolioRFL, GalleryPortfolioYoVector } from './index'
+import { GalleryPortfolioRFL, GalleryPortfolioYoVector, GalleryPortfolioAnimation } from './index'
 //Data
 const data = {
   cardData: [
@@ -7,18 +7,8 @@ const data = {
       id: 1,
       img: GalleryPortfolioRFL,
       altDescription: "Image html",
-      tags: [
-        "HTML",
-        "CSS",
-        "JS",
-        "REACT",
-        "Styled-Components",
-        "Boostrap",
-        "SASS",
-        "MUI"
-      ],
       titleCard: 'websites',
-      paragraph: 'As a developer, I need to show my projects. In this site, you can find all my created websites, where I show my skills and knowledge as a web developer. These are some of my projects, I hope you like it.',
+      paragraph: 'As a developer, I need to show my projects. In this site, you can find all my created websites, where I show my skills and knowledge as a web developer. --These are some of my projects, I hope you like it.',
       published: 'Friday, January, 14th, 2022.',
       link: "/portfolio/websites",
     },
@@ -26,30 +16,20 @@ const data = {
       id: 2,
       img: GalleryPortfolioYoVector,
       altDescription: "Image html",
-      tags: [
-        'Illustrator',
-      ],
-      titleCard: 'My Vectorizations',
-      paragraph: 'As a designer I have practiced with these vectorization exercises in Adobe illustrator.--Tracing logos and illustrations creating a very exact replica of the original. --These are some of my vectorizations, I hope you like it.',
+      titleCard: 'Vectorizations',
+      paragraph: 'As a designer I have practiced with these vectorization exercises in Adobe illustrator.--Tracing logos and illustrations creating a very exact replica of the original. --These are some of my vectorizations, I hope you appreciate.',
       published: 'Saturday, March, 19th, 2022.',
       link: "/portfolio/vectorizations",
     },
-    // paragraph: 'LactGourmet is an investigation about a dairy business. Here you find arts for social networks as facebook, youtube, Instagram and the logo, also you find the design website.',
-    // {
-    //   id: 3,
-    //   img: GalleryPortfolioImproex,
-    //   altDescription: "Image html",
-    //   tags: [
-    //     "HTML",
-    //     "CSS",
-    //     "JS",
-    //     "REACT",
-    //     "Styled-Components"],
-    //   titleCard: 'WEBSITE',
-    //   paragraph: 'NeuraKids was an initiative with my brother, with the purpose of to teach childrens about programming in Scratch and Mblock.',
-    //   published: 'Sunday, February, 06th, 2022.',
-    //   link: "/websites",
-    // },
+    {
+      id: 3,
+      img: GalleryPortfolioAnimation,
+      altDescription: "Image html",
+      titleCard: 'Animations',
+      paragraph: 'In this article, you can find some creations made by me and information about interactive animation, from the web developer course of INA.--I hope you enjoy it.',
+      published: 'Tuesday, April, 12th, 2022.',
+      link: "/websites",
+    },
     // {
     //   id: 4,
     //   img: AllImages.GalleryPortfolioYoVector,
@@ -94,3 +74,4 @@ const data = {
 // Export data
 export default data;
 
+// paragraph: 'LactGourmet is an investigation about a dairy business. Here you find arts for social networks as facebook, youtube, Instagram and the logo, also you find the design website.',
