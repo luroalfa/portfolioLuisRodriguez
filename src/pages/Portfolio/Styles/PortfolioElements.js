@@ -1,7 +1,5 @@
-import styled from 'styled-components'
-import { Link } from 'react-router-dom'
-
-
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const PortfolioContent = styled.div`
   padding-top: 60px;
@@ -13,9 +11,9 @@ export const PortfolioContent = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background: rgb(28,31,42);
+  background: rgb(28, 31, 42);
   text-align: center;
-  @media screen and (max-width: 960px){
+  @media screen and (max-width: 960px) {
     width: 100%;
   }
 `;
@@ -43,8 +41,8 @@ export const PortfolioTitle = styled.h2`
   text-align: center;
   font-size: 2.5em;
   color: white;
-  span{
-    color:var(--secondaryColor);
+  span {
+    color: var(--secondaryColor);
   }
 `;
 export const PortfolioSearch = styled.div`
@@ -54,7 +52,7 @@ export const PortfolioParagraphTitle = styled.p`
   margin: 10px;
   color: white;
   width: 100%;
-  @media screen and (max-width: 960px){
+  @media screen and (max-width: 960px) {
     text-align: center;
   }
 `;
@@ -64,21 +62,20 @@ export const PortfolioCard = styled.div`
   border-radius: 10px;
   box-shadow: 0 2px 20px rgba(255, 255, 255, 0.2);
   overflow: hidden;
-  height: 710px;
+  height: 750px;
   width: 300px;
   border: 2px solid white;
   position: relative;
-  @media screen and (max-width: 960px){
+  @media screen and (max-width: 960px) {
     width: 400px;
     height: auto;
   }
 `;
-export const PortfolioCardHeader = styled.div`
-`;
+export const PortfolioCardHeader = styled.div``;
 export const PortfolioImage = styled.img`
-width: 100%;
-height: 100%;
-object-fit: content;
+  width: 100%;
+  height: 100%;
+  object-fit: content;
 `;
 export const PortfolioCardBody = styled.div`
   display: flex;
@@ -88,7 +85,7 @@ export const PortfolioCardBody = styled.div`
   align-items: flex-start;
   padding: 20px;
   min-height: 50px;
-  `;
+`;
 export const PortfolioTag = styled.span`
   background: var(--mainColor);
   border-radius: 50px;
@@ -97,56 +94,79 @@ export const PortfolioTag = styled.span`
   color: white;
   padding: 2px 10px;
   text-transform: uppercase;
-  `;
+`;
 export const PortfolioTitleCard = styled.h3`
-  margin-top:10px;
-  text-transform: uppercase;  
-  `;
+  margin-top: 10px;
+  text-transform: uppercase;
+`;
 export const PortfolioParagraph = styled.p`
   font-size: 16px;
   margin-bottom: 10px;
   text-align: left;
-  `;
+`;
 export const PortfolioParagraphPubli = styled.p`
   position: absolute;
   bottom: 50px;
   font-size: 14px;
   margin: 10px 0 30px 0px;
-@media screen and (max-width: 960px){
-  position: static;
-  bottom: none;
-}
+  @media screen and (max-width: 960px) {
+    position: static;
+    bottom: none;
+  }
 `;
 export const PortfolioParagraphSpan = styled.span`
-  font-size: .8em;
+  font-size: 0.8em;
   font-weight: 600;
 `;
-export const PortfolioButtom = styled(Link)`
+
+export const PortfolioButtomTagA = styled.a`
   position: absolute;
   bottom: 20px;
-  text-transform: uppercase;  
+  text-transform: uppercase;
   text-decoration: none;
   background: var(--secondaryColor);
   border: 1px solid black;
-  Padding: 10px;
+  padding: 10px;
   border-radius: 50px;
   align-self: center;
   width: 80%;
   text-align: center;
   color: var(--mainColor);
-  &:hover{
+  &:hover {
     color: white;
     background: var(--mainColor);
   }
-  @media screen and (max-width: 960px){
+  @media screen and (max-width: 960px) {
     position: static;
     bottom: none;
   }
-  `;
+`;
+export const PortfolioButtom = styled(Link)`
+  position: absolute;
+  bottom: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: var(--secondaryColor);
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 50px;
+  align-self: center;
+  width: 80%;
+  text-align: center;
+  color: var(--mainColor);
+  &:hover {
+    color: white;
+    background: var(--mainColor);
+  }
+  @media screen and (max-width: 960px) {
+    position: static;
+    bottom: none;
+  }
+`;
 
 export const PortfolioContainerTag = styled.div`
-    display: flex;
-    gap: 5px;
-    flex-wrap: wrap;
-    flex-direction: row;
-  `;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  flex-direction: row;
+`;

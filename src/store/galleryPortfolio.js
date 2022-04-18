@@ -10,6 +10,7 @@ const data = {
       titleCard: 'websites',
       paragraph: 'As a developer, I need to show my projects. In this site, you can find all my created websites, where I show my skills and knowledge as a web developer. --These are some of my projects, I hope you like it.',
       published: 'Friday, January, 14th, 2022.',
+      tagA: [false, ''],
       link: "/portfolio/websites",
     },
     {
@@ -19,6 +20,7 @@ const data = {
       titleCard: 'Vectorizations',
       paragraph: 'As a designer I have practiced with these vectorization exercises in Adobe illustrator.--Tracing logos and illustrations creating a very exact replica of the original. --These are some of my vectorizations, I hope you appreciate.',
       published: 'Saturday, March, 19th, 2022.',
+      tagA: [false, ''],
       link: "/portfolio/vectorizations",
     },
     {
@@ -28,7 +30,8 @@ const data = {
       titleCard: 'Animations',
       paragraph: 'In this article, you can find some creations made by me and information about interactive animation, from the web developer course of INA.--I hope you enjoy it.',
       published: 'Tuesday, April, 12th, 2022.',
-      link: "/websites",
+      tagA: [true, 'https://subtle-mandazi-87f4bb.netlify.app/'],
+      link: "",
     },
     // {
     //   id: 4,
