@@ -21,6 +21,7 @@ import {
   PortfolioSearch,
   PortfolioContentArticles,
   PortfolioInputSearch,
+  PortfolioButtomTagA,
 } from "./Styles/PortfolioElements";
 import { Animated } from "react-animated-css";
 
@@ -93,9 +94,15 @@ function Portfolio() {
                       {item.published}
                     </PortfolioParagraphSpan>
                   </PortfolioParagraphPubli>
-                  <PortfolioButtom to={item.link}>
-                    <b>See More</b>
-                  </PortfolioButtom>
+                  {item.tagA[0] ? (
+                    <PortfolioButtomTagA href={item.tagA[1]} target="_self">
+                      <b>See More</b>
+                    </PortfolioButtomTagA>
+                  ) : (
+                    <PortfolioButtom to={item.link}>
+                      <b>See More</b>
+                    </PortfolioButtom>
+                  )}
                 </PortfolioCardBody>
               </PortfolioCard>
             );

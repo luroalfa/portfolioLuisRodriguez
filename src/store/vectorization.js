@@ -6,15 +6,14 @@ import {
   GalleryPortfolioImproex,
   GalleryPortfolioSMI,
   GalleryPortfoliometakrivia,
-  GalleryPortfolioleon,
-  GalleryPortfoliolion,
-  GalleryPortfoliopollo,
-  GalleryPortfoliotroya,
   GalleryPortfolioBooklovers,
   GalleryPortfolioburguerking,
-  GalleryPortfolioKIA,
   GalleryPortfolioTacoBell,
   GalleryPortfoliotoyota,
+  GalleryPortfolioNeurakids,
+  GalleryPortfolioPizzahut,
+  GalleryPortfolioKIA,
+  GalleryPortfolioCalpine,
 } from './index'
 
 const data = {
@@ -22,7 +21,7 @@ const data = {
     {
       id: 1,
       img: GalleryPortfolioEagleVector,
-      size: "tall",
+      size: "",
     },
     {
       id: 2,
@@ -42,7 +41,7 @@ const data = {
     {
       id: 5,
       img: GalleryPortfolioImproex,
-      size: "",
+      size: "tall",
     },
     {
       id: 6,
@@ -54,26 +53,26 @@ const data = {
       img: GalleryPortfoliometakrivia,
       size: "",
     },
-    // {
-    //   id: 11,
-    //   img: GalleryPortfolioleon,
-    //   size: "",
-    // },
-    // {
-    //   id: 12,
-    //   img: GalleryPortfoliolion,
-    //   size: "tall",
-    // },
-    // {
-    //   id: 14,
-    //   img: GalleryPortfoliopollo,
-    //   size: "tall",
-
-    // {
-    //   id: 16,
-    //   img: GalleryPortfoliotroya,
-    //   size: "",
-    // },
+    {
+      id: 8,
+      img: GalleryPortfoliotoyota,
+      size: "tall",
+    },
+    {
+      id: 11,
+      img: GalleryPortfolioNeurakids,
+      size: "",
+    },
+    {
+      id: 12,
+      img: GalleryPortfolioPizzahut,
+      size: "tall",
+    },
+    {
+      id: 14,
+      img: GalleryPortfolioCalpine,
+      size: "tall",
+    },
     {
       id: 17,
       img: GalleryPortfolioBooklovers,
@@ -84,21 +83,17 @@ const data = {
       img: GalleryPortfolioburguerking,
       size: "",
     },
-    // {
-    //   id: 19,
-    //   img: GalleryPortfolioKIA,
-    //   size: "",
-    // },
+    {
+      id: 19,
+      img: GalleryPortfolioKIA,
+      size: "",
+    },
     {
       id: 20,
       img: GalleryPortfolioTacoBell,
       size: "",
     },
-    {
-      id: 21,
-      img: GalleryPortfoliotoyota,
-      size: "",
-    },
+
   ],
 }
 // Export data
