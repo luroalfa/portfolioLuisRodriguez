@@ -33,6 +33,7 @@ export { default as GalleryPortfolioTacoBell } from 'Assets/GalleryPortfolio/vec
 export { default as GalleryPortfoliotoyota } from 'Assets/GalleryPortfolio/vectorizations/toyota.jpg'
 export { default as GalleryPortfolioKIA } from 'Assets/GalleryPortfolio/vectorizations/KIA.jpg'
 export { default as GalleryPortfolioCalpine } from 'Assets/GalleryPortfolio/vectorizations/Calpine.jpg'
+export { default as GalleryPortfolioApi } from 'Assets/GalleryPortfolio/Apis/api.jpg'
 
 
 
