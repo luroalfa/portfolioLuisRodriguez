@@ -95,7 +95,7 @@ function Portfolio() {
                     </PortfolioParagraphSpan>
                   </PortfolioParagraphPubli>
                   {item.tagA[0] ? (
-                    <PortfolioButtomTagA href={item.tagA[1]} target="_self">
+                    <PortfolioButtomTagA href={item.tagA[1]} target="_blank">
                       <b>See More</b>
                     </PortfolioButtomTagA>
                   ) : (

@@ -1,5 +1,5 @@
 // Images
-import { GalleryPortfolioRFL, GalleryPortfolioYoVector, GalleryPortfolioAnimation } from './index'
+import { GalleryPortfolioRFL, GalleryPortfolioYoVector, GalleryPortfolioAnimation, GalleryPortfolioApi } from './index'
 //Data
 const data = {
   cardData: [
@@ -33,44 +33,16 @@ const data = {
       tagA: [true, 'https://subtle-mandazi-87f4bb.netlify.app/'],
       link: "",
     },
-    // {
-    //   id: 4,
-    //   img: AllImages.GalleryPortfolioYoVector,
-    //   altDescription: "Image html",
-    //   tags: ['Illustrator'],
-    //   titleCard: 'VECTORIZATION',
-    //   paragraph: 'Here you can find, some skills that I made with illustrator, such as vector images, logotype design, web design, I hope you like it.',
-    //   published: 'Friday, January, 14th, 2022.',
-    //   link: "/websites",
-    //   //EagleVector - galloVector -SMI
-    // },
-    // {
-    //   id: 7,
-    //   img: AllImages.GalleryPortfolioImproex,
-    //   altDescription: "Image html",
-    //   tags: [
-    //     'Html',
-    //     "Css",
-    //   ],
-    //   titleCard: 'layout design',
-    //   paragraph: 'In this article, you can find some projects about layout design, strictly custom-made as the design indicates.',
-    //   published: 'Friday, January, 14th, 2022.',
-    //   link: "/websites",
-    //   //MS -Blondies - Grunge
-    // },
-    // {
-    //   id: 7,
-    //   img: improex,
-    //   altDescription: "Image html",
-    //   tags: [
-    //     'Html',
-    //     "Css",
-    //     "JavaScript",
-    //   ],
-    //   titleCard: 'Responsive Web Design',
-    //   paragraph: 'This article covers the most frequently asked HTML and HTML5 questions asked in interviews.',
-    //   published: 'Friday, January, 14th, 2022.',
-    // },
+    {
+      id: 4,
+      img: GalleryPortfolioApi,
+      altDescription: "Image html",
+      titleCard: 'APIs',
+      paragraph: 'In this section, you can find some of my web APIs, for example, the GIPHY API, where you can add stickers and gif images to your website. --I hope that you like my app.',
+      published: 'Tuesday, April, 19th, 2022.',
+      tagA: [false, ''],
+      link: "/portfolio/apis",
+    },
   ]
 }
 
@@ -78,3 +50,7 @@ const data = {
 export default data;
 
 // paragraph: 'LactGourmet is an investigation about a dairy business. Here you find arts for social networks as facebook, youtube, Instagram and the logo, also you find the design website.',
+
+// In this section, you can find some of my web APIs, for example, the GIPHY API, where you can add stickers and gif images to your website. GIPHY API is simple and fast to use, ideal for learning the API environment. You can practice doing a search to the endpoint and you can also practice promises with this exercise and more.
+
+// I hope that you like my app. 

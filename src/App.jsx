@@ -9,6 +9,7 @@ import HtmlInterviewsQ from "./pages/Blog/HtmlInterviewsQ.jsx";
 import NotFound from "./pages/NotFoundPage.jsx";
 import Portfolio from "./pages/Portfolio/Portfolio.jsx";
 import Websites from "./pages/Portfolio/Websites.jsx";
+import Apis from "./pages/Portfolio/Apis.jsx";
 import Vectorizations from "./pages/Portfolio/Vectorizations";
 import Contact from "./pages/ContactMe/Contact.jsx";
 import Pdf from "./pages/Pdf/Pdf.jsx";
@@ -30,6 +31,7 @@ function App() {
           <Route path="/blog" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/portfolio/websites" element={<Websites />} />
+          <Route path="/portfolio/apis" element={<Apis />} />
           <Route
             path="/portfolio/vectorizations"
             element={<Vectorizations />}
