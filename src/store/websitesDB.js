@@ -67,7 +67,7 @@ const data = {
         "HTML",
         "CSS",
       ],
-      link: "https://bootstrapblondies.netlify.app/",
+      link: "https://magnificent-figolla-8800db.netlify.app/",
     },
   ]
 }
