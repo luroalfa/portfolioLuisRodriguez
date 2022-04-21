@@ -1,5 +1,4 @@
 import NeuraKids from 'Assets/GalleryPortfolio/websites/NeuraKids.png'
-import NeuraBits from 'Assets/GalleryPortfolio/websites/NEURABITS.webp'
 import RFL from 'Assets/GalleryPortfolio/rodriguezfallasluis.webp'
 import blondies from 'Assets/GalleryPortfolio/websites/Blondies.webp'
 import improex from 'Assets/GalleryPortfolio/websites/improex.webp'
@@ -25,21 +24,8 @@ const data = {
       link: "https://rodriguezfallasluis.com/",
     },
     {
-      id: 2,
-      img: NeuraBits,
-      altImg: "Imagen de Neurabits",
-      project: "NueraBits.",
-      Objective: "NeuraBits was an initiative with my brother, with the purpose of to teach childrens about programming in Scratch and Mblock.",
-      Challenge: "The challenge was learning about siblings in CSS and building a burger menu without using javascript. Also think about mobile firts.",
-      Technologies: [
-        "HTML",
-        "CSS",
-      ],
-      link: "https://serene-heisenberg-53b8f2.netlify.app/",
-    },
-    {
 
-      id: 3,
+      id: 2,
       img: NeuraKids,
       altImg: "Imagen de Neurakids",
       project: "Neurakids.",
@@ -55,7 +41,7 @@ const data = {
       link: "https://neurakids.netlify.app/",
     },
     {
-      id: 4,
+      id: 3,
       img: blondies,
       altImg: "Blondies Bakery.",
       project: "Blondies Bakery.",
@@ -71,7 +57,7 @@ const data = {
       link: "https://bootstrapblondies.netlify.app/",
     },
     {
-      id: 5,
+      id: 4,
       img: improex,
       altImg: "Improex",
       project: "Improex.",
