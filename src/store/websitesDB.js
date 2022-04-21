@@ -22,7 +22,6 @@ const data = {
         "WOW.JS",
         "MUI"
       ],
-      experience: "Neurakids. realizar la pagina web.",
       link: "https://rodriguezfallasluis.com/",
     },
     {
@@ -36,7 +35,6 @@ const data = {
         "HTML",
         "CSS",
       ],
-      experience: "Neurakids. realizar la pagina web.",
       link: "https://serene-heisenberg-53b8f2.netlify.app/",
     },
     {
@@ -54,7 +52,6 @@ const data = {
         "REACT",
         "Styled-Components"
       ],
-      experience: "Neurakids. realizar la pagina web.",
       link: "https://neurakids.netlify.app/",
     },
     {
@@ -71,7 +68,6 @@ const data = {
         "JS",
         "bootstrap"
       ],
-      experience: "Neurakids. realizar la pagina web.",
       link: "https://bootstrapblondies.netlify.app/",
     },
     {
@@ -85,7 +81,6 @@ const data = {
         "HTML",
         "CSS",
       ],
-      experience: "Neurakids. realizar la pagina web.",
       link: "https://bootstrapblondies.netlify.app/",
     },
   ]
