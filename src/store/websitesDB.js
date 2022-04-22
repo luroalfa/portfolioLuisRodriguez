@@ -1,28 +1,9 @@
 import NeuraKids from 'Assets/GalleryPortfolio/websites/NeuraKids.png'
-import RFL from 'Assets/GalleryPortfolio/rodriguezfallasluis.webp'
 import blondies from 'Assets/GalleryPortfolio/websites/Blondies.webp'
 import improex from 'Assets/GalleryPortfolio/websites/improex.webp'
 
 const data = {
   cardData: [
-    {
-      id: 1,
-      img: RFL,
-      altImg: "Personal Website.",
-      project: "Personal Website.",
-      Objective: "As a web developer,  I need an online presence, and also I often need to show my projects with the technologies I work with, this is my personal website where I can show everything I'm capable of doing.",
-      Challenge: "My challenge in this project was to make the connection between my form and AWS SES.And also implement CSP on my website.",
-      Technologies: [
-        "HTML",
-        "CSS",
-        "JS",
-        "REACT",
-        "Styled-Components",
-        "WOW.JS",
-        "MUI"
-      ],
-      link: "https://rodriguezfallasluis.com/",
-    },
     {
 
       id: 2,

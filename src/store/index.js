@@ -16,7 +16,6 @@ export { default as technologyDataFilmora } from '../Assets/GalleryTechnology/so
 export { default as technologyDataPhotoshop } from '../Assets/GalleryTechnology/software/ps.webp';
 export { default as technologyDataXd } from '../Assets/GalleryTechnology/software/xd.webp';
 export { default as technologyDataAfterEffects } from '../Assets/GalleryTechnology/software/ae.webp';
-export { default as GalleryPortfolioImproex } from 'Assets/GalleryPortfolio/vectorizations/Improex.jpg'
 export { default as GalleryPortfolioAnimation } from 'Assets/GalleryPortfolio/animation.gif'
 export { default as GalleryPortfolioLactgourmet } from 'Assets/GalleryPortfolio/vectorizations/Lactgourmet.jpg'
 export { default as GalleryPortfolioNeurakids } from 'Assets/GalleryPortfolio/vectorizations/Neurakids.jpg'
@@ -26,13 +25,6 @@ export { default as GalleryPortfolioEagleVector } from 'Assets/GalleryPortfolio/
 export { default as GalleryPortfolioGalloVector } from 'Assets/GalleryPortfolio/vectorizations/GalloVector.jpg'
 export { default as GalleryPortfolioSMI } from 'Assets/GalleryPortfolio/vectorizations/SMI.jpg'
 export { default as GalleryPortfoliometakrivia } from 'Assets/GalleryPortfolio/vectorizations/Metakrivia.jpg'
-export { default as GalleryPortfolioBooklovers } from 'Assets/GalleryPortfolio/vectorizations/Booklovers.jpg'
-export { default as GalleryPortfolioburguerking } from 'Assets/GalleryPortfolio/vectorizations/burguerking.jpg'
-export { default as GalleryPortfolioPizzahut } from 'Assets/GalleryPortfolio/vectorizations/Pizzahut.jpg'
-export { default as GalleryPortfolioTacoBell } from 'Assets/GalleryPortfolio/vectorizations/TacoBell.jpg'
-export { default as GalleryPortfoliotoyota } from 'Assets/GalleryPortfolio/vectorizations/toyota.jpg'
-export { default as GalleryPortfolioKIA } from 'Assets/GalleryPortfolio/vectorizations/KIA.jpg'
-export { default as GalleryPortfolioCalpine } from 'Assets/GalleryPortfolio/vectorizations/Calpine.jpg'
 export { default as GalleryPortfolioApi } from 'Assets/GalleryPortfolio/Apis/api.jpg'
 
 
