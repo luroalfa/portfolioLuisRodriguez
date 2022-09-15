@@ -271,6 +271,30 @@ const data = {
     //   answer: `Los template string es una manera de concatenar string incrrustar valores o resultados de operaciones tambien para caracteres multilinea.`,
     // },
   ],
+  LinuxCommands: [
+    {
+      id: 1,
+      question: `1) pwd command`,
+      answer: `The pwd command writes to standard output the full path name of your current directory.`,
+    },
+    {
+      id: 2,
+      question: `2) cd command`,
+      answer: `This command is used to navigate through the Linux files and directories, to continue we must know about the word "PATH". 
+      --The path is one of the most essential concepts in Linux and this is something every Linux user should know.
+      --A path is a way to refer to files and directories, it tells us where we are now or where we are going.
+      --Important note:
+      --The absolute path always starts at the root (/) directory. 
+      --For example, /home/Documents/Programmation/Class1
+      --A relative path starts from the current directory. 
+      --For example, if you are in the /Documents directory and want to access the Class1 directory, you can use /Programmation/Class1`,
+    },
+    {
+      id: 3,
+      question: `3) ls command`,
+      answer: ``,
+    },
+  ],
 };
 
 // Export data

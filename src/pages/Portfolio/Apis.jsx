@@ -60,7 +60,7 @@ export default function Apis() {
                   <br />
                   <WebsiteContainerButton>
                     <ButtonLink href={item.link} target="_blank">
-                      Vsisit website
+                      Visit website
                     </ButtonLink>
                     <br />
                     <br />

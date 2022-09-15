@@ -1,6 +1,7 @@
 import Javascript from '../Assets/GalleryBlog/javascript.jpg';
 import Html from '../Assets/GalleryBlog/html.jpg';
 import Css from '../Assets/GalleryBlog/css.jpg';
+import LinuxCommands from '../Assets/GalleryBlog/linux.jpg';
 // import Illustrator from '../Assets/GalleryBlog/ai.jpg';
 // import Photoshop from '../Assets/GalleryBlog/photoshop.jpg';
 // import Figma from '../Assets/GalleryBlog/figma.jpg';
@@ -36,13 +37,14 @@ const data = {
       published: 'Friday, January, 14th, 2022.',
       link: "/blog/JavaScriptInterviewsQ",
     },
-    // {
-    //   id: 4,
-    //   img: Illustrator,
-    //   titleCard: 'Interview questions',
-    //   paragraph: 'This article covers the most frequently asked HTML and HTML5 questions asked in interviews.',
-    //   published: 'Friday, January, 14th, 2022.',
-    // },
+    {
+      id: 4,
+      img: LinuxCommands,
+      titleCard: 'Basic Linux Commands',
+      paragraph: "If you're considering using Linux, learning basic command lines will go a long way.",
+      published: 'Thursday, September, 15th, 2022.',
+      link: "/blog/BasicCommands",
+    },
     // {
     //   id: 5,
     //   img: Photoshop,
