@@ -274,12 +274,12 @@ const data = {
   LinuxCommands: [
     {
       id: 1,
-      question: `1) pwd command`,
+      question: `1) pwd`,
       answer: `The pwd command writes to standard output the full path name of your current directory.`,
     },
     {
       id: 2,
-      question: `2) cd command`,
+      question: `2) cd`,
       answer: `This command is used to navigate through the Linux files and directories, to continue we must know about the word "PATH". 
       --The path is one of the most essential concepts in Linux and this is something every Linux user should know.
       --A path is a way to refer to files and directories, it tells us where we are now or where we are going.
@@ -291,8 +291,23 @@ const data = {
     },
     {
       id: 3,
-      question: `3) ls command`,
-      answer: ``,
+      question: `3) ls`,
+      answer: `The ls command is used to list files, it will print the contents of that current folder.--Exists many flags for each command, one of my favorites is the flag -a in the command ls. --For example: --ls -a, this command, will list all files of the current folder up to the hidden ones. `,
+    },
+    {
+      id: 4,
+      question: `4) mkdir`,
+      answer: `With this command, you will create folders in a simple way for example: -- mkdir folder1.--Also, you can create multiple folders for example: --mkdir folder1 folder2, folder2 is not inside folder1, but next to it.`,
+    },
+    {
+      id: 5,
+      question: `5) rmdir`,
+      answer: `If you can create folders also you can remove folders with the command rmdir, for remove one folder the simple way, type rmdir [name folder]. --For example: -- rmdir folder1,  and you're done.--Ok, another flag favorite is -rf with this command rmdir -rf, it will remove the folder with files inside it is very useful.`,
+    },
+    {
+      id: 6,
+      question: `6) touch`,
+      answer: `Now, as I said mkdir is for creating a folder, and the command touch is for creating a file.--It is important that you know that when you create a file it will be empty.`,
     },
   ],
 };
