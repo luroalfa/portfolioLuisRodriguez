@@ -4,23 +4,22 @@ import {
   technologyDataCss,
   technologyDataJs,
   technologyDataGitHub,
-  technologyDataBootstrap,
+  technologyDataPython,
   technologyDataReact,
   technologyDataSc,
   technologyDataMysql,
   technologyDataVS,
-  technologyDataSB,
+  technologyDataPostgreSQL,
   technologyDataIllustrator,
+  technologyDataInkscape,
+  technologyDataColab,
   technologyDataPhotoshop,
-  technologyDataXd,
-  technologyDataAfterEffects,
   technologyDataAudacity,
   technologyDataFilmora,
   technologyDataFigma,
-  technologyDataSass
+  technologyDataDBeaver
 } from './index'
 
-//Data
 const data = {
   programmingLanguagesData: [
     {
@@ -49,9 +48,9 @@ const data = {
     },
     {
       id: 5,
-      name: "Boostrap",
-      img: technologyDataBootstrap,
-      url: "https://getbootstrap.com/"
+      name: "Python",
+      img: technologyDataPython,
+      url: "https://www.python.org/"
     },
     {
       id: 6,
@@ -72,22 +71,16 @@ const data = {
       url: "https://www.mysql.com/"
     },
     {
-      id: 9,
-      name: "Visual Studio Code",
-      img: technologyDataVS,
-      url: "https://code.visualstudio.com/"
-    },
-    {
       id: 10,
-      name: "StoryBook",
-      img: technologyDataSB,
-      url: "https://getbootstrap.com/"
+      name: "PostgreSQL",
+      img: technologyDataPostgreSQL,
+      url: "https://www.postgresql.org/"
     },
     {
       id: 11,
-      name: "Sass",
-      img: technologyDataSass,
-      url: "https://getbootstrap.com/"
+      name: "DBeaver",
+      img: technologyDataDBeaver,
+      url: "https://dbeaver.io/"
     },
 
   ],
@@ -106,33 +99,39 @@ const data = {
     },
     {
       id: 3,
-      name: "AdobeXD",
-      img: technologyDataXd,
-      url: "https://www.adobe.com/la/products/xd.html"
-    },
-    {
-      id: 4,
-      name: "After Effects",
-      img: technologyDataAfterEffects,
-      url: "https://www.adobe.com/la/products/aftereffects/campaign/pricing.html"
-    },
-    {
-      id: 5,
       name: "Audacity",
       img: technologyDataAudacity,
       url: "https://www.audacityteam.org/"
     },
     {
-      id: 6,
+      id: 4,
       name: "Filmora",
       img: technologyDataFilmora,
       url: "https://filmora.wondershare.net/es/filmora9-video-editor-es.html"
     },
     {
-      id: 7,
+      id: 5,
       name: "Figma",
       img: technologyDataFigma,
       url: "https://www.figma.com/"
+    },
+    {
+      id: 6,
+      name: "Inkscape",
+      img: technologyDataInkscape,
+      url: "https://inkscape.org/"
+    },
+    {
+      id: 7,
+      name: "Colab",
+      img: technologyDataColab,
+      url: "https://colab.google/"
+    },
+    {
+      id: 8,
+      name: "Visual Studio Code",
+      img: technologyDataVS,
+      url: "https://code.visualstudio.com/"
     },
   ]
 }

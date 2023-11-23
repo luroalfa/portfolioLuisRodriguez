@@ -36,7 +36,7 @@ function HeroSection() {
               </b>
             </p>
             <p>-By Nelson Mandela.</p>
-            <h2>I'm Web Developer</h2>
+            <h2>I'm Software Developer</h2>
             <HeroParagraph>
               I've experience in{" "}
               <b>
@@ -44,11 +44,17 @@ function HeroSection() {
                   loop={Infinity}
                   wrapper="p"
                   steps={[
-                    "Web development ",
+                    "Software Developer",
                     2000,
-                    "Graphic design",
+                    "Web Developer",
                     2000,
                     "Web layout",
+                    2000,
+                    "Front-end Development",
+                    2000,
+                    "Back-end Development",
+                    2000,
+                    "Version Control",
                     2000,
                   ]}
                 />

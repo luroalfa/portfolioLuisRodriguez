@@ -192,9 +192,11 @@ export const AboutSubTitle = styled.h4`
 `;
 
 export const NavParagraph = styled.p`
-  text-align: left;
+  text-align: justify;
   line-height: 1.5;
   font-size: 16px;
+  hyphens: auto;
+  letter-spacing: 1.5px;
   @media screen and (max-width: 960px){
     text-align: center;
   }

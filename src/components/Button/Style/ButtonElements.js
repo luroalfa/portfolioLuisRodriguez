@@ -33,8 +33,9 @@ export const SquareBtnRouter = styled(Link)`
   border-radius: 12px;
   text-transform: uppercase;
   &:hover{
-  background: var(--mainColor);
-  color: white;    
+    background: var(--mainColor);
+    color: white;    
+    border: 1px solid white;
   }
 `;
 

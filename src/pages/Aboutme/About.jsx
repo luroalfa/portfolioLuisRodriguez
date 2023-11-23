@@ -44,15 +44,13 @@ function About() {
             <AboutSubTitle>Who I am?</AboutSubTitle>
             <br />
             <NavParagraph>
-              I'm a web developer from Costa Rica who is mainly interested in
-              web technologies, especially in frontend development.
+              I'm a Software Developer based in Costa Rica. Passionate about technology, I use my expertise to create intriguing and innovative solutions.
             </NavParagraph>
             <NavParagraph>
-              I have a passion for web development, I leverage my knowledge to
-              create things interesting.
+              Driven by my enthusiasm for software development, I continually seek opportunities to expand my knowledge and skills.
             </NavParagraph>
             <NavParagraph>
-              I enjoy sharing my knowledge and helping others when possible.
+              It's also a great pleasure for me to share my insights and assist others whenever possible.
             </NavParagraph>
             <StyleLink href="/pdf" target="_self">
               <BsArrowReturnRight /> Download CV
@@ -69,16 +67,10 @@ function About() {
               In programming language and remote jobs:
             </NavParagraph>
             <NavParagraph>
-              I have programming knowledge in javascript, in javascript with the
-              react framework, I love to use GitHub for my projects and keep
-              version control in each one project.
+              I have experience in the programming languages JavaScript and Python, and I have worked with APIs in both environments, using Express with JavaScript and FastAPI with Python. 
             </NavParagraph>
             <NavParagraph>
-              And also I have knowledge in the use of APIs.
-            </NavParagraph>
-            <NavParagraph>
-              These are somethings the technologies I like to use in my
-              projects:
+              These are some of the technologies that I prefer to use in my projects:
             </NavParagraph>
             <ContainerStikers>
               {data.programmingLanguagesData.map((item, index) => {
@@ -113,12 +105,10 @@ function About() {
             <AboutSubTitle>Others software like.</AboutSubTitle>
             <br />
             <NavParagraph>
-              In graphics, videos, sound and web software:
+              In the realm of graphics, videos, sound, and web software:
             </NavParagraph>
             <NavParagraph>
-              I have been studying web design for a year, where I have acquired
-              knowledge in applications as photoshop, illustrator, Adobe XD and
-              Figma.
+              With several years of experience in web design, I have developed strong skills in applications such as Photoshop, Illustrator, Adobe XD, and Figma. My professional journey includes a variety of projects where I have applied these skills to create visually appealing and functional solutions
             </NavParagraph>
             <ContainerStikers>
               {data.softwareData.map((item, index) => {

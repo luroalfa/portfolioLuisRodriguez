@@ -1,83 +1,39 @@
 import * as React from "react";
-import DeleteIcon from "@mui/icons-material/Delete";
-import IconButton from "@mui/material/IconButton";
-import Tooltip from "@mui/material/Tooltip";
 import { IconContext } from "react-icons";
+import SocialIcon from "./SocialIcon"
 import {
   FooterSocial,
   FooterContainer,
-  FooterLink,
-  FooterLiMenu,
-  FooterA,
-  FooterUl,
   FooterText,
   FooterSubText,
   FooterSpan,
 } from "./Styles/FooterElements";
 import {
-  // FaInstagram,
   FaLinkedinIn,
-  // FaYoutube,
   FaHeart,
   FaGithub,
 } from "react-icons/fa";
-import { AiFillBehanceCircle } from "react-icons/ai";
+import { AiFillInstagram } from "react-icons/ai";
+import { SiTiktok } from "react-icons/si";
 
 function Footer() {
   return (
     <FooterContainer>
       <FooterSocial>
         <IconContext.Provider value={{ style: { fontSize: "1.25em" } }}>
-          <Tooltip title="GitHub" placement="top-start">
-            <FooterA href="https://github.com/luroalfa" target="_blank">
-              <FaGithub />
-            </FooterA>
-          </Tooltip>
-          <Tooltip title="Linkedin" placement="top-start">
-            <FooterA
-              href="https://www.linkedin.com/in/rodriguezfallasluis/"
-              target="_blank"
-            >
-              <FaLinkedinIn />
-            </FooterA>
-          </Tooltip>
-          <Tooltip title="Behance" placement="top-start">
-            <FooterA
-              href="https://www.behance.net/luisalrodrgu4"
-              target="_blank"
-            >
-              <AiFillBehanceCircle />
-            </FooterA>
-          </Tooltip>
+          <SocialIcon href="https://github.com/luroalfa" title="GitHub" icon={<FaGithub />} />
+          <SocialIcon href="https://linkedin.com/in/rodriguezfallasluis/" title="Linkedin" icon={<FaLinkedinIn />} />
+          <SocialIcon href="https://instagram.com/rodriguezfallasluis/" title="Instagram" icon={<AiFillInstagram />} />
+          <SocialIcon href="https://tiktok.com/@soft_developer?lang=en" title="Tiktok" icon={<SiTiktok />} />
         </IconContext.Provider>
       </FooterSocial>
-
-      <FooterUl>
-        <FooterLiMenu>
-          <FooterLink to="/">About me</FooterLink>
-        </FooterLiMenu>
-        <FooterLiMenu>
-          <FooterLink to="/blog">Blog</FooterLink>
-        </FooterLiMenu>
-        <FooterLiMenu>
-          <FooterLink to="/portfolio">Portfolio</FooterLink>
-        </FooterLiMenu>
-        <FooterLiMenu>
-          <FooterLink to="/contact">Contact</FooterLink>
-        </FooterLiMenu>
-      </FooterUl>
-
       <FooterText>Made with</FooterText>
-
       <FooterText>
         <FooterSpan>
           <FaHeart />
         </FooterSpan>
       </FooterText>
-
-      <FooterSubText>
-        © COPYRIGHT 2022. RodríguezFallasLuis. All Rights Reserved.
-      </FooterSubText>
+      <FooterSubText>© COPYRIGHT {new Date().getFullYear()}.</FooterSubText>
     </FooterContainer>
   );
 }
