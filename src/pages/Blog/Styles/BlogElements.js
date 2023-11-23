@@ -1,7 +1,5 @@
-import styled from 'styled-components'
-import { Link } from 'react-router-dom'
-
-
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const BlogContent = styled.div`
   padding-top: 60px;
@@ -13,10 +11,14 @@ export const BlogContent = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background: rgb(28,31,42);
-  background: linear-gradient(0deg, rgba(28,31,42,1) 0%, rgba(42,39,28,1) 100%);
+  background: rgb(28, 31, 42);
+  background: linear-gradient(
+    0deg,
+    rgba(28, 31, 42, 1) 0%,
+    rgba(42, 39, 28, 1) 100%
+  );
   text-align: center;
-  @media screen and (max-width: 960px){
+  @media screen and (max-width: 960px) {
     width: 100%;
   }
 `;
@@ -44,8 +46,8 @@ export const BlogTitle = styled.h2`
   text-align: center;
   font-size: 2.5em;
   color: white;
-  span{
-    color:var(--secondaryColor);
+  span {
+    color: var(--secondaryColor);
   }
 `;
 export const BlogSearch = styled.div`
@@ -55,7 +57,7 @@ export const BlogParagraphTitle = styled.p`
   margin: 10px;
   color: white;
   width: 100%;
-  @media screen and (max-width: 960px){
+  @media screen and (max-width: 960px) {
     text-align: center;
   }
 `;
@@ -67,24 +69,24 @@ export const BlogCard = styled.div`
   overflow: hidden;
   width: 330px;
   border: 2px solid white;
-  
+  min-height: 450px;
 `;
-export const BlogCardHeader = styled.div`
-`;
+export const BlogCardHeader = styled.div``;
 export const BlogImage = styled.img`
-width: 100%;
-height: 200px;
-object-fit: content;
+  width: 100%;
+  height: 200px;
+  object-fit: content;
 `;
 export const BlogCardBody = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   text-align: left;
   align-items: flex-start;
   padding: 20px;
   min-height: 50px;
-  `;
+  flex-grow: 1;
+`;
 export const BlogTag = styled.span`
   background: var(--mainColor);
   border-radius: 50px;
@@ -93,37 +95,41 @@ export const BlogTag = styled.span`
   color: white;
   padding: 2px 10px;
   text-transform: uppercase;
-  `;
+`;
 export const BlogTitleCard = styled.h3`
-  margin-top:10px;
-  text-transform: uppercase;  
-  `;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+`;
 export const BlogParagraph = styled.p`
   font-size: 16px;
   margin-bottom: 10px;
   text-align: left;
-  `;
+`;
 export const BlogParagraphPubli = styled.p`
   font-size: 14px;
   margin: 10px 0 30px 0px;
-  `;
+  margin-bottom: 5px;
+`;
 export const BlogParagraphSpan = styled.span`
-font-size: .8em;
-font-weight: 600;
-  `;
+  font-size: 0.8em;
+  font-weight: 600;
+`;
 export const BlogButtom = styled(Link)`
-  text-transform: uppercase;  
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
   text-decoration: none;
   background: var(--secondaryColor);
   border: 1px solid black;
-  Padding: 10px;
+  padding: 10px;
   border-radius: 50px;
   align-self: center;
   width: 100%;
   text-align: center;
   color: var(--mainColor);
-  &:hover{
+  &:hover {
     color: white;
     background: var(--mainColor);
   }
-  `;
+`;

@@ -129,7 +129,7 @@ const data = {
     },
     {
       id: 8,
-      name: "Visual Studio Code",
+      name: "VSC",
       img: technologyDataVS,
       url: "https://code.visualstudio.com/"
     },

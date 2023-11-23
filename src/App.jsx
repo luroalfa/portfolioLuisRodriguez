@@ -6,6 +6,8 @@ import Blog from "./pages/Blog/Blog.jsx";
 import JavaScriptInterviewsQ from "./pages/Blog/JavaScriptInterviewsQ.jsx";
 import CssInterviewsQ from "./pages/Blog/CssInterviewsQ.jsx";
 import BasicCommands from "./pages/Blog/BasicCommands.jsx";
+import ResfulRules from "./pages/Blog/ResfulRules";
+import GitHubPage from "./pages/Blog/GitHubPage";
 import HtmlInterviewsQ from "./pages/Blog/HtmlInterviewsQ.jsx";
 import NotFound from "./pages/NotFoundPage.jsx";
 import Portfolio from "./pages/Portfolio/Portfolio.jsx";
@@ -26,6 +28,8 @@ function App() {
           <Route path="/blog/HtmlInterviewsQ" element={<HtmlInterviewsQ />} />
           <Route path="/blog/CssInterviewsQ" element={<CssInterviewsQ />} />
           <Route path="/blog/BasicCommands" element={<BasicCommands />} />
+          <Route path="/blog/ResfulRules" element={<ResfulRules />} />
+          <Route path="/blog/GitHubPage" element={<GitHubPage />} />
           <Route
             path="/blog/JavaScriptInterviewsQ"
             element={<JavaScriptInterviewsQ />}
