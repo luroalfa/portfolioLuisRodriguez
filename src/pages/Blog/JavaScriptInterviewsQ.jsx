@@ -16,7 +16,7 @@ const JavaScriptInterviewsQ = () => {
   return (
     <>
       <IQTitle>
-        Interview <span>Questions</span>
+        IQ <span>JavaScript</span>
       </IQTitle>
       <IQContainer>
         <IQParagraph>

@@ -2,22 +2,28 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const BlogContent = styled.div`
-  padding-top: 60px;
-  padding-left: 20px;
-  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
   width: 80%;
   height: 100%;
+  padding-top: 60px;
+  padding-right: 20px;
+  padding-left: 20px;
   margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+
+  text-align: center;
+
   background: rgb(28, 31, 42);
   background: linear-gradient(
     0deg,
     rgba(28, 31, 42, 1) 0%,
     rgba(42, 39, 28, 1) 100%
   );
-  text-align: center;
+
   @media screen and (max-width: 960px) {
     width: 100%;
   }
@@ -73,10 +79,11 @@ export const BlogCard = styled.div`
 `;
 export const BlogCardHeader = styled.div``;
 export const BlogImage = styled.img`
-  width: 100%;
+  width: ${(props)=>props.width || "100%"};
   height: 200px;
-  object-fit: content;
+  object-fit: ${(props)=>props.objectFit || "content"};
 `;
+
 export const BlogCardBody = styled.div`
   display: flex;
   flex-direction: column;
@@ -97,14 +104,23 @@ export const BlogTag = styled.span`
   text-transform: uppercase;
 `;
 export const BlogTitleCard = styled.h3`
+  color: ${(props) => props.color || "black"};
   margin-top: 10px;
   margin-bottom: 10px;
   text-transform: uppercase;
+  span {
+    color: var(--secondaryColor);
+    display: block;
+  }
 `;
 export const BlogParagraph = styled.p`
+  color: ${(props) => props.color || "black"};
+  max-width: ${(props) => props.maxWidth || "auto"};
+  min-width: ${(props) => props.minWidth || "auto"};
   font-size: 16px;
   margin-bottom: 10px;
-  text-align: left;
+  text-align: justify;
+  overflow-wrap: break-word;
 `;
 export const BlogParagraphPubli = styled.p`
   font-size: 14px;
@@ -132,4 +148,23 @@ export const BlogButtom = styled(Link)`
     color: white;
     background: var(--mainColor);
   }
+`;
+
+export const PreStyled = styled.pre`
+  background-color: #323940;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px 0;  
+  overflow-x: auto;
+  white-space: pre-wrap;
+  width: 80%;
+  height: 100%;
+  max-width: ${(props) => props.maxWidth || "auto"};
+  min-width: ${(props) => props.minWidth || "auto"};
+`;
+
+export const CodeStyled = styled.code`
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
 `;

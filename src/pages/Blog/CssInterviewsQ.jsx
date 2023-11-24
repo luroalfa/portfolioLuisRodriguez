@@ -16,7 +16,7 @@ const CssInterviewsQ = () => {
   return (
     <>
       <IQTitle>
-        Interview <span>Questions</span>
+        IQ <span>CSS</span>
       </IQTitle>
       <IQContainer>
         <IQParagraph>

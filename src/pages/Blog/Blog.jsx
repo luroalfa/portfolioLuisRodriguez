@@ -66,7 +66,7 @@ function Blog() {
             return (
               <BlogCard>
                 <BlogCardHeader>
-                  <BlogImage src={item.img} alt={item.altDescription} />
+                  <BlogImage objectFit="cover" src={item.img} alt={item.altDescription} />
                 </BlogCardHeader>
 
                 <BlogCardBody>

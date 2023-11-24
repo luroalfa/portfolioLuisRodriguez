@@ -16,7 +16,7 @@ const HtmlInterviewsQ = () => {
   return (
     <>
       <IQTitle>
-        Interview <span>Questions</span>
+        IQ <span>HTML</span>
       </IQTitle>
       <IQContainer>
         <IQParagraph>
