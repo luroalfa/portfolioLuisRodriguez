@@ -1,28 +1,56 @@
 import styled from "styled-components";
 
+const accentColor = "rgba(255, 191, 0, 0.3)";
+const hoverAccentColor = "rgba(255, 191, 0, 0.1)";
+const textColor = "#a0a0a0";
+const textHoverColor = "#fff";
+const borderRadius = "50px";
+
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 85px;
-  padding-left: 20px;
-  padding-right: 20px;
+  justify-content: center;
+  height: 100vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
   @media (min-width: 960px) {
-    flex-direction: row;
-    justify-content: center;
+    width: 25%;
   }
 `;
 
-export const Box = styled.div`
-  width: 100%;
-  height: 300px;
-  margin: 10px;
+export const Title = styled.h1`
+  color: ${textColor};
+  margin-bottom: 20px;
+`;
+
+export const Description = styled.p`
+  color: ${textHoverColor};
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+`;
+
+export const Link = styled.a`
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
+  justify-content: center;
+  background-color: ${accentColor};
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: ${borderRadius};
+  width: 200px;
+
   @media (min-width: 960px) {
-    height: 800px;
+    width: 500px;
+  }
+
+  &:hover {
+    background-color: ${hoverAccentColor};
   }
 `;
