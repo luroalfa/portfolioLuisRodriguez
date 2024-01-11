@@ -13,18 +13,18 @@ import {
   FaHeart,
   FaGithub,
 } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
 import { SiTiktok } from "react-icons/si";
+import { RiWhatsappFill } from "react-icons/ri";
 
 function Footer() {
   return (
     <FooterContainer>
       <FooterSocial>
         <IconContext.Provider value={{ style: { fontSize: "1.25em" } }}>
-          <SocialIcon href="https://github.com/luroalfa" title="GitHub" icon={<FaGithub />} />
-          <SocialIcon href="https://linkedin.com/in/rodriguezfallasluis/" title="Linkedin" icon={<FaLinkedinIn />} />
-          <SocialIcon href="https://instagram.com/rodriguezfallasluis/" title="Instagram" icon={<AiFillInstagram />} />
-          <SocialIcon href="https://tiktok.com/@soft_developer?lang=en" title="Tiktok" icon={<SiTiktok />} />
+          <SocialIcon href="https://github.com/luroalfa" title="Visit Luis's GitHub Profile" icon={<FaGithub />} />
+          <SocialIcon href="https://linkedin.com/in/rodriguezfallasluis/" title="Connect with Luis on LinkedIn" icon={<FaLinkedinIn />} />
+          <SocialIcon href="https://tiktok.com/@soft_developer?lang=en" title="Watch Luis's videos on TikTok" icon={<SiTiktok />} />
+          <SocialIcon href="https://wa.me/70529997" title="Contact Luis - Software Developer" icon={<RiWhatsappFill />} />
         </IconContext.Provider>
       </FooterSocial>
       <FooterText>Made with</FooterText>
