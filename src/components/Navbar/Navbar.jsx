@@ -17,80 +17,51 @@ import {
   FaAddressCard,
   FaBlog,
   FaUserTie,
+  FaHandshake ,
 } from "react-icons/fa";
 import { IconContext } from "react-icons";
+
+// Componente NavItem para reducir la repetición
+const NavItem = ({ to, icon, children, onClick }) => (
+  <MenuItem>
+    <MenuItemLink to={to} onClick={onClick}>
+      <div>
+        {icon}
+        {children}
+      </div>
+    </MenuItemLink>
+  </MenuItem>
+);
 
 function Navbar() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
 
+  const toggleMenu = () => setShowMobileMenu(prev => !prev); // Función para alternar el menú
+
   return (
-    <>
-      <Container>
-        <Wrapper>
-          <IconContext.Provider value={{ style: { fontSize: "1.5em" } }}>
-            <LogoContainer to="/">
-              <Logo src="../img/yovector.svg" className="logo" alt="" />
-              <NavText>Luis</NavText>
-              <NavText>Rodríguez</NavText>
-            </LogoContainer>
+    <Container>
+      <Wrapper>
+        <IconContext.Provider value={{ style: { fontSize: "1.5em" } }}>
+          <LogoContainer to="/">
+            <Logo src="../img/yovector.svg" alt="Logo" />
+            <NavText>Luis</NavText>
+            <NavText>Rodríguez</NavText>
+          </LogoContainer>
 
-            <MobileIcon onClick={() => setShowMobileMenu(!showMobileMenu)}>
-              {showMobileMenu ? <FaTimes /> : <FaBars />}
-            </MobileIcon>
+          <MobileIcon onClick={toggleMenu}>
+            {showMobileMenu ? <FaTimes /> : <FaBars />}
+          </MobileIcon>
 
-            <Menu open={showMobileMenu}>
-              <MenuItem>
-                <MenuItemLink
-                  to="/"
-                  onClick={() => setShowMobileMenu(!showMobileMenu)}
-                >
-                  <div>
-                    <FaUserTie />
-                    About me
-                  </div>
-                </MenuItemLink>
-              </MenuItem>
-
-              <MenuItem>
-                <MenuItemLink
-                  to="/blog"
-                  onClick={() => setShowMobileMenu(!showMobileMenu)}
-                >
-                  <div>
-                    <FaBlog />
-                    Blog
-                  </div>
-                </MenuItemLink>
-              </MenuItem>
-
-              <MenuItem>
-                <MenuItemLink
-                  to="/portfolio"
-                  onClick={() => setShowMobileMenu(!showMobileMenu)}
-                >
-                  <div>
-                    <FaPenNib />
-                    Portfolio
-                  </div>
-                </MenuItemLink>
-              </MenuItem>
-
-              <MenuItem>
-                <MenuItemLink
-                  to="/contact"
-                  onClick={() => setShowMobileMenu(!showMobileMenu)}
-                >
-                  <div>
-                    <FaAddressCard />
-                    Contact
-                  </div>
-                </MenuItemLink>
-              </MenuItem>
-            </Menu>
-          </IconContext.Provider>
-        </Wrapper>
-      </Container>
-    </>
+          <Menu open={showMobileMenu}>
+            <NavItem to="/" icon={<FaUserTie />} onClick={toggleMenu}>About Me</NavItem>
+            <NavItem to="/blog" icon={<FaBlog />} onClick={toggleMenu}>Blog</NavItem>
+            <NavItem to="/portfolio" icon={<FaPenNib />} onClick={toggleMenu}>Portfolio</NavItem>
+            <NavItem to="/collaborate" icon={<FaHandshake />} onClick={toggleMenu}>Let's Team Up!</NavItem>
+            <NavItem to="/contact" icon={<FaAddressCard />} onClick={toggleMenu}>Contact</NavItem>
+          </Menu>
+        </IconContext.Provider>
+      </Wrapper>
+    </Container>
   );
 }
 

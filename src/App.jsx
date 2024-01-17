@@ -15,6 +15,7 @@ import Websites from "./pages/Portfolio/Websites.jsx";
 import Apis from "./pages/Portfolio/Apis.jsx";
 import Vectorizations from "./pages/Portfolio/Vectorizations";
 import Contact from "./pages/ContactMe/Contact.jsx";
+import Collaborate from "./pages/Collaborate/Collaborate"
 import Pdf from "./pages/Pdf/Pdf.jsx";
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
             element={<Vectorizations />}
           />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/collaborate" element={<Collaborate />} />
           <Route path="/pdf" element={<Pdf />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
