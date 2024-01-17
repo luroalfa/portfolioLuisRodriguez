@@ -7,9 +7,6 @@ import {
   BlogContent,
   BlogTitleCard,
   BlogParagraph,
-  PreStyled,
-  CodeStyled,
-  BlogImage,
 } from "./Styles/BlogElements";
 import Footer from "components/Footer/Footer";
 

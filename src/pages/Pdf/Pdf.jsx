@@ -14,7 +14,6 @@ class Pdf extends React.Component {
     return (
       <MainPdf>
         <object
-          // data={require('../../Assets/Docs/CV.pdf')}
           data={pdf}
           type="application/pdf"
           width="100%"
