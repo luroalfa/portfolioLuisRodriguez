@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { Link } from 'react-router-dom'
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const BtnRouter = styled(Link)`
   cursor= pointer;
@@ -40,19 +40,23 @@ export const SquareBtnRouter = styled(Link)`
 `;
 
 export const BtnLink = styled.a`
-  cursor= pointer;
-  text-transform: uppercase;  
-  text-decoration: none;
-  background: var(--secondaryColor);
-  border: 1px solid black;
-  Padding: 10px;
-  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   align-self: center;
   width: 100%;
-  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 50px;
+  background: var(--secondaryColor);
   color: var(--mainColor);
-  &:hover{
-    color: white;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover {
     background: var(--mainColor);
+    color: white;
   }
-  `;
+`;
